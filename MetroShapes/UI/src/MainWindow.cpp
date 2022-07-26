@@ -699,6 +699,10 @@ namespace Ui {
         _mainGV->exportSVG(1200, 1200 ); 
     }
 
+    void MainWindow::saveSVG(double w, double h, string path) {
+        _mainGV->exportSVG(w, h, path);
+    }
+
     void MainWindow::outputData() {
         _basePtr->output();
     }

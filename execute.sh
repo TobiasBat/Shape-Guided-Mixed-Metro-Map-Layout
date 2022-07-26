@@ -26,4 +26,6 @@ echo "Execute Automatic Mode: $auto"
 
 ./MetroShapes $metro $guide $testcasename $auto
 
+echo "Completed the Optimization Stage"
 
+echo "TODO Soeren add command"

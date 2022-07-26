@@ -167,7 +167,10 @@ void MetroShapes::run( void )
 	cout << "  mixed time:		" << double(mixed_time) / CLOCKS_PER_SEC << endl; 
 	cout << "  overall time:		" << double(overall_time) / CLOCKS_PER_SEC << endl; 
 	cout << "  sum:			" << double(match_time) / CLOCKS_PER_SEC + double(smooth_time) / CLOCKS_PER_SEC + double(mixed_time) / CLOCKS_PER_SEC << endl; 
-	cout << "------------------------------------------" << endl;  
+	cout << "------------------------------------------" << endl;
+
+    // save files
+    output();
 }
 
 /*

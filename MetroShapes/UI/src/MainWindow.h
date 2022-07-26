@@ -163,6 +163,7 @@ namespace Ui {
         void savePNG( void );
         void savePNG(double w, double h, string path);
         void saveSVG( void );
+        void saveSVG(double w, double h, string path);
         void outputData( void );
         void selectLine( int i );
         void resetInteractionMode();

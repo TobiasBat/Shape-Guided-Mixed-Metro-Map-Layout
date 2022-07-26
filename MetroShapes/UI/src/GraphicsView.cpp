@@ -707,6 +707,20 @@ namespace Ui {
 			_scenePtr->render( &painter );
 			painter.end();
 		}
+
+        void GraphicsView::exportSVG(double w, double h, string path) {
+            QString qPath = QString(QLatin1String(path.c_str()));
+
+            QSvgGenerator generator;
+            generator.setFileName(qPath);
+            generator.setSize(QSize(w, h));
+            generator.setViewBox(QRect(0, 0, w, h));
+
+            QPainter painter;
+            painter.begin( &generator );
+            _scenePtr->render( &painter );
+            painter.end();
+        }
 		
 	} // namespace Vector
 } // namespace Ui

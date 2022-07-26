@@ -186,6 +186,7 @@ namespace Vector {
         void exportPNG ( double w, double h );
         void exportPNG ( double w, double h, string path);
         void exportSVG ( double w, double h );
+        void exportSVG ( double w, double h, string path);
 
         //------------------------------------------------------------------------------
         //	I/O functions
