@@ -38,6 +38,7 @@ class MetroShapes : public Base
 		string _guidename;
 		Guide _guide;
 		Manuelpath _manuelPath;
+        bool _automaticCase;
 
 		bool _exportFrames = false;
 		int _stepsSmooth = 100000;

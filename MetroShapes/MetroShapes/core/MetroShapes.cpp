@@ -8,51 +8,59 @@
 
 void MetroShapes::init( int argc, char **argv )
 {
+
+    _outputname = "../../../output-optimisation/";
+
+
     if( argc == 1 ) {
-		_inputname = "../data/metro/prague-metro.txt"; 
-	    _outputname = "../data/output";
-	    _metro.load( _inputname );
-		_guide.load("../data/guide/circle-guide.txt"); 
+		_inputname = "../data/metro/taipei-new.txt";
+        _guidename = "../data/guide/circle-guide.txt";
+        _outputname += "taipei";
+        _automaticCase = true;
     }
     else if ( argc == 2 ) {
 		_inputname = "../data/metro/"; 
-		_inputname += + argv[1]; 
-	    _outputname = "../data/output";
-	    _metro.load( _inputname );
-		_guide.load("../data/guide/circle-guide.txt"); 
+		_inputname += + argv[1];
+        _guidename = "../data/guide/circle-guide.txt";
+        _outputname += "taipei";
+        _automaticCase = true;
     }
     else if ( argc == 3 ) {
-		_inputname = "../data/metro/"; 
-		_inputname += + argv[1]; 
-		_outputname = "../data/output";
-	    _metro.load( _inputname );
-		_guidename = "../data/guide/"; 
-		_guidename += argv[2]; 
-		_guide.load(_guidename); 
+		_inputname = "../data/metro/";
+		_inputname += + argv[1];
+		_guidename = "../data/guide/";
+		_guidename += argv[2];
+        _outputname += "taipei";
+        _automaticCase = true;
     }
     else if (argc == 4 ) {
+        cout << "Good right amount of arguments" << endl;
         _inputname = "../data/metro/";
         _inputname += + argv[1];
-        _outputname = "../data/output/output_";
-        _outputname +=  + argv[3];
-        _metro.load( _inputname );
         _guidename = "../data/guide/";
         _guidename += argv[2];
-        _guide.load(_guidename);
+        _outputname += argv[3];
+        _automaticCase = true;
     }
     else if (argc == 5 ) {
+        cout << "Good right amount of arguments" << endl;
         _inputname = "../data/metro/";
         _inputname += + argv[1];
-        _outputname = "../data/output/output_";
-        _outputname +=  + argv[3];
-        _metro.load( _inputname );
         _guidename = "../data/guide/";
         _guidename += argv[2];
-        _guide.load(_guidename);
-
-        _exportFrames = true;
-        _stepsSmooth = stoi(argv[4]);
+        _outputname += argv[3];
+        string argv_4 = argv[4];
+        if (argv_4.compare("1") == 0)
+            _automaticCase = true;
+        else
+            _automaticCase = false;
     }
+
+    _outputname += "/output";
+    _metro.load( _inputname );
+    _guide.load(_guidename);
+
+
 	_metro.adjustsize( ZuKai::Base::Common::getMainwidgetWidth(),
 	                   ZuKai::Base::Common::getMainwidgetHeight() );
 	_matching = Stationmatching(); 
@@ -78,21 +86,13 @@ void MetroShapes::init( int argc, char **argv )
 
 	cout << "number of unplanar edges: " << _metro.nonPlanarIntersections() << endl;
 
-    // computeAutoMatching();
-    // run();
-    if (_exportFrames) {
-        exportSteps();
-    }
+
 
     _manuelPath = Manuelpath();
     _manuelPath.init(&_metro, &_guide);
-    // _manuelPath.addVertex(36);
-    // _manuelPath.addVertex(Coord2(214.667, 139.763));
-    // vector<int> ids{38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51};
-    // _manuelPath.addVertices(ids);
-    // _manuelPath.alingGuide();
 
-
+    if (_automaticCase)
+        run();
 }
 
 void MetroShapes::exportSteps( void ) {

@@ -95,7 +95,7 @@ public:
     double          _gamma = 5.0;
     double          _constSmooth = 0.08; 
     double          _w_overlapping = 0.;
-    bool            _exclusivlyPathMode = true;
+    bool            _exclusivlyPathMode = false;
     
     void            _resetSmoothPtr( void );
     
