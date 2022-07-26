@@ -15,7 +15,7 @@ int main (int argc, char **argv)
     metroShapes.init( argc, argv );
     Base *b_ptr = &metroShapes;
 	window.init( &metroShapes.getMetro(), b_ptr, &metroShapes._smooth, &metroShapes._mixedlayout ,&metroShapes.getGuid(), &metroShapes.getMatching(), &metroShapes.getAutoMatching());
-    window.show();
+
 
     if (argc == 5 ) {
         string argv_4 = argv[4];
@@ -29,6 +29,8 @@ int main (int argc, char **argv)
             return 0;
         }
     }
+
+    window.show();
 
     return app.exec();
 }
