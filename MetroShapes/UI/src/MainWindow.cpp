@@ -198,6 +198,7 @@ namespace Ui {
         _linesDock->setWidget( _lines );
         addDockWidget(Qt::LeftDockWidgetArea, _linesDock );
         _viewMenu->addAction(_linesDock->toggleViewAction() );
+        _linesDock->hide();
         vector<bool> shapeLines = _metroPtr->getShapeLines();
 
         _linesLayout = new QGridLayout;
