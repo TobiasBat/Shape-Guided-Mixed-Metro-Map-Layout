@@ -244,11 +244,6 @@ namespace Ui {
         addDockWidget(Qt::RightDockWidgetArea, _settingsDock );
         _viewMenu->addAction(_settingsDock->toggleViewAction() );
 
-       _sliderParallel = new QDoubleSpinBox;
-       _sliderParallel->setValue(_smoothPtr->_w_parallel);
-       _sliderParallel->setSingleStep(0.2);
-        QLabel* labelParallel = new QLabel(QLatin1String("W_Parallel"));
-
         _sliderEdge = new QDoubleSpinBox;
         _sliderEdge->setValue(_smoothPtr->_w_alongEdge);
         _sliderEdge->setSingleStep(0.2);
@@ -274,10 +269,10 @@ namespace Ui {
         _spinWcrossing->setSingleStep(0.01);
         QLabel* labelCrossing = new QLabel(QLatin1Literal("Crossing Weight"));
 
-        _spinGamma = new QDoubleSpinBox;
-        _spinGamma->setValue(_smoothPtr->_gamma);
-        _spinGamma->setSingleStep(0.01);
-        QLabel* labelGamma = new QLabel(QLatin1Literal("Gamma"));
+        // _spinGamma = new QDoubleSpinBox;
+        // _spinGamma->setValue(_smoothPtr->_gamma);
+        // _spinGamma->setSingleStep(0.01);
+        // QLabel* labelGamma = new QLabel(QLatin1Literal("Gamma"));
 
         _spinWoverlap = new QDoubleSpinBox;
         _spinWoverlap->setValue(_smoothPtr->_w_overlapping);
@@ -285,8 +280,6 @@ namespace Ui {
         QLabel* labelWoverlap = new QLabel(QLatin1String("Overlapping weight"));
 
        _wLayout = new QGridLayout;
-       _wLayout->addWidget(labelParallel, 0,0);
-       _wLayout->addWidget(_sliderParallel, 0,1);
        _wLayout->addWidget(labelEdge, 1,0);
        _wLayout->addWidget(_sliderEdge,1,1);
        _wLayout->addWidget(labelEdgeDist, 2, 0);
@@ -297,10 +290,10 @@ namespace Ui {
        _wLayout->addWidget(_spinWposition, 4, 1);
        _wLayout->addWidget(labelCrossing, 5, 0);
        _wLayout->addWidget(_spinWcrossing, 5, 1);
-       _wLayout->addWidget(labelGamma, 6, 0);
-       _wLayout->addWidget(_spinGamma, 6, 1);
-       _wLayout->addWidget(labelWoverlap, 7, 0);
-       _wLayout->addWidget(_spinWoverlap, 7, 1);
+       // _wLayout->addWidget(labelGamma, 6, 0);
+       // _wLayout->addWidget(_spinGamma, 6, 1);
+       _wLayout->addWidget(labelWoverlap, 6, 0);
+       _wLayout->addWidget(_spinWoverlap, 6, 1);
 
        _setting->setLayout(_wLayout);
 
@@ -425,7 +418,7 @@ namespace Ui {
         _lastScale = 100;
         _sliderScale->setValue(_lastScale);
         _sliderScale->setRange(0.3, 200.0);
-        QLabel* labelScale = new QLabel(QLatin1String("Guide Scale"));
+        QLabel* labelScale = new QLabel(QLatin1String("Translate Mode: Guide Scale"));
         connect(_sliderScale, SIGNAL(valueChanged(int)), this, SLOT(scaleGuide()));
 
         connect(_sliderOpacity, SIGNAL(valueChanged(int)), this, SLOT(reDraw()));
@@ -442,39 +435,40 @@ namespace Ui {
         _buttonTranslatePath->setChecked((_mainGV->_selectionMode == 2));
         connect(_buttonTranslatePath, SIGNAL(clicked()), this, SLOT(resetInteractionMode()));
 
-        _buttonReCalc = new QPushButton("&Recalculate", this);
+        _buttonReCalc = new QPushButton("&Calculated Automatic Case", this);
         connect(_buttonReCalc, SIGNAL(clicked()), this, SLOT(reCalc()));
         // _buttonSmooth = new QPushButton("Smooth", this);
         // connect(_buttonSmooth, SIGNAL(clicked()), this, SLOT(smooth()));
 
-        _buttonNonUniformlyManuel = new QPushButton("Non Unifoly \n man. Path", this);
-        connect(_buttonNonUniformlyManuel, SIGNAL(clicked()), this, SLOT(scaleNonUniformlyBasedOnManuelPath()));
+        // _buttonNonUniformlyManuel = new QPushButton("Non Unifoly \n man. Path", this);
+        // connect(_buttonNonUniformlyManuel, SIGNAL(clicked()), this, SLOT(scaleNonUniformlyBasedOnManuelPath()));
 
-        _buttonMatch = new QPushButton("Align", this);
-        _buttonDistort = new QPushButton("Distord based on Path", this);
+        _buttonMatch = new QPushButton("Keypoints Mode: Align", this);
+        // _buttonDistort = new QPushButton("Distord based on Path", this);
         // _buttonOcti = new QPushButton("Mixedlayout", this);
         connect(_buttonMatch, SIGNAL(clicked()), this, SLOT(match()));
-        connect(_buttonDistort, SIGNAL(clicked()), this, SLOT(distort()));
+        // connect(_buttonDistort, SIGNAL(clicked()), this, SLOT(distort()));
         // connect(_buttonOcti, SIGNAL(clicked()), this, SLOT(octi()));
 
         QGridLayout *_interLayout = new QGridLayout;
         _interLayout->addWidget(labelOpacity, 0,0);
         _interLayout->addWidget(_sliderOpacity, 0, 1);
 
-        _interLayout->addWidget(_buttonNonUniformlyManuel, 1, 0);
+        // _interLayout->addWidget(_buttonNonUniformlyManuel, 1, 0);
 
         _interLayout->addWidget(_buttonReCalc, 3,0);
         _interLayout->addWidget(_buttonMatch, 4,0);
-        _interLayout->addWidget(_buttonDistort, 4,1);
+        // _interLayout->addWidget(_buttonDistort, 4,1);
         // _interLayout->addWidget(_buttonSmooth, 5,0);
         // _interLayout->addWidget(_buttonOcti, 5,1);
         // _interLayout->addWidget(_boxHighlightMatch, 6, 0);
 
-        _interLayout->addWidget(_buttonKeyPoints, 5, 0);
-        _interLayout->addWidget(_buttonManuelPath, 5, 1);
-        _interLayout->addWidget(_buttonTranslatePath, 5, 2);
-        _interLayout->addWidget(labelScale, 6, 0);
-        _interLayout->addWidget(_sliderScale, 6, 1);
+        _interLayout->addWidget(labelScale, 5, 0);
+        _interLayout->addWidget(_sliderScale, 5, 1);
+        _interLayout->addWidget(_buttonKeyPoints, 6, 0);
+        _interLayout->addWidget(_buttonManuelPath, 7, 0);
+        _interLayout->addWidget(_buttonTranslatePath, 8, 0);
+
 
         _interaction->setLayout(_interLayout);
 
@@ -506,8 +500,7 @@ namespace Ui {
         // _mainGV->highlightMatchPath = _boxHighlightMatch->isChecked();
         // cerr << _boxHighlightMatch->isChecked() << endl;
 
-        // Setting Varibles 
-        _smoothPtr->_w_parallel = _sliderParallel->value();  
+        // Setting Varibles
         _smoothPtr->_w_alongEdge = _sliderEdge->value(); 
         _smoothPtr->_constSmooth = _spinEdgeDist->value();
         _smoothPtr->_w_angle = _spinWangle->value(); 

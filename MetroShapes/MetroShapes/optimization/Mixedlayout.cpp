@@ -836,7 +836,7 @@ void Mixedlayout::_initOutputs( void )
         double theta = g[ edge ].target - angle;
 
         double cosTheta = cos( theta ), sinTheta = sin( theta );
-       // double beta = _d_Beta;
+       // double beta = _targetLength;
        // if (!g[ vdS ].isStation or !g[vdT].isStation) {
        //     beta *= 0.5; // TODO
        // }

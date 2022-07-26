@@ -53,9 +53,9 @@ void Smooth::_init( Metro * __metro, Guide * __guide,  double __half_width, doub
     unsigned int nVertices      = _metro->nStations();
     unsigned int nEdges         = _metro->nEdges();
     _d_Alpha                    = _metro->dAlpha();
-    _d_Beta                     = _metro->dBeta();
+    _targetLength                     = _metro->dBeta();
 
-    cerr << "distance beta " << _d_Beta << endl;
+    cerr << "distance beta " << _targetLength << endl;
 
     // initialization
     _nVars = _nConstrs = 0;  
@@ -538,7 +538,7 @@ void Smooth::_initOutputs( void )
         Coord2 vi = *g[ vdS ].geoPtr;
         Coord2 vj = *g[ vdT ].geoPtr;
         Coord2 vji = vi - vj;
-        double targetLength = _d_Beta;
+        double targetLength = _targetLength;
         if (!g[vdS].isStation or !g[vdT].isStation)
             targetLength *= 0.5;
         double s = targetLength * g[ edge ].weight / vji.norm();
@@ -680,7 +680,7 @@ void Smooth::_initOutputs( void )
         double wL = _w_parallel;
         wL *= min(1.0, 1.0 / (dist * _constSmooth)); 
 
-        _output( nRows, 0 ) = wL * (vi.x() - vj.x()); 
+        _output( nRows, 0 ) = wL * (vi.x() - vj.x());
         nRows++;
         // y
         _output( nRows, 0 ) = wL * (vi.y() - vj.y());
@@ -778,7 +778,7 @@ void Smooth::_updateCoefs( void )
 #ifdef  SMOOTH_BOUNDARY
     BGL_FORALL_VERTICES( vd, g, UndirectedGraph )
     {
-        double minD = _d_Beta/2.0;
+        double minD = _targetLength / 2.0;
 
         if ( g[ vd ].smoothPtr->x() <= -( _half_width - minD ) ) nB++;
         if ( g[ vd ].smoothPtr->x() >= ( _half_width - minD ) ) nB++;
@@ -796,7 +796,7 @@ void Smooth::_updateCoefs( void )
     BGL_FORALL_VERTICES( vd, g, UndirectedGraph ){
 
         unsigned int id = g[ vd ].id;
-        double minD = _d_Beta/2.0;
+        double minD = _targetLength / 2.0;
 
         if ( g[ vd ].smoothPtr->x() <= -( _half_width - minD ) ) {
             _coef( nRows, id ) = _w_boundary;
@@ -875,7 +875,7 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
 #ifdef  SMOOTH_BOUNDARY
     BGL_FORALL_VERTICES( vd, g, UndirectedGraph )
     {
-        double minD = _d_Beta/2.0;
+        double minD = _targetLength / 2.0;
         if ( g[ vd ].smoothPtr->x() <= -( _half_width - minD ) ) nB++;
         if ( g[ vd ].smoothPtr->x() >= ( _half_width - minD ) ) nB++;
         if ( g[ vd ].smoothPtr->y() <= -( _half_height - minD ) ) nB++;
@@ -897,7 +897,7 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
         Coord2 pj = *g[ vdT ].smoothPtr;
         Coord2 pji = pi - pj;
         // double vjiNorm = vji.norm();
-        double targetLength = _d_Beta;
+        double targetLength = _targetLength;
         if (!g[vdS].isStation or !g[vdT].isStation)
             targetLength *= 0.5;
 
@@ -1102,7 +1102,7 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
     // boundary constraints
     BGL_FORALL_VERTICES( vd, g, UndirectedGraph ){
 
-        double minD = _d_Beta/2.0;
+        double minD = _targetLength / 2.0;
         if ( g[ vd ].smoothPtr->x() <= -( _half_width - minD ) ) {
             _output( nRows, 0 ) = _w_boundary * -( _half_width - minD );
             nRows++;
@@ -1139,7 +1139,7 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
         Coord2 v = *g[vdV].geoPtr;
         Coord2 p = r * *g[ vdS ].geoPtr + ( 1.0-r ) * *g[ vdT ].geoPtr;
 
-        double minD = _d_Beta;
+        double minD = _targetLength;
         if (!g[vdV].isStation or !g[vdV].isStation) {
             minD *= 0.5;
         }

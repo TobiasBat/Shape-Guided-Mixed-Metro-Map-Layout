@@ -98,12 +98,11 @@ namespace Ui {
         QDoubleSpinBox                              *_spinWangle; 
         QDoubleSpinBox                              *_spinWposition; 
         QDoubleSpinBox                              *_spinWboundary; 
-        QDoubleSpinBox                              *_spinWcrossing; 
-        QDoubleSpinBox                              *_sliderParallel; 
+        QDoubleSpinBox                              *_spinWcrossing;
         QDoubleSpinBox                              *_sliderEdge;
         QDoubleSpinBox                              *_spinEdgeDist;
-        QDoubleSpinBox                              *_spinLength; 
-        QDoubleSpinBox                              *_spinGamma; 
+        QDoubleSpinBox                              *_spinLength;
+        // QDoubleSpinBox                              *_spinGamma;
         QDoubleSpinBox                              *_spinWoverlap; 
 
         // -----------------------------------------------------------------------------

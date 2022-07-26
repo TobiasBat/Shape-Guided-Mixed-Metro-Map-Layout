@@ -7,268 +7,158 @@
   <key id="y" for="node" attr.name="y_coordinate" attr.type="int"/>
   <key id="label" for="node" attr.name="station_name" attr.type="string"/>
   <key id="line" for="edge" attr.name="line" attr.type="string"/>
-  <key id="l0" for="edge" attr.name="heart" attr.type="boolean" color.r="30" color.g="30" color.b="30">
+  <key id="l0" for="edge" attr.name="Circle" attr.type="boolean" color.r="30" color.g="30" color.b="30">
     <default>FALSE</default>
   </key>
   <graph id="G" edgedefault="undirected">
     <node id="n0">
-      <data key="x">1191</data>
-      <data key="y">639</data>
+      <data key="x">1186</data>
+      <data key="y">873</data>
       <data key="label">guidevertex</data>
     </node>
     <node id="n1">
-      <data key="x">1246</data>
-      <data key="y">693</data>
+      <data key="x">1212</data>
+      <data key="y">870</data>
       <data key="label">guidevertex</data>
     </node>
     <node id="n2">
-      <data key="x">1257</data>
-      <data key="y">704</data>
+      <data key="x">1237</data>
+      <data key="y">862</data>
       <data key="label">guidevertex</data>
     </node>
     <node id="n3">
-      <data key="x">1265</data>
-      <data key="y">713</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n4">
-      <data key="x">1275</data>
-      <data key="y">724</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n5">
-      <data key="x">1283</data>
-      <data key="y">735</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n6">
-      <data key="x">1292</data>
-      <data key="y">746</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n7">
-      <data key="x">1300</data>
-      <data key="y">759</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n8">
-      <data key="x">1305</data>
-      <data key="y">770</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n9">
-      <data key="x">1309</data>
-      <data key="y">780</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n10">
-      <data key="x">1311</data>
-      <data key="y">790</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n11">
-      <data key="x">1311</data>
-      <data key="y">800</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n12">
-      <data key="x">1310</data>
-      <data key="y">811</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n13">
-      <data key="x">1306</data>
-      <data key="y">823</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n14">
-      <data key="x">1300</data>
-      <data key="y">833</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n15">
-      <data key="x">1292</data>
-      <data key="y">842</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n16">
-      <data key="x">1284</data>
-      <data key="y">848</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n17">
-      <data key="x">1275</data>
-      <data key="y">853</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n18">
-      <data key="x">1264</data>
-      <data key="y">857</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n19">
-      <data key="x">1253</data>
-      <data key="y">858</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n20">
-      <data key="x">1241</data>
-      <data key="y">858</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n21">
-      <data key="x">1231</data>
-      <data key="y">856</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n22">
-      <data key="x">1223</data>
-      <data key="y">854</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n23">
-      <data key="x">1215</data>
-      <data key="y">850</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n24">
-      <data key="x">1208</data>
-      <data key="y">845</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n25">
-      <data key="x">1201</data>
-      <data key="y">839</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n26">
-      <data key="x">1196</data>
-      <data key="y">834</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n27">
-      <data key="x">1191</data>
-      <data key="y">826</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n28">
-      <data key="x">1187</data>
-      <data key="y">833</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n29">
-      <data key="x">1182</data>
-      <data key="y">839</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n30">
-      <data key="x">1175</data>
-      <data key="y">845</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n31">
-      <data key="x">1167</data>
-      <data key="y">850</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n32">
-      <data key="x">1157</data>
-      <data key="y">855</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n33">
-      <data key="x">1146</data>
-      <data key="y">858</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n34">
-      <data key="x">1134</data>
-      <data key="y">859</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n35">
-      <data key="x">1124</data>
-      <data key="y">858</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n36">
-      <data key="x">1115</data>
-      <data key="y">856</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n37">
-      <data key="x">1107</data>
-      <data key="y">853</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n38">
-      <data key="x">1099</data>
+      <data key="x">1260</data>
       <data key="y">849</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n39">
-      <data key="x">1091</data>
-      <data key="y">842</data>
+    <node id="n4">
+      <data key="x">1279</data>
+      <data key="y">831</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n40">
-      <data key="x">1083</data>
-      <data key="y">834</data>
+    <node id="n5">
+      <data key="x">1295</data>
+      <data key="y">810</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n41">
+    <node id="n6">
+      <data key="x">1306</data>
+      <data key="y">786</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n7">
+      <data key="x">1311</data>
+      <data key="y">760</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n8">
+      <data key="x">1311</data>
+      <data key="y">734</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n9">
+      <data key="x">1306</data>
+      <data key="y">708</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n10">
+      <data key="x">1295</data>
+      <data key="y">684</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n11">
+      <data key="x">1279</data>
+      <data key="y">663</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n12">
+      <data key="x">1260</data>
+      <data key="y">645</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n13">
+      <data key="x">1237</data>
+      <data key="y">632</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n14">
+      <data key="x">1212</data>
+      <data key="y">624</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n15">
+      <data key="x">1186</data>
+      <data key="y">621</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n16">
+      <data key="x">1160</data>
+      <data key="y">624</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n17">
+      <data key="x">1135</data>
+      <data key="y">632</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n18">
+      <data key="x">1112</data>
+      <data key="y">645</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n19">
+      <data key="x">1092</data>
+      <data key="y">663</data>
+      <data key="label">guidevertex</data>
+    </node>
+    <node id="n20">
       <data key="x">1077</data>
-      <data key="y">823</data>
+      <data key="y">684</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n42">
-      <data key="x">1074</data>
-      <data key="y">814</data>
+    <node id="n21">
+      <data key="x">1066</data>
+      <data key="y">708</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n43">
-      <data key="x">1072</data>
-      <data key="y">801</data>
+    <node id="n22">
+      <data key="x">1061</data>
+      <data key="y">734</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n44">
-      <data key="x">1072</data>
-      <data key="y">790</data>
+    <node id="n23">
+      <data key="x">1061</data>
+      <data key="y">760</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n45">
-      <data key="x">1074</data>
-      <data key="y">780</data>
+    <node id="n24">
+      <data key="x">1066</data>
+      <data key="y">786</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n46">
+    <node id="n25">
       <data key="x">1077</data>
-      <data key="y">771</data>
+      <data key="y">810</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n47">
-      <data key="x">1081</data>
-      <data key="y">762</data>
+    <node id="n26">
+      <data key="x">1092</data>
+      <data key="y">831</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n48">
-      <data key="x">1088</data>
-      <data key="y">751</data>
+    <node id="n27">
+      <data key="x">1112</data>
+      <data key="y">849</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n49">
-      <data key="x">1095</data>
-      <data key="y">740</data>
+    <node id="n28">
+      <data key="x">1135</data>
+      <data key="y">862</data>
       <data key="label">guidevertex</data>
     </node>
-    <node id="n50">
-      <data key="x">1106</data>
-      <data key="y">727</data>
-      <data key="label">guidevertex</data>
-    </node>
-    <node id="n51">
-      <data key="x">1128</data>
-      <data key="y">702</data>
+    <node id="n29">
+      <data key="x">1160</data>
+      <data key="y">870</data>
       <data key="label">guidevertex</data>
     </node>
 
@@ -357,75 +247,6 @@
       <data key="line">l0</data>
     </edge>
     <edge id="e28" source="n28" target="n29">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e29" source="n29" target="n30">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e30" source="n30" target="n31">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e31" source="n31" target="n32">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e32" source="n32" target="n33">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e33" source="n33" target="n34">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e34" source="n34" target="n35">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e35" source="n35" target="n36">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e36" source="n36" target="n37">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e37" source="n37" target="n38">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e38" source="n38" target="n39">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e39" source="n39" target="n40">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e40" source="n40" target="n41">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e41" source="n41" target="n42">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e42" source="n42" target="n43">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e43" source="n43" target="n44">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e44" source="n44" target="n45">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e45" source="n45" target="n46">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e46" source="n46" target="n47">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e47" source="n47" target="n48">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e48" source="n48" target="n49">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e49" source="n49" target="n50">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e50" source="n50" target="n51">
-      <data key="line">l0</data>
-    </edge>
-    <edge id="e51" source="n51" target="n0">
       <data key="line">l0</data>
     </edge>
   </graph>

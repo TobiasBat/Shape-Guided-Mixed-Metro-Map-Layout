@@ -58,7 +58,7 @@ private:
 
     double          _w_labelangle;
     double          _d_Alpha;
-    double          _d_Beta;
+    double          _targetLength;
     bool            _pathMode;
 
 
@@ -86,13 +86,13 @@ protected:
     
 public:
     double          _w_alongEdge = 4.;
-    double          _w_parallel = .0;
+    double          _w_parallel = .0; // legacy Not Used Anymore
     double          _w_angle = 2.0;
     double          _w_position = sqrt(0.025);
     double          _w_contextlength = 1.0;// sqrt(3.0);
     double          _w_boundary = sqrt(4.0);
     double          _w_crossing = sqrt(10.0);
-    double          _gamma = 5.0;
+    double          _gamma = 100.0; // legacy Not Used Anymore
     double          _constSmooth = 0.08; 
     double          _w_overlapping = 0.;
     bool            _exclusivlyPathMode = false;
