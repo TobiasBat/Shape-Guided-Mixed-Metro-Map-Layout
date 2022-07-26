@@ -18,7 +18,7 @@ __Default Test case__
 
 
 
-**To reproduce the automatic testcases in the Paper**: 
+To run the Automatic Testcases with the default parameters:
 
 ```bash
 ./execute.sh montreal montreal-metro.txt montreal_guide.txt 1
@@ -27,9 +27,13 @@ __Default Test case__
 
 
 
-**To reproduce the manual test cases presented in the paper and sublimented material**: 
+To adapt the parameters and reproducte the manual testcases change the fourth parameter from 1 to 0. 
 
 ```bash
 ./execute.sh lisabon lisbon_center_manuell_planar.txt lisabon2-guide.txt 0 
 ```
+
+After the Optimization stage is finished, close the window.
+
+
 
