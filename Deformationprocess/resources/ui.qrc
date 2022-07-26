@@ -1,0 +1,10 @@
+<RCC>
+    <qresource>
+        <file>icons/app.png</file>
+        <file>icons/print.png</file>
+        <file>icons/save.png</file>
+        <file>icons/undo.png</file>
+        <file>icons/circle.png</file>
+        <file>icons/poly.png</file>
+    </qresource>
+</RCC>

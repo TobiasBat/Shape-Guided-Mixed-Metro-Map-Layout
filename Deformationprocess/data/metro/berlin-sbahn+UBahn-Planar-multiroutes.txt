@@ -1,0 +1,1004 @@
+Line:		lineU1
+Color:		84.0	167.0	33.0
+Warschauer_\Str		52.506		13.449		1.0
+Schlesisches_\Tor	52.500833	13.441667	1.0
+Goerlitzer_\Bhf		52.499		13.428		1.0
+Kottbusser_\Tor		52.499167	13.418056	1.0
+Prinzenstr		52.498333	13.406111	1.0
+Hallesches_\Tor		52.497778	13.391111	1.0
+Moeckern-\bruecke	52.499167	13.382778	1.0
+Dummystation-2 			 52.49875     13.379028
+Gleis-\dreieck		52.498333	13.375278	1.0
+Kurfuersten-\str	52.5		13.361944	1.0
+Nollen-\dorfplatz	52.499167	13.353889	1.0
+Wittenberg-\platz	52.501944	13.343056	1.0
+Kurfuersten-\damm	52.504167	13.332778	1.0
+Uhlandstr		52.5025		13.325556	1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+#
+Line:		lineU2
+Color:		255.0	55.0	0.0
+Pankow			52.566667	13.411111	1	1	1
+Vinetastr		52.559444	13.413333	1	1	1
+Schoenhauser_\Allee	52.549444	13.413889	1	1	1
+Eberswalder_\Str	52.541944	13.412222	1	1	1
+Senefelder-\platz	52.532222	13.4125		1	1	1
+Rosa-\Luxemburg-Pl	52.528333	13.410278	1	1	1
+Alexander-\platz	52.521389	13.411944	1	1	1
+Klosterstr		52.516111	13.412222	1	1	1
+Maerkisches_\Museum	52.511944	13.408889	1	1	1
+Spittel-\markt		52.511111	13.403611	1	1	1
+Hausvogtei-\platz	52.513056	13.396667	1	1	1
+Stadtmitte		52.510501	13.390017	1	1	1
+Mohrenstr		52.511667	13.384722	1	1	1
+Potsdamer_\Platz	52.509444	13.375833	1	1	1
+Mendelssohn-\Bartholdy-Park	 52.503889	13.375	1	1	1
+Gleis-\dreieck		52.498333	13.375278	1	1	1
+Yorckstr		52.492222	13.367778	1	1	1
+Nollen-\dorfplatz	52.499167	13.353889	1	1	1
+Wittenberg-\platz	52.501944	13.343056	1	1	1
+Zoologischer_\Garten	52.507222	13.3325		1	1	1
+Ernst-Reuter-\Platz	52.512778	13.321667	1	1	1
+Deutsche_\Oper		52.511944	13.310556	1	1	1
+Bismarckstr		52.511389	13.304722	1	1	1
+Sophie-\Charlotte-Platz	52.510833	13.296667	1	1	1
+Kaiserdamm		52.51		13.282222	1	1	1
+Theodor-\Heuss-Platz	52.509722	13.273056	1	1	1
+Neu-Westend		52.515556	13.261111	1	1	1
+Olympia-\Stadion	52.517222	13.25		1	1	1
+Ruhleben		52.525556	13.241389	1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25      1.0
+25      26      1.0
+26      27      1.0
+27      28      1.0
+#
+Line:		lineU3
+Color:		1.0	146.0	118.0
+Nollen-\dorfplatz	52.499167	13.353889	1	1	1
+Wittenberg-\platz	52.501944	13.343056	1	1	1
+Augsburger_Str		52.500556	13.336667	1	1	1
+Spichernstr		52.496667	13.331111	1	1	1
+Hohenzollern-\platz	52.494167	13.324722	1	1	1
+Fehrbelliner_\Platz	52.490556	13.314444	1	1	1
+Heidelberger_\Platz	52.480278	13.3125		1	1	1
+Ruedesheimer_Platz	52.473333	13.314444	1	1	1
+Breitenbach-platz	52.466944	13.308611	1	1	1
+Podbielskiallee		52.464167	13.295833	1	1	1
+Dahlem-Dorf		52.4575		13.289722	1	1	1
+Thielplatz		52.451111	13.281944	1	1	1
+Oskar-Helene-Heim	52.450278	13.266111	1	1	1
+Onkel_Toms_Huette	52.450278	13.253333	1	1	1
+Krumme_Lanke		52.443333	13.241111	1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+#
+Line:		lineU4
+Color:		255.0	217.0	0.0
+Nollen-\dorfplatz	52.499167	13.353889	1	1	1
+Viktoria-Luise-\Platz	52.496111	13.342778	1	1	1
+Bayerischer_\Platz	52.488611	13.34		1	1	1
+Rathaus_Schoeneberg	52.483056	13.341944	1	1	1
+Innsbrucker_\Platz	52.478611	13.343889	1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+#
+Line:		lineU5
+Color:		102.0	46.0	22.0
+Alexander-\platz	52.521389	13.411944	1	1	1
+Schillingstr		52.520556	13.421111	1	1	1
+Strausberger_Platz	52.518056	13.430833	1	1	1
+Weberwiese		52.516667	13.445		1	1	1
+Frankfurter_\Tor	52.515833	13.454167	1	1	1
+Samariterstr		52.514722	13.464444	1	1	1
+Frankfurter_\Allee	52.514167	13.474722	1	1	1
+Magdalenenstr		52.5125		13.486389	1	1	1
+Lichtenberg		52.510556	13.496389	1	1	1
+Friedrichsfelde		52.506111	13.512778	1	1	1
+Tierpark		52.498056	13.522778	1	1	1
+Biesdorf-\Sued		52.499722	13.546389	1	1	1
+Elsterwerdaer_\Platz	52.505556	13.560556	1	1	1
+Wuhletal		52.5125		13.575		1	1	1
+Kaulsdorf-\Nord		52.521111	13.588889	1	1	1
+Neue_Grottkauer_\Str	52.528611	13.590556	1	1	1
+Cottbusser_\Platz	52.533889	13.596389	1	1	1
+Hellersdorf		52.536667	13.606389	1	1	1
+Louis-Lewin-Str		52.538889	13.618333	1	1	1
+Hoenow			52.538333	13.633889	1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+#
+Line:		lineU6
+Color:		110.0   77.0    155.0
+Alt-Tegel		52.589444	13.283611	1	1	1
+Borsigwerke		52.581667	13.290556	1	1	1
+Holzhauser_Str		52.575833	13.296111	1	1	1
+Otisstr			52.571111	13.302778	1	1	1
+Scharnweberstr		52.566944	13.312778	1	1	1
+Kurt-Schumacher-\Platz	52.563333	13.3275		1	1	1
+Afrikanische_Str	52.560278	13.334722	1	1	1
+Rehberge		52.557		13.341		1	1	1
+Seestr			52.548		13.347		1	1	1
+Leopoldplatz		52.546667	13.359167	1	1	1
+Wedding			52.5425		13.366111	1	1	1
+Reinicken-\dorfer_Str	52.54		13.370278	1	1	1
+Schwartz-\kopffstr	52.535278	13.377222	1	1	1
+Naturkunde-\museum	52.531111	13.3825		1	1	1
+Oranien-\burger_Tor	52.525556	13.387222	1	1	1
+Fried-richstr		52.520278	13.386944	1	1	1
+Franzoesische_\Str	52.514722	13.389167	1	1	1
+Stadtmitte		52.510501	13.390017	1	1	1
+Kochstr			52.505833	13.390556	1	1	1
+Hallesches_\Tor		52.497778	13.391111	1	1	1
+Mehringdamm		52.494444	13.388611	1	1	1
+Platz_der_\Luftbruecke	52.485556	13.385833	1	1	1
+Paradestr		52.478056	13.386111	1	1	1
+Tempelhof		52.470756	13.38535	1	1	1
+Alt-Tempelhof		52.465833	13.385556	1	1	1
+Kaiserin-\Augusta-Str	52.46		13.384722	1	1	1
+Ullsteinstr		52.453889	13.384444	1	1	1
+Westphalweg		52.446		13.386		1	1	1
+Alt-Mariendorf		52.439722	13.3875		1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25      1.0
+25      26      1.0
+26      27      1.0
+27      28      1.0
+#
+Line:		lineU7
+Color:		53.0	143.0	191.0
+Rathaus_\Spandau	52.535		13.200278	1	1	1
+Altstadt_\Spandau	52.538889	13.206389	1	1	1
+Zitadelle		52.537778	13.217778	1	1	1
+Haselhorst		52.538889	13.232778	1	1	1
+Paulsternstr		52.538056	13.247778	1	1	1
+Rohrdamm		52.537222	13.2625		1	1	1
+Siemens-\damm		52.536667	13.273056	1	1	1
+Halemweg		52.536667	13.286389	1	1	1
+Jakob-Kaiser-\Platz	52.534444	13.293611	1	1	1
+Jungfernheide		52.53		13.299		1	1	1
+Mierendorff-\platz	52.526389	13.305		1	1	1
+Richard-Wagner-\Platz	52.516944	13.306667	1	1	1
+Bismarckstr		52.511389	13.304722	1	1	1
+Wilmers-\dorfer_Str	52.506389	13.306944	1	1	1
+Adenauer-\platz		52.5		13.307222	1	1	1
+Konstanzer_\Str		52.494167	13.309444	1	1	1
+Fehrbelliner_\Platz	52.490556	13.314444	1	1	1
+Blissestr		52.486389	13.321667	1	1	1
+Berliner_\Str		52.4875		13.331111	1	1	1
+Bayerischer_\Platz	52.488611	13.34		1	1	1
+Eisenacher_\Str		52.489444	13.350278	1	1	1
+Kleistpark		52.490556	13.360278	1	1	1
+Yorckstr		52.492222	13.367778	1	1	1
+Moeckern-\bruecke	52.499167	13.382778	1	1	1
+Mehringdamm		52.494444	13.388611	1	1	1
+Gneisenaustr		52.491389	13.396111	1	1	1
+Suedstern		52.489444	13.407778	1	1	1
+Hermann-\platz		52.487222	13.424722	1	1	1
+Rathaus_\Neukoelln	52.481667	13.434167	1	1	1
+Karl-\Marx-Str		52.476389	13.439167	1	1	1
+Neukoelln		52.469167	13.441667	1	1	1
+Grenzallee		52.463		13.445		1	1	1
+Blaschkoallee		52.4525		13.449167	1	1	1
+Parchimer_\Allee	52.445		13.45		1	1	1
+Britz-Sued		52.437778	13.448333	1	1	1
+Johannisthaler_\Chaussee	52.429	13.453		1	1	1
+Lipschitzallee		52.425		13.463		1	1	1
+Wutzkyallee		52.423		13.475		1	1	1
+Zwickauer_\Damm		52.423333	13.483889	1	1	1
+Rudow			52.416111	13.495278	1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25      1.0
+25      26      1.0
+26      27      1.0
+27      28      1.0
+28      29      1.0
+29      30      1.0
+30      31      1.0
+31      32      1.0
+32      33      1.0
+33      34      1.0
+34      35      1.0
+35      36      1.0
+36      37      1.0
+37      38      1.0
+38      39      1.0
+#
+Line:		lineU8
+Color:		10.0	59.0	132.0
+Wittenau		52.595833	13.336667	1	1	1
+Rathaus_\Reinickendorf	52.588333	13.325833	1	1	1
+Karl-Bonhoeffer-Nervenklinik	52.578	13.329		1	1	1
+Lindauer_\Allee		52.575278	13.339167	1	1	1
+Paracelsus-\Bad		52.574167	13.349167	1	1	1
+Residenzstr		52.571111	13.360556	1	1	1
+Franz-\Neumann-Pl	52.564722	13.363889	1	1	1
+Osloer_Str		52.556944	13.373611	1	1	1
+Pankstr			52.552222	13.381667	1	1	1
+Gesundbrunnen		52.548611	13.389444	1	1	1
+Voltastr		52.542222	13.393056	1	1	1
+Bernauer_Str		52.5375		13.396667	1	1	1
+Rosenthaler_\Platz	52.53		13.401		1	1	1
+Weinmeisterstr		52.525		13.405		1	1	1
+Alexander-\platz	52.521389	13.411944	1	1	1
+Jannowitz-bruecke	52.515		13.418		1	1	1
+Heinrich-\Heine-Str	52.510278	13.415833	1	1	1
+Moritzplatz		52.503611	13.410833	1	1	1
+Kottbusser_\Tor		52.499167	13.418056	1	1	1
+Schoenleinstr		52.492778	13.421944	1	1	1
+Hermann-\platz		52.487222	13.424722	1	1	1
+Boddinstr		52.480278	13.425278	1	1	1
+Leinestr		52.473611	13.428056	1	1	1
+Hermannstr		52.468		13.431		1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+#
+Line:		lineU9
+Color:		255.0	114.0	0.0
+Osloer_Str		52.556944	13.373611	1	1	1
+Nauener_Platz		52.551667	13.3675		1	1	1
+Leopoldplatz		52.546667	13.359167	1	1	1
+Amrumer_Str		52.5425		13.350278	1	1	1
+Westhafen		52.536		13.344		1	1	1
+Birkenstr		52.532222	13.341389	1	1	1
+Turmstr			52.525833	13.341389	1	1	1
+Hansaplatz		52.517778	13.342222	1	1	1
+Dummystation-1 			 52.51673233678196     13.341258951703535
+Zoologischer_\Garten	52.507222	13.3325		1	1	1
+Kurfuersten-\damm	52.504167	13.332778	1	1	1
+Spichernstr		52.496667	13.331111	1	1	1
+Guentzelstr		52.491944	13.330833	1	1	1
+Berliner_\Str		52.4875		13.331111	1	1	1
+Bundesplatz		52.4775		13.328611	1	1	1
+Friedrich-Wilhelm-Platz	52.471944	13.328611	1	1	1
+Walther-Schreiber-Platz	52.466111	13.328333	1	1	1
+Schlossstr		52.460833	13.324444	1	1	1
+Rathaus_\Steglitz	52.456		13.321		1	1	1
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+#
+Line:		S1
+Color:	    230.0	160.0	255.0
+S_Frohnau_(Berlin) 			 52.632961     13.28957     1.0
+S_Waidmannslust_(Berlin) 			 52.606818     13.320555     1.0
+Wittenau		52.595833	13.336667	1	1	1
+S_Wilhelmsruh_(Berlin) 			 52.581592     13.36329     1.0
+S_Schönholz_(Berlin) 			 52.571905     13.380247     1.0
+S_Wollankstr_(Berlin) 			 52.564977     13.393156     1.0
+S_Bornholmer_Str_(Berlin) 			 52.554757     13.397845     1.0
+Gesundbrunnen		52.548611	13.389444	1	1	1
+S_Humboldthain_(Berlin) 			 52.544745     13.378731     1.0
+S_Nordbahnhof_(Berlin) 			 52.531677     13.3888     1.0
+S_Oranienburger_Str_(Berlin) 			 52.525165     13.393074     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+Brandenburger_\Tor	52.516389	13.380833	1	1	1
+Potsdamer_\Platz 			 52.509344     13.376459     1.0
+S_Anhalter_Bahnhof_(Berlin) 			 52.504542     13.382082     1.0
+Dummystation-2 			 52.49875     13.379028
+Yorckstr 			 52.492348     13.367992     1.0
+S_Julius-Leber-Brücke_(Berlin) 			 52.486266     13.360781     1.0
+S_Schöneberg_(Berlin) 			 52.479814     13.352854     1.0
+S_Friedenau_(Berlin) 			 52.470005     13.340603     1.0
+S_Feuerbachstr_(Berlin) 			 52.463582     13.332418     1.0
+Rathaus_\Steglitz	52.456		13.321		1	1	1
+S_Botanischer_Garten_(Berlin) 			 52.447555     13.306046     1.0
+S_Lichterfelde_West_(Berlin) 			 52.443516     13.294146     1.0
+S_Sundgauer_Str_(Berlin) 			 52.436191     13.273506     1.0
+S_Zehlendorf_(Berlin) 			 52.431212     13.259233     1.0
+S_Mexikoplatz_(Berlin) 			 52.437169     13.232065     1.0
+S_Schlachtensee_(Berlin) 			 52.43981     13.213992     1.0
+S_Nikolassee_(Berlin) 			 52.431213     13.193303     1.0
+S_Wannsee_Bhf_(Berlin) 			 52.421461     13.179104     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25     1.0
+25      26      1.0
+26      27      1.0
+27      28      1.0
+28      29      1.0
+#
+Line:		S2
+Color:	    0.0	80.0	30.0
+S_Karow_Bhf_(Berlin) 			 52.615759     13.470086     1.0
+S_Blankenburg_(Berlin) 			 52.591072     13.442977     1.0
+S_Pankow-Heinersdorf_(Berlin) 			 52.577607     13.429095     1.0
+Pankow			52.566667	13.411111	1	1	1
+S_Bornholmer_Str_(Berlin) 			 52.554757     13.397845     1.0
+Gesundbrunnen		52.548611	13.389444	1	1	1
+S_Humboldthain_(Berlin) 			 52.544745     13.378731     1.0
+S_Nordbahnhof_(Berlin) 			 52.531677     13.3888     1.0
+S_Oranienburger_Str_(Berlin) 			 52.525165     13.393074     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+Brandenburger_\Tor	52.516389	13.380833	1	1	1
+Potsdamer_\Platz 			 52.509344     13.376459     1.0
+S_Anhalter_Bahnhof_(Berlin) 			 52.504542     13.382082     1.0
+Dummystation-2 			 52.49875     13.379028
+Yorckstr 			 52.492348     13.367992     1.0
+S_Südkreuz_Bhf_(Berlin) 			 52.475471     13.365584     1.0
+S_Priesterweg_(Berlin) 			 52.459242     13.356033     1.0
+S_Attilastr_(Berlin) 			 52.447302     13.361182     1.0
+S_Marienfelde_(Berlin) 			 52.423819     13.375027     1.0
+S_Buckower_Chaussee_(Berlin) 			 52.410923     13.382694     1.0
+S_Schichauweg_(Berlin) 			 52.398566     13.389463     1.0
+S_Lichtenrade_(Berlin) 			 52.387709     13.396364     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+#
+Line:		S26
+Color:	    20.0	100.0	50.0
+S_Hennigsdorf_Bhf 			 52.637869     13.20588     1.0
+S_Heiligensee_(Berlin) 			 52.625152     13.228672     1.0
+S_Schulzendorf_(Berlin) 			 52.613516     13.245635     1.0
+Alt-Tegel		52.589444	13.283611	1	1	1
+S_Eichborndamm_(Berlin) 			 52.577548     13.315588     1.0
+Karl-Bonhoeffer-Nervenklinik	52.578	13.329		1	1	1
+S_Alt-Reinickendorf_(Berlin) 			 52.577972     13.349753     1.0
+S_Schönholz_(Berlin) 			 52.571905     13.380247     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+#
+Line:		S26
+Color:	    20.0	100.0	50.0
+S_Waidmannslust_(Berlin) 			 52.606818     13.320555     1.0
+Wittenau		52.595833	13.336667	1	1	1
+S_Wilhelmsruh_(Berlin) 			 52.581592     13.36329     1.0
+S_Schönholz_(Berlin) 			 52.571905     13.380247     1.0
+S_Wollankstr_(Berlin) 			 52.564977     13.393156     1.0
+S_Bornholmer_Str_(Berlin) 			 52.554757     13.397845     1.0
+Gesundbrunnen		52.548611	13.389444	1	1	1
+S_Humboldthain_(Berlin) 			 52.544745     13.378731     1.0
+S_Nordbahnhof_(Berlin) 			 52.531677     13.3888     1.0
+S_Oranienburger_Str_(Berlin) 			 52.525165     13.393074     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+Brandenburger_\Tor	52.516389	13.380833	1	1	1
+Potsdamer_\Platz 			 52.509344     13.376459     1.0
+S_Anhalter_Bahnhof_(Berlin) 			 52.504542     13.382082     1.0
+Dummystation-2 			 52.49875     13.379028
+Yorckstr 			 52.492348     13.367992     1.0
+S_Südkreuz_Bhf_(Berlin) 			 52.475471     13.365584     1.0
+S_Priesterweg_(Berlin) 			 52.459242     13.356033     1.0
+S_Südende_(Berlin) 			 52.448902     13.354083     1.0
+S_Lankwitz_(Berlin) 			 52.439037     13.342765     1.0
+S_Lichterfelde_Ost_Bhf_(Berlin) 			 52.429101     13.328084     1.0
+S_Osdorfer_Str_(Berlin) 			 52.418377     13.313871     1.0
+S_Lichterfelde_Süd_(Berlin) 			 52.409959     13.308668     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+#
+Line:		S3
+Color:	    75.0	80.0	225.0
+Rathaus_\Spandau	52.535		13.200278	1	1	1
+S_Stresow_(Berlin) 			 52.532508     13.209136     1.0
+S_Pichelsberg_(Berlin) 			 52.510268     13.227202     1.0
+S_Olympiastadion_(Berlin) 			 52.511138     13.241116     1.0
+S_Heerstr_(Berlin) 			 52.508276     13.258519     1.0
+S_Messe_Süd_(Berlin) 			 52.498775     13.270455     1.0
+S_Westkreuz_(Berlin) 			 52.501155     13.283042     1.0
+Wilmers-\dorfer_Str	52.506389	13.306944	1	1	1
+S_Savignyplatz_(Berlin) 			 52.505226     13.319008     1.0
+Zoologischer_\Garten	52.507222	13.3325		1	1	1
+S_Tiergarten_(Berlin) 			 52.513966     13.33624     1.0
+Dummystation-1 			 52.51673233678196     13.341258951703535
+S_Bellevue_(Berlin) 			 52.519954     13.347104     1.0
+Hauptbahnhof 			 52.525046     13.369391     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+S_Hackescher_Markt_(Berlin) 			 52.52261     13.402364     1.0
+Alexander-\platz 			 52.521516     13.411272     1.0
+Jannowitz-bruecke	52.515		13.418		1	1	1
+S_Ostbahnhof_(Berlin) 			 52.510005     13.435753     1.0
+Warschauer_\Str		52.506		13.449		1.0
+S_Ostkreuz_Bhf_(Berlin) 			 52.502855     13.469098     1.0
+S_Rummelsburg_(Berlin) 			 52.501216     13.478704     1.0
+S_Betriebsbahnhof_Rummelsburg_(Berlin) 			 52.493961     13.497515     1.0
+Karlshorst 			52.480833     13.525833     1.0
+Köpenick      52.458611     13.580833     1.0
+Hirschgarten      52.4579      13.6032      1.0
+Friedrichshagen      52.4575      13.623333      1.0
+Rahnsdorf      52.451667      13.689722      1.0
+Wilhelmshagen      52.438611      13.722222      1.0
+Erkner      52.427318      13.752381      1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25     1.0
+25      26      1.0
+26      27      1.0
+27      28      1.0
+28      29      1.0
+#
+Line:		S41/S42
+Color:	    145.0	55.0	5.0
+Gesundbrunnen 			 52.548641     13.388377     1.0
+Schoenhauser_\Allee 			 52.549339     13.415143     1.0
+S_Prenzlauer_Allee_(Berlin) 			 52.544806     13.427424     1.0
+S_Greifswalder_Str_(Berlin) 			 52.540728     13.438362     1.0
+S_Landsberger_Allee_(Berlin) 			 52.528775     13.455949     1.0
+S_Storkower_Str_(Berlin) 			 52.524198     13.464889     1.0
+Frankfurter_\Allee	52.514167	13.474722	1	1	1
+S_Ostkreuz_Bhf_(Berlin) 			 52.502855     13.469098     1.0
+S_Treptower_Park_(Berlin) 			 52.493026     13.460893     1.0
+S_Sonnenallee_(Berlin) 			 52.473826     13.456003     1.0
+Neukoelln		52.469167	13.441667	1	1	1
+Hermannstr		52.468		13.431		1	1	1
+Tempelhof 			 52.470698     13.38576     1.0
+S_Südkreuz_Bhf_(Berlin) 			 52.475471     13.365584     1.0
+S_Schöneberg_(Berlin) 			 52.479814     13.352854     1.0
+Innsbrucker_\Platz	52.478611	13.343889	1	1	1
+Bundesplatz		52.4775		13.328611	1	1	1
+Heidelberger_\Platz 			 52.47945     13.311849     1.0
+S_Hohenzollerndamm_(Berlin) 			 52.488317     13.300717     1.0
+S_Halensee_(Berlin) 			 52.496701     13.290157     1.0
+S_Westkreuz_(Berlin) 			 52.501155     13.283042     1.0
+Kaiserdamm		52.51		13.282222	1	1	1
+S_Westend_(Berlin) 			 52.518613     13.284243     1.0
+Jungfernheide		52.53		13.299		1	1	1
+S_Beusselstr_(Berlin) 			 52.534317     13.328708     1.0
+Westhafen		52.536		13.344		1	1	1
+Wedding 			 52.542735     13.366065     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25     1.0
+25      26      1.0
+26      0      1.0
+#
+Line:		S45
+Color:	    200.0	160.0	110.0
+S_Grünbergallee_(Berlin) 			 52.399543     13.543228     1.0
+S_Altglienicke_(Berlin) 			 52.407794     13.559608     1.0
+S_Adlershof_(Berlin) 			 52.435106     13.540559     1.0
+Johannisthaler	52.4468	13.5239		1	1	1
+S_Schöneweide_Bhf_(Berlin) 			 52.454614     13.510155     1.0
+S_Baumschulenweg_(Berlin) 			 52.467585     13.489511     1.0
+S_Köllnische_Heide_(Berlin) 			 52.469172     13.467534     1.0
+Neukoelln		52.469167	13.441667	1	1	1
+Hermannstr		52.468		13.431		1	1	1
+Tempelhof 			 52.470698     13.38576     1.0
+S_Südkreuz_Bhf_(Berlin) 			 52.475471     13.365584
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10       1.0
+#
+Line:		S46
+Color:	    200.0	160.0	110.0
+S_Südkreuz_Bhf_(Berlin) 			 52.475471     13.365584     1.0
+S_Schöneberg_(Berlin) 			 52.479814     13.352854     1.0
+Innsbrucker_\Platz	52.478611	13.343889	1	1	1
+Bundesplatz		52.4775		13.328611	1	1	1
+Heidelberger_\Platz 			 52.47945     13.311849     1.0
+S_Hohenzollerndamm_(Berlin) 			 52.488317     13.300717     1.0
+S_Halensee_(Berlin) 			 52.496701     13.290157     1.0
+S_Westkreuz_(Berlin) 			 52.501155     13.283042     1.0
+Kaiserdamm		52.51		13.282222	1	1	1
+S_Westend_(Berlin) 			 52.518613     13.284243     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+#
+Line:		S46
+Color:	    200.0	160.0	110.0
+S_Schöneweide_Bhf_(Berlin) 			 52.454614     13.510155     1.0
+S_Oberspree_(Berlin) 			 52.452272     13.538466     1.0
+S_Spindlersfeld_(Berlin) 			 52.445942     13.562706     1.0
+#
+0       1       1.0
+1       2       1.0
+#
+Line:		S5
+Color:	    255.0	132.0	0.0
+S_Westkreuz_(Berlin) 			 52.501155     13.283042     1.0
+Wilmers-\dorfer_Str	52.506389	13.306944	1	1	1
+S_Savignyplatz_(Berlin) 			 52.505226     13.319008     1.0
+Zoologischer_\Garten	52.507222	13.3325		1	1	1
+S_Tiergarten_(Berlin) 			 52.513966     13.33624     1.0
+Dummystation-1 			 52.51673233678196     13.341258951703535
+S_Bellevue_(Berlin) 			 52.519954     13.347104     1.0
+Hauptbahnhof 			 52.525046     13.369391     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+S_Hackescher_Markt_(Berlin) 			 52.52261     13.402364     1.0
+Alexander-\platz 			 52.521516     13.411272     1.0
+Jannowitz-bruecke	52.515		13.418		1	1	1
+S_Ostbahnhof_(Berlin) 			 52.510005     13.435753     1.0
+Warschauer_\Str		52.506		13.449		1.0
+S_Ostkreuz_Bhf_(Berlin) 			 52.502855     13.469098     1.0
+S_Nöldnerplatz_(Berlin) 			 52.503447     13.484302     1.0
+Lichtenberg		52.510556	13.496389	1	1	1
+S_Friedrichsfelde_Ost_(Berlin) 			 52.513751     13.520049     1.0
+S_Biesdorf_(Berlin) 			 52.513062     13.555041     1.0
+Wuhletal 			 52.51254     13.575484     1.0
+S_Kaulsdorf_(Berlin) 			 52.512125     13.589036     1.0
+S_Mahlsdorf_(Berlin) 			 52.512121     13.611235     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+#
+Line:		S7
+Color:	    130.0	75.0	225.0
+S_Wannsee_Bhf_(Berlin) 			 52.421461     13.179104     1.0
+S_Nikolassee_(Berlin) 			 52.431213     13.193303     1.0
+S_Grunewald_(Berlin) 			 52.488683     13.261949     1.0
+S_Westkreuz_(Berlin) 			 52.501155     13.283042     1.0
+Wilmers-\dorfer_Str	52.506389	13.306944	1	1	1
+S_Savignyplatz_(Berlin) 			 52.505226     13.319008     1.0
+Zoologischer_\Garten	52.507222	13.3325		1	1	1
+S_Tiergarten_(Berlin) 			 52.513966     13.33624     1.0
+Dummystation-1 			 52.51673233678196     13.341258951703535
+S_Bellevue_(Berlin) 			 52.519954     13.347104     1.0
+Hauptbahnhof 			 52.525046     13.369391     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+S_Hackescher_Markt_(Berlin) 			 52.52261     13.402364     1.0
+Alexander-\platz 			 52.521516     13.411272     1.0
+Jannowitz-bruecke	52.515		13.418		1	1	1
+S_Ostbahnhof_(Berlin) 			 52.510005     13.435753     1.0
+Warschauer_\Str		52.506		13.449		1.0
+S_Ostkreuz_Bhf_(Berlin) 			 52.502855     13.469098     1.0
+S_Nöldnerplatz_(Berlin) 			 52.503447     13.484302     1.0
+Lichtenberg		52.510556	13.496389	1	1	1
+S_Friedrichsfelde_Ost_(Berlin) 			 52.513751     13.520049     1.0
+S_Springpfuhl_(Berlin) 			 52.52581     13.53691     1.0
+S_Poelchaustr_(Berlin) 			 52.534755     13.536014     1.0
+S_Marzahn_(Berlin) 			 52.543275     13.54153     1.0
+S_Raoul-Wallenberg-Str_(Berlin) 			 52.550753     13.548397     1.0
+S_Mehrower_Allee_(Berlin) 			 52.557819     13.554397     1.0
+S_Ahrensfelde_Bhf_(Berlin) 			 52.571568     13.566124     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25     1.0
+25      26      1.0
+#
+Line:		S75
+Color:	    130.0	75.0	225.0
+S_Springpfuhl_(Berlin) 			 52.52581     13.53691     1.0
+S_Gehrenseestr_(Berlin) 			 52.55574     13.525659     1.0
+S_Hohenschönhausen_Bhf_(Berlin) 			 52.566552     13.513704     1.0
+S_Wartenberg_(Berlin) 			 52.573269     13.504244     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+#
+Line:		S8
+Color:	    75.0	225.0	100.0
+S_Blankenburg_(Berlin) 			 52.591072     13.442977     1.0
+S_Pankow-Heinersdorf_(Berlin) 			 52.577607     13.429095     1.0
+Pankow			52.566667	13.411111	1	1	1
+S_Bornholmer_Str_(Berlin) 			 52.554757     13.397845     1.0
+Schoenhauser_\Allee 			 52.549339     13.415143     1.0
+S_Prenzlauer_Allee_(Berlin) 			 52.544806     13.427424     1.0
+S_Greifswalder_Str_(Berlin) 			 52.540728     13.438362     1.0
+S_Landsberger_Allee_(Berlin) 			 52.528775     13.455949     1.0
+S_Storkower_Str_(Berlin) 			 52.524198     13.464889     1.0
+Frankfurter_\Allee	52.514167	13.474722	1	1	1
+S_Ostkreuz_Bhf_(Berlin) 			 52.502855     13.469098     1.0
+S_Treptower_Park_(Berlin) 			 52.493026     13.460893     1.0
+S_Plänterwald_(Berlin) 			 52.478725     13.474034     1.0
+S_Baumschulenweg_(Berlin) 			 52.467585     13.489511     1.0
+S_Schöneweide_Bhf_(Berlin) 			 52.454614     13.510155     1.0
+Johannisthaler	52.4468	13.5239		1	1	1
+S_Adlershof_(Berlin) 			 52.435106     13.540559     1.0
+S_Grünau_(Berlin) 			 52.412717     13.574024     1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+#
+Line:		S9
+Color:	    130.0	5.0	5.0
+Rathaus_\Spandau	52.535		13.200278	1	1	1
+S_Stresow_(Berlin) 			 52.532508     13.209136     1.0
+S_Pichelsberg_(Berlin) 			 52.510268     13.227202     1.0
+S_Olympiastadion_(Berlin) 			 52.511138     13.241116     1.0
+S_Heerstr_(Berlin) 			 52.508276     13.258519     1.0
+S_Messe_Süd_(Berlin) 			 52.498775     13.270455     1.0
+S_Westkreuz_(Berlin) 			 52.501155     13.283042     1.0
+Wilmers-\dorfer_Str	52.506389	13.306944	1	1	1
+S_Savignyplatz_(Berlin) 			 52.505226     13.319008     1.0
+Zoologischer_\Garten	52.507222	13.3325		1	1	1
+S_Tiergarten_(Berlin) 			 52.513966     13.33624     1.0
+Dummystation-1 			 52.51673233678196     13.341258951703535
+S_Bellevue_(Berlin) 			 52.519954     13.347104     1.0
+Hauptbahnhof 			 52.525046     13.369391     1.0
+Fried-richstr		52.520278	13.386944	1	1	1
+S_Hackescher_Markt_(Berlin) 			 52.52261     13.402364     1.0
+Alexander-\platz 			 52.521516     13.411272     1.0
+Jannowitz-bruecke	52.515		13.418		1	1	1
+S_Ostbahnhof_(Berlin) 			 52.510005     13.435753     1.0
+Warschauer_\Str		52.506		13.449		1.0
+S_Treptower_Park_(Berlin) 			 52.493026     13.460893     1.0
+S_Plänterwald_(Berlin) 			 52.478725     13.474034     1.0
+S_Baumschulenweg_(Berlin) 			 52.467585     13.489511     1.0
+S_Schöneweide_Bhf_(Berlin) 			 52.454614     13.510155     1.0
+Johannisthaler	52.4468	13.5239		1	1	1
+S_Adlershof_(Berlin) 			 52.435106     13.540559     1.0
+S_Altglienicke_(Berlin) 			 52.407794     13.559608    1.0
+S_Grünbergallee_(Berlin) 			 52.399543     13.543228    1.0
+#
+0       1       1.0
+1       2       1.0
+2       3       1.0
+3       4       1.0
+4       5       1.0
+5       6       1.0
+6       7       1.0
+7       8       1.0
+8       9       1.0
+9       10      1.0
+10      11      1.0
+11      12      1.0
+12      13      1.0
+13      14      1.0
+14      15      1.0
+15      16      1.0
+16      17      1.0
+17      18      1.0
+18      19      1.0
+19      20      1.0
+20      21      1.0
+21      22      1.0
+22      23      1.0
+23      24      1.0
+24      25     1.0
+25      26      1.0
+26      27      1.0
+#
+End
+
+
+
+
+
+
+#
+Line:		lineU55
+Color:		102.0	46.0	22.0
+Hauptbahnhof		52.52493	13.369181	1	1	1
+Bundestag		52.520014	13.373006	1	1	1
+Brandenburger_\Tor	52.516389	13.380833	1	1	1
+#
+0       1       1.0
+1       2       1.0
+#
+End

@@ -1,0 +1,603 @@
+Line:		1
+Color:          232   47   47
+Bulvar_Rokossovskogo			55.8148   37.7342
+Cherkizovskaya			55.8038   37.7448
+Preobrazhenskaya_Ploshchad			55.7963   37.7151
+Sokolniki_(Moscow_Metro)			55.7888   37.6802
+Krasnoselskaya			55.7801   37.6673
+Komsomolskaya			55.7753   37.6562
+Krasnye_Vorota			55.7690   37.6487
+Turgenevskaya			55.7661   37.6374
+Lubyanka			55.7597   37.6272
+Teatralnaya			55.7578   37.6190
+Biblioteka_Imeni_Lenina			55.7512   37.6100
+Kropotkinskaya			55.7453   37.6037
+Park_Kultury			55.7356   37.5943
+Frunzenskaya			55.7267   37.5786
+Luzhniki			55.7203   37.5631
+Vorobyovy_Gory			55.7103   37.5592
+Universitet			55.6926   37.5333
+Prospekt_Vernadskogo_(Moscow_Metro)			55.6771   37.5060
+Yugo-Zapadnaya			55.6637   37.4833
+Troparyovo			55.6459   37.4725
+Rumyantsevo			55.6330   37.4419
+Salaryevo			55.6227   37.4240
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+#
+Line:		2
+Color:          61   181   86
+Khovrino			55.8791   37.4822
+Belomorskaya			55.8658   37.4764
+Rechnoy_Vokzal			55.8549   37.4761
+Vodny_Stadion			55.8398   37.4867
+Baltiyskaya			55.8258   37.4961
+Sokol			55.8051   37.5153
+Aeroport			55.8003   37.5329
+Dinamo			55.7897   37.5580
+Belorusskaya			55.7767   37.5835
+Mayakovskaya			55.7701   37.5958
+Tverskaya			55.7647   37.6065
+Teatralnaya			55.7578   37.6190
+Novokuznetskaya			55.7415   37.6295
+Paveletskaya			55.7305   37.6377
+Avtozavodskaya			55.7074   37.6576
+Tekhnopark			55.6950   37.6641
+Kolomenskaya			55.6785   37.6638
+Kashirskaya			55.6551   37.6487
+Kantemirovskaya			55.6358   37.6564
+Tsaritsyno			55.6214   37.6694
+Orekhovo			55.6132   37.6949
+Domodedovskaya			55.6108   37.7186
+Zyablikovo			55.6124   37.7453
+Alma-Atinskaya			55.6326   37.7660
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+#
+Line:		3
+Color:          0   118   192
+Pyatnitskoye_Shosse			55.8563   37.3544
+Mitino			55.8457   37.3622
+Volokolamskaya			55.8354   37.3822
+Myakinino			55.8252   37.3852
+Strogino_(Arbatsko–Pokrovskaya_line)			55.8038   37.4031
+Krylatskoye			55.7567   37.4081
+Molodyozhnaya			55.7408   37.4168
+Kuntsevskaya			55.7307   37.4459
+Slavyansky_Bulvar			55.7296   37.4706
+Kutuzovskaya			55.7399   37.5344
+Dummystation-3 			 55.741231047863856     37.54371733507598
+Kiyevskaya			55.7442   37.5645
+Smolenskaya			55.7474   37.5823
+Biblioteka_Imeni_Lenina			55.7512   37.6100
+Teatralnaya			55.7578   37.6190
+Dummystation-7 			 55.75774360581717     37.629912273803505
+Dummystation-6 			 55.75772134772142     37.63421921533131
+Kurskaya			55.7576   37.6577
+Baumanskaya			55.7730   37.6806
+Elektrozavodskaya			55.7817   37.7037
+Semyonovskaya			55.7833   37.7208
+Izmaylovo			55.7886   37.7428
+Izmaylovskaya			55.7878   37.7814
+Pervomayskaya			55.7948   37.7993
+Shchyolkovskaya			55.8094   37.7986
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+23   24   1.0
+#
+Line:		4
+Color:          41   196   240
+Kuntsevskaya			55.7307   37.4459
+Pionerskaya			55.7360   37.4671
+Filyovsky_Park			55.7396   37.4833
+Bagrationovskaya			55.7438   37.4977
+Fili			55.7460   37.5150
+Kutuzovskaya			55.7399   37.5344
+Studencheskaya			55.7388   37.5483
+Dummystation-3 			 55.741231047863856     37.54371733507598
+Delovoy_Tsentr			55.7475   37.5319
+Kiyevskaya			55.7436   37.5655
+Smolenskaya			55.7488   37.5825
+Biblioteka_Imeni_Lenina			55.7512   37.6100
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+#
+Line:		5
+Color:          128   64   0
+Kiyevskaya			55.7446   37.5644
+Krasnopresnenskaya			55.7613   37.5774
+Belorusskaya			55.7764   37.5844
+Novoslobodskaya			55.7799   37.6028
+Dummystation-5 			 55.77985558112446     37.615681472940274
+Prospekt_Mira			55.7798   37.6318
+Komsomolskaya			55.7748   37.6549
+Kurskaya			55.7576   37.6577
+Marksistskaya			55.7411   37.6543
+Paveletskaya			55.7318   37.6379
+Dobryninskaya			55.7291   37.6243
+Oktyabrskaya			55.7297   37.6091
+Park_Kultury			55.7357   37.5915
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   0   1.0
+#
+Line:		6
+Color:          255   128   31
+Medvedkovo			55.8872   37.6613
+Babushkinskaya			55.8694   37.6644
+Sviblovo			55.8552   37.6527
+Botanichesky_Sad			55.8449   37.6383
+VDNKh			55.8211   37.6411
+Alekseyevskaya			55.8088   37.6390
+Rizhskaya			55.7936   37.6362
+Prospekt_Mira			55.7812   37.6318
+Sukharevskaya			55.7733   37.6319
+Turgenevskaya			55.7661   37.6374
+Dummystation-6 			 55.75772134772142     37.63421921533131
+Kitay-gorod			55.7553   37.6333
+Novokuznetskaya			55.7415   37.6295
+Dummystation-4 			 55.73574177103212     37.6195450956981
+Oktyabrskaya			55.7306   37.6112
+Shabolovskaya			55.7198   37.6083
+Ploshchad_Gagarina			55.7069   37.5858
+Akademicheskaya_(Moscow_Metro)			55.6877   37.5733
+Profsoyuznaya			55.6780   37.5627
+Novye_Cheryomushki			55.6702   37.5544
+Kaluzhskaya			55.6571   37.5405
+Belyayevo			55.6428   37.5257
+Konkovo			55.6333   37.5188
+Tyoply_Stan			55.6191   37.5082
+Yasenevo			55.6063   37.5333
+Novoyasenevskaya			55.6010   37.5541
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+23   24   1.0
+24   25   1.0
+#
+Line:		7
+Color:          133   56   146
+Planernaya			55.8607   37.4364
+Skhodnenskaya			55.8505   37.4396
+Tushinskaya			55.8267   37.4368
+Spartak			55.8182   37.4352
+Shchukinskaya			55.8086   37.4641
+Panfilovskaya			55.7991   37.4988
+Khoroshyovskaya			55.7768   37.5207
+Begovaya			55.7738   37.5468
+Ulitsa_1905_Goda			55.7650   37.5613
+Krasnopresnenskaya			55.7613   37.5774
+Tverskaya			55.7647   37.6065
+Lubyanka			55.7597   37.6272
+Dummystation-7 			 55.75774360581717     37.629912273803505
+Kitay-gorod			55.7553   37.6333
+Marksistskaya			55.7411   37.6543
+Proletarskaya			55.7319   37.6659
+Volgogradsky_Prospekt			55.7253   37.6869
+Dummystation-2 			 55.719649122716746     37.70220874027382
+Tekstilshchiki			55.7088   37.7316
+Kuzminki			55.7056   37.7656
+Dummystation-1 			 55.716376596949175     37.7917852399819
+Ryazansky_Prospekt			55.7170   37.7933
+Vykhino			55.7156   37.8181
+Kosino			55.7033   37.8511
+Zhulebino			55.6855   37.8563
+Kotelniki			55.6743   37.8582
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+23   24   1.0
+24   25   1.0
+#
+Line:		8A
+Color:          239   192   0
+Rasskazovka			55.6339   37.3347
+Novoperedelkino			55.6396   37.3552
+Borovskoye_Shosse			55.6476   37.3701
+Solntsevo			55.6493   37.3909
+Govorovo			55.6595   37.4172
+Ozyornaya			55.6709   37.4491
+Michurinsky_Prospekt			55.6896   37.4833
+Ramenki			55.6975   37.4984
+Lomonosovsky_Prospekt			55.7069   37.5156
+Minskaya			55.7246   37.4970
+Kutuzovskaya			55.7399   37.5344
+Delovoy_Tsentr			55.7475   37.5319
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+#
+Line:		8
+Color:          229   182   0
+Novokuznetskaya			55.7415   37.6295
+Marksistskaya			55.7411   37.6543
+Rimskaya			55.7463   37.6819
+Aviamotornaya			55.7524   37.7191
+Shosse_Entuziastov			55.7576   37.7500
+Perovo			55.7511   37.7866
+Novogireyevo			55.7517   37.8166
+Novokosino			55.7451   37.8638
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+#
+Line:		9
+Color:          159   159   154
+Altufyevo			55.8980   37.5870
+Bibirevo			55.8838   37.6034
+Otradnoye			55.8633   37.6047
+Vladykino			55.8473   37.5899
+Petrovsko-Razumovskaya			55.8351   37.5745
+Timiryazevskaya			55.8176   37.5765
+Dmitrovskaya			55.8069   37.5817
+Savyolovskaya			55.7927   37.5885
+Novoslobodskaya			55.7810   37.6011
+Tsvetnoy_Bulvar			55.7708   37.6187
+Tverskaya			55.7647   37.6065
+Biblioteka_Imeni_Lenina			55.7512   37.6100
+Polyanka			55.7379   37.6180
+Dummystation-4 			 55.73574177103212     37.6195450956981
+Dobryninskaya			55.7291   37.6243
+Tulskaya			55.7087   37.6229
+Verkhniye_Kotly			55.6900   37.6189
+Nagornaya			55.6724   37.6104
+Nakhimovsky_Prospekt			55.6627   37.6055
+Sevastopolskaya			55.6524   37.5984
+Chertanovskaya			55.6405   37.6067
+Yuzhnaya			55.6224   37.6090
+Prazhskaya			55.6124   37.6044
+Ulitsa_Akademika_Yangelya			55.5949   37.6004
+Annino			55.5828   37.5966
+Bulvar_Dmitriya_Donskogo			55.5693   37.5769
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+23   24   1.0
+24   25   1.0
+#
+Line:		10
+Color:          159   192   0
+Seligerskaya			55.865000   37.548333
+Verkhnie_Likhobory			55.855833   37.561111
+Okruzhnaya			55.846000   37.574250
+Petrovsko-Razumovskaya			55.8351   37.5745
+Fonvizinskaya			55.8228   37.5881
+Butyrskaya			55.8133   37.6028
+Maryina_Roshcha			55.7954   37.6162
+Dostoyevskaya			55.7816   37.6151
+Dummystation-5 			 55.77985558112446     37.615681472940274
+Tsvetnoy_Bulvar			55.7708   37.6187
+Turgenevskaya			55.7661   37.6374
+Kurskaya			55.7576   37.6577
+Rimskaya			55.7463   37.6819
+Proletarskaya			55.7319   37.6659
+Dubrovka			55.7186   37.6760
+Kozhukhovskaya			55.7074   37.6851
+Pechatniki			55.6934   37.7270
+Volzhskaya			55.6909   37.7530
+Lyublino			55.6758   37.7618
+Bratislavskaya			55.6597   37.7505
+Maryino			55.6500   37.7431
+Borisovo			55.6334   37.7436
+Shipilovskaya			55.6211   37.7437
+Zyablikovo			55.6124   37.7453
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+#
+Line:		11
+Color:          111   192   199
+Delovoy_Tsentr			55.7475   37.5319
+Shelepikha			55.7567   37.5260
+Khoroshyovskaya			55.7768   37.5207
+CSKA			55.7866   37.5333
+Dinamo			55.7897   37.5580
+Savyolovskaya			55.7936   37.5880
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+#
+Line:		12
+Color:          136   172   221
+Novoyasenevskaya			55.6010   37.5541
+Lesoparkovaya			55.5821   37.5769
+Bulvar_Dmitriya_Donskogo			55.5693   37.5769
+Ulitsa_Skobelevskaya			55.5481   37.5546
+Bulvar_Admirala_Ushakova			55.5455   37.5430
+Ulitsa_Gorchakova			55.5418   37.5308
+Buninskaya_Alleya			55.5380   37.5158
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+#
+Line:		13
+Color:          71   124   178
+Timiryazevskaya			55.8190   37.5789
+Fonvizinskaya			55.8228   37.5881
+Teletsentr			55.8218   37.6089
+Ulitsa_Akademika_Korolyova			55.8218   37.6269
+VDNKh			55.8211   37.6411
+Ulitsa_Sergeya_Eyzenshteyna			55.8292   37.6449
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+#
+Line:		14
+Color:          204   153   102
+Okruzhnaya			55.8472   37.5694
+Vladykino			55.8476   37.5930
+Botanichesky_Sad			55.8460   37.6413
+Rostokino			55.8400   37.6653
+Belokamennaya			55.8300   37.7006
+Bulvar_Rokossovskogo			55.8148   37.7342
+Cherkizovskaya			55.8038   37.7448
+Izmaylovo			55.7886   37.7428
+Sokolinaya_Gora			55.7714   37.7451
+Shosse_Entuziastov			55.7590   37.7463
+Andronovka			55.7411   37.7344
+Nizhegorodskaya			55.7322   37.7282
+Novokhokhlovskaya			55.7239   37.7161
+Dummystation-2 			 55.719649122716746     37.70220874027382
+Ugreshskaya			55.7183   37.6978
+Dubrovka			55.7183   37.6978
+Avtozavodskaya			55.7074   37.6576
+ZIL			55.6983   37.6483
+Verkhniye_Kotly			55.6900   37.6189
+Krymskaya			55.6900   37.6050
+Ploshchad_Gagarina			55.7069   37.5858
+Luzhniki			55.7203   37.5631
+Kutuzovskaya			55.7399   37.5344
+Delovoy_Tsentr			55.7475   37.5319
+Shelepikha			55.7575   37.5256
+Khoroshyovo			55.7772   37.5072
+Zorge			55.7878   37.5045
+Panfilovskaya			55.7991   37.4988
+Streshnevo			55.8136   37.4869
+Baltiyskaya			55.8258   37.4961
+Koptevo			55.8397   37.5203
+Likhobory			55.8472   37.5513
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+6   7   1.0
+7   8   1.0
+8   9   1.0
+9   10   1.0
+10   11   1.0
+11   12   1.0
+12   13   1.0
+13   14   1.0
+14   15   1.0
+15   16   1.0
+16   17   1.0
+17   18   1.0
+18   19   1.0
+19   20   1.0
+20   21   1.0
+21   22   1.0
+22   23   1.0
+23   24   1.0
+24   25   1.0
+25   26   1.0
+26   27   1.0
+27   28   1.0
+28   29   1.0
+29   30   1.0
+30   31   1.0
+31   0   1.0
+#
+Line:		15
+Color:          227   132   206
+Stakhanovskaya			55.7250   37.7619
+Okskaya			55.7186   37.7817
+Dummystation-1 			 55.716376596949175     37.7917852399819
+Kosino			55.7033   37.8511
+Ulitsa_Dmitriyevskogo			55.7100   37.8792
+Lukhmanovskaya			55.7085   37.9004
+Nekrasovka			55.7036   37.9264
+#
+0   1   1.0
+1   2   1.0
+2   3   1.0
+3   4   1.0
+4   5   1.0
+5   6   1.0
+#
+End

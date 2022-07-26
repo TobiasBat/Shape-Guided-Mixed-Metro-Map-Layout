@@ -1,0 +1,267 @@
+Line:			U1
+Color:			0.0 255.0 50.0
+Olympia-\Einkaufszentrum	48.182082	11.529852	1	7	2
+Georg-\Brauchle-Ring		48.175		11.529167	1	7	2
+Westfriedhof			48.170556	11.528333	1	6	1
+Gern				48.162778	11.529167	1	2	1
+Rotkreuzplatz			48.152778	11.534167	1	7	1
+Maillingerstrasse		48.15		11.545833	1	8	1
+Stiglmaierplatz			48.1475		11.559167	1	8	1
+Hauptbahnhof			48.140278	11.561111	4	6	1
+Sendlinger_Tor			48.133333	11.566667	2	7	1
+Fraunhoferstrasse		48.129167	11.574444	2	8	1
+Kolumbusplatz			48.119722	11.576389	2	7	1
+Candidplatz			48.112222	11.571389	1	6	1
+Wettersteinplatz		48.108611	11.575		1	8	1
+St.-Quirin-Platz		48.104722	11.581667	1	8	1
+Mangfallplatz			48.098611	11.581667	1	7	1
+#
+0	1	1.0
+1	2	1.0
+2	3	1.0
+3	4	1.0
+4	5	1.0
+5	6	1.0
+6	7	1.0
+7	8	1.0
+8	9	1.0
+9	10	1.0
+10	11	1.0
+11	12	1.0
+12	13	1.0
+13	14	1.0
+#
+Line:			U2
+Color:			255.0 0.0 0.0
+Feldmoching			48.213611	11.541944	1	6	1
+Hasenbergl			48.213056	11.555833	1	5	1
+Dulferstrasse			48.212778	11.5625		1	6	1
+Harthof				48.204722	11.568333 	1	7	1
+Am_Hart				48.196944	11.571944 	1	4	1
+Frankfurter_\Ring		48.187222       11.572778 	1	4	2
+Milbertshofen			48.180833  	11.573056 	1	6	1
+Scheidplatz			48.171389 	11.573333 	2	6	1
+Hohenzollernplatz		48.161389 	11.568611 	1	9	1
+Josephsplatz			48.155278 	11.567222 	1	6	1
+Theresienstrasse		48.151111 	11.564722 	1	8	1
+Konigsplatz			48.145833 	11.563611 	1	6	1
+Hauptbahnhof			48.140278 	11.561111 	4	6	1
+Sendlinger_Tor			48.133333 	11.566667 	2	7	1
+Fraunhoferstrasse		48.129167 	11.574444 	2	8	1	
+Kolumbusplatz			48.119722 	11.576389 	2	7	1
+Silberhornstrasse		48.11486 	11.580523 	1	8	1	
+Untersbergstrasse		48.1125 	11.587778 	1	8	1
+Giesing				48.110833 	11.595556 	1	4	1
+Karl-Preis-Platz		48.118333 	11.609167 	1	8	1	
+Innsbrucker_Ring		48.120556 	11.618889 	1	8	1
+Josephsburg			48.126944 	11.634722 	1	6	1
+Kreillerstrasse			48.125833 	11.646944 	1	8	1
+Trudering			48.125742 	11.662497 	1	5	1
+Moosfeld			48.130556 	11.670833 	1	4	1
+Messestadt_West			48.133333 	11.691389 	1	8	1
+Messestadt_Ost			48.133333 	11.703889 	1	7	1
+#
+0	1	1.0
+1	2	1.0
+2	3	1.0
+3	4	1.0
+4	5	1.0
+5	6	1.0
+6	7	1.0
+7	8	1.0
+8	9	1.0
+9	10	1.0
+10	11	1.0
+11	12	1.0
+12	13	1.0
+13	14	1.0
+14	15	1.0
+15	16	1.0
+16	17	1.0
+17	18	1.0
+18	19	1.0
+19	20	1.0
+20	21	1.0
+21	22	1.0
+22	23	1.0
+23	24	1.0
+24	25	1.0
+25	26	1.0
+#
+Line:			U3
+Color:			255.0 100.0 0.0
+Moosach				48.180278 	11.507222 	1	4	2
+Moosacher_St.-\Martins-Platz	48.181944 	11.518611 	1	7	2
+Olympia-\Einkaufszentrum	48.182082 	11.529852 	2	8	1
+Oberwiesenfeld			48.186111 	11.544167 	1	7	1
+Olympiazentrum			48.180278 	11.555556 	1	7	1
+Petuelring			48.175833 	11.565833 	1	5	1
+Scheidplatz			48.171613 	11.573217 	2	6	1
+Bonner_Platz			48.166667 	11.578889 	1	6	1
+Munchner_\Freiheit		48.161111 	11.586111 	2	4	2
+Giselastrasse			48.156944 	11.584444 	2	6	1
+Universitat			48.150556 	11.581111 	2	6	1
+Odeonsplatz			48.146111 	11.579167 	4	6	1
+Marienplatz			48.1375 	11.575278 	2	6	1
+Sendlinger_Tor			48.133333 	11.566389 	2	7	1
+Goetheplatz			48.129722 	11.558889 	2	6	1
+Poccistrasse			48.125487 	11.550326 	2	6	1
+Implerstrasse			48.119444 	11.548333 	2	6	1	
+Brudermuhlstrasse		48.111944 	11.548889 	1	8	1
+Thalkirchen			48.1025 	11.546111 	1	5	1
+Obersendling			48.098333 	11.536389 	1	6	1
+Aidenbachstrasse			48.097778	11.525278	1	8	1	
+Machtlfinger_\Strasse		48.097222 	11.514722 	1	6	2
+Forstenrieder_\Allee		48.095 		11.499167 	1	7	2
+Basler_\Strasse			48.091111 	11.491667 	1	3	2
+Furstenried_\West		48.088333 	11.480833 	1	6	2
+#
+0	1	1.0
+1	2	1.0
+2	3	1.0
+3	4	1.0
+4	5	1.0
+5	6	1.0
+6	7	1.0
+7	8	1.0
+8	9	1.0
+9	10	1.0
+10	11	1.0
+11	12	1.0
+12	13	1.0
+13	14	1.0
+14	15	1.0
+15	16	1.0
+16	17	1.0
+17	18	1.0
+18	19	1.0
+19	20	1.0	
+20	21	1.0
+21	22	1.0
+22	23	1.0
+23	24	1.0
+#
+Line:			U4
+Color:			0.0 102.0 102.0
+Westendstrasse     		48.134722 	11.520833 	2	7	1
+Heimeranplatz        		48.133333 	11.533611 	2	7	1
+Schwanthalerhohe       		48.133889 	11.541111 	2	8	1
+Theresienwiese      		48.131554	11.549635 	2	7	1
+Hauptbahnhof     		48.140278 	11.561111 	4	7	1
+Karlsplatz   			48.139167 	11.565833 	2	6	1
+Odeonsplatz      		48.146111 	11.579167 	4	5	1
+Lehel      			48.139444 	11.588056 	2	6	1
+Max-Weber-Platz    		48.135556 	11.598611 	2	8	1
+Prinzregentenplatz 		48.139167 	11.606944 	1	9	1
+Bohmerwaldplatz     		48.143611 	11.615278 	1	8	1
+Richard-Strauss-\Strasse    	48.148889 	11.616389 	1	8	2
+Arabellapark			48.153611 	11.621389 	1	5	1
+#
+0	1	1.0
+1	2	1.0
+2	3	1.0
+3	4	1.0
+4	5	1.0
+5	6	1.0
+6	7	1.0
+7	8	1.0
+8	9	1.0
+9	10	1.0
+10	11	1.0
+11	12	1.0
+#
+Line:			U5
+Color:			255.0 183.0 0.0
+Laimer_\Platz     		48.135278 	11.503889 	1	4	2
+Friedenheimer_\Strasse       	48.135 		11.511111 	1	7	2
+Westendstrasse     		48.134722 	11.520833 	2	7	1
+Heimeranplatz        		48.133333 	11.533611 	2	7	1
+Schwanthalerhohe       		48.133889 	11.541111 	2	8	1
+Theresienwiese      		48.136389 	11.550833 	2	7	1
+Hauptbahnhof     		48.140278 	11.561111 	4	6	1
+Karlsplatz   			48.139444 	11.565833 	2	5	1
+Odeonsplatz      		48.146111 	11.579167 	4	6	1
+Lehel      			48.139444 	11.588056 	2	3	1
+Max-Weber-Platz    		48.135556 	11.598611 	2	8	1
+Ostbahnhof       		48.127401	11.605361 	1	5	1
+Innsbrucker_Ring		48.120556 	11.618889 	1	6	1
+Michaelibad      		48.118611 	11.631667 	1	6	1
+Quiddestrasse    		48.108305 	11.647053 	1	6	1
+Neuperlach_\Zentrum      	48.101111 	11.646389 	1	6	2
+Therese-\Giehse-Allee    	48.094444 	11.642778 	1	4	2
+Neuperlach_\Sud			48.088889 	11.645278 	1	6	2
+#
+0	1	1.0
+1	2	1.0
+2	3	1.0
+3	4	1.0
+4	5	1.0
+5	6	1.0
+6	7	1.0
+7	8	1.0
+8	9	1.0
+9	10	1.0
+10	11	1.0
+11	12	1.0
+12	13	1.0
+13	14	1.0
+14	15	1.0
+15	16	1.0
+16	17	1.0
+#
+Line:			U6
+Color:			0.0 102.0 255.0
+Garching-\Forschungszentrum   	48.265278 	11.672222 	1	9	2
+Garching			48.249167 	11.651389 	1	4	1
+Garching-\Hochbruck		48.247326 	11.631008 	1	5	2
+Frottmaning			48.212222 	11.616944 	1	6	1
+Kieferngarten			48.203889 	11.613333 	1	7	1
+Freimann			48.191944 	11.614444 	1	4	1
+Studentenstadt			48.183611 	11.607778 	1	7	1
+Alte_\Heide			48.178611 	11.602778 	1	3	2
+Nordfriedhof			48.173056 	11.596944 	1	6	1
+Dietlindenstrasse		48.166667 	11.590556 	1	8	1
+Munchner_\Freiheit   		48.161111 	11.586111 	2	5	2
+Giselastrasse			48.156944 	11.584444 	2	6	1
+Universitat			48.150556 	11.581111 	2	6	1
+Odeonsplatz			48.146111 	11.579167 	4	6	1	
+Marienplatz      		48.1375 	11.575278 	2	6	1
+Sendlinger_Tor			48.133333 	11.566667 	2	7	1
+Goetheplatz			48.129722 	11.558889 	2	6	1
+Poccistrasse			48.125487 	11.550326 	2	6	1
+Implerstrasse			48.119444 	11.548333 	2	6	1
+Harras				48.116667 	11.536667 	1	3	1
+Partnachplatz			48.116944 	11.526667 	1	7	1
+Westpark			48.118056 	11.516111 	1	4	1
+Holzapfelkreuth			48.116389 	11.501944 	1	8	1
+Haderner_\Stern			48.118611 	11.488889 	1	5	2
+Grosshadern			48.114722 	11.477222 	1	5	1
+Klinikum_\Grosshadern		48.108889 	11.473889 	1	5	2
+#
+0	1	1.0
+1	2	1.0
+2	3	1.0
+3	4	1.0
+4	5	1.0
+5	6	1.0
+6	7	1.0
+7	8	1.0
+8	9	1.0
+9	10	1.0
+10	11	1.0
+11	12	1.0
+12	13	1.0
+13	14	1.0
+14	15	1.0
+15	16	1.0
+16	17	1.0
+17	18	1.0
+18	19	1.0
+19	20	1.0
+20	21	1.0
+21	22	1.0
+22	23	1.0
+23	24	1.0
+24	25	1.0
+#
+End

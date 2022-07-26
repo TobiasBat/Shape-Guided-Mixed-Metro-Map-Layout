@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Building Shape-Guided-Mixed-Metro-Map-Layout"
-cd MetroShapes
+cd Deformationprocess
 mkdir build
 cd build
 cmake ../ 
