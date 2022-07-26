@@ -75,7 +75,8 @@ namespace Ui {
         QMenu                                       *_viewMenu;
         
 
-        QPushButton                                 *_buttonReCalc; 
+        QPushButton                                 *_buttonReCalc;
+        QPushButton                                 *_buttonCalcManually;
         QPushButton                                 *_buttonMatch; 
         QPushButton                                 *_buttonSmooth; 
         QPushButton                                 *_buttonOcti; 
@@ -150,7 +151,8 @@ namespace Ui {
 
 
     public slots: 
-        void reCalc( void ); 
+        void reCalc();
+        void reCalcManually();
         void reDraw( void ); 
         void match( void );
         void autoMatch( void );

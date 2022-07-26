@@ -91,8 +91,13 @@ void MetroShapes::init( int argc, char **argv )
     _manuelPath = Manuelpath();
     _manuelPath.init(&_metro, &_guide);
 
-    if (_automaticCase)
+    if (_automaticCase) {
+        _smooth._exclusivlyPathMode = false;
         run();
+    } else {
+        _smooth._exclusivlyPathMode = true;
+    }
+
 }
 
 void MetroShapes::exportSteps( void ) {
@@ -147,7 +152,8 @@ void MetroShapes::run( void )
         computeAutoMatching();
         distortMetroMap();
     }
-	match_time = clock() - match_time; 
+
+	match_time = clock() - match_time;
 
     smooth_time = clock();
 	computeSmooth();

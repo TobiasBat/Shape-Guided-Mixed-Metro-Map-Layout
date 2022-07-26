@@ -435,10 +435,14 @@ namespace Ui {
         _buttonTranslatePath->setChecked((_mainGV->_selectionMode == 2));
         connect(_buttonTranslatePath, SIGNAL(clicked()), this, SLOT(resetInteractionMode()));
 
-        _buttonReCalc = new QPushButton("&Calculated Automatic Case", this);
-        connect(_buttonReCalc, SIGNAL(clicked()), this, SLOT(reCalc()));
+        _buttonReCalc = new QPushButton("&Calculate Based On User Path (Manual Case)", this);
+        connect(_buttonReCalc, SIGNAL(clicked()), this, SLOT(reCalcManually()));
         // _buttonSmooth = new QPushButton("Smooth", this);
         // connect(_buttonSmooth, SIGNAL(clicked()), this, SLOT(smooth()));
+
+        _buttonCalcManually  = new QPushButton("&Calculate Automatic Case", this);
+        connect(_buttonCalcManually, SIGNAL(clicked()), this, SLOT(reCalc()));
+
 
         // _buttonNonUniformlyManuel = new QPushButton("Non Unifoly \n man. Path", this);
         // connect(_buttonNonUniformlyManuel, SIGNAL(clicked()), this, SLOT(scaleNonUniformlyBasedOnManuelPath()));
@@ -455,7 +459,7 @@ namespace Ui {
         _interLayout->addWidget(_sliderOpacity, 0, 1);
 
         // _interLayout->addWidget(_buttonNonUniformlyManuel, 1, 0);
-
+        _interLayout->addWidget(_buttonCalcManually, 2, 0);
         _interLayout->addWidget(_buttonReCalc, 3,0);
         _interLayout->addWidget(_buttonMatch, 4,0);
         // _interLayout->addWidget(_buttonDistort, 4,1);
@@ -535,13 +539,32 @@ namespace Ui {
     //
     void MainWindow::reCalc() {
         _updateVaribles();
-        cout << "Recalcute Metro Map ..." << endl;
+
+        cout << "  Calculating a path (Automatic Case)" << endl;
+        _smoothPtr->_exclusivlyPathMode = false;
+
         _basePtr->run();
         _mainGV->_highlightPath = false;
         _mainGV->_highlightSmoothPath = true;
         reDraw();
         cout << "... Recalcution Done" << endl; 
     }
+
+    void MainWindow::reCalcManually() {
+        scaleNonUniformlyBasedOnManuelPath();
+        _updateVaribles();
+
+        cout << "  Taking user Path (Manual Case)" << endl;
+        _smoothPtr->_exclusivlyPathMode = true;
+
+        _basePtr->run();
+        _mainGV->_highlightPath = false;
+        _mainGV->_highlightSmoothPath = true;
+        reDraw();
+        cout << "... Recalcution Done" << endl;
+    }
+
+
 
     void MainWindow::resetInteractionMode() {
         cout << "resetInteractionMode" << endl;
