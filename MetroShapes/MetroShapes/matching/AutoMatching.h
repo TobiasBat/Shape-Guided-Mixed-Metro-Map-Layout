@@ -17,14 +17,8 @@ using namespace std;
 #include "Metro.h"
 #include "Guide.h"
 
-#define FREDIST
-// #define PARTMATCH
-// #define TESTSIMILARITYFORALLPATHS
 #define NORMALIZEPARTMATCHING
 #define LESSSECTIONS
-// #define DEBUG
-
-#define REFPOINT
 
 
 class AutoMatching {
@@ -32,13 +26,10 @@ private:
     Metro*                        _metro;
     Guide*                         _guide;
 
-    unsigned int                    _nVertices;
     double                          MAX_COST = 10e6;
-    double                          _tolerance;
-    double                          _costMetro = 1.0;
-    double                          _costAdd = 3.0;
+    double                          _costMetro = 1.0; // Cost of a metro edge
+    double                          _costAdd = 3.0; // cost of an Additional edge
     double                          _weightColor = .3;
-    double                          _tolerancePartInprovment = .5;
 
     bool                            _deformUnuniformly = false;
 
@@ -66,8 +57,7 @@ private:
 
     double computeDFD(vector<VertexDescriptor> mapPathVD, vector<VertexDescriptor> guideVD);
     pair<double, int> computePartDFD(vector<VertexDescriptor> mapPathVD, vector<VertexDescriptor> guideVD, int minMatch);
-    // double computeDFDIterative(vector<Coord2> metroPathCd, vector<double> metroPathPar, vector<Coord2> guideCd, vector<double> guidePar);
-    double computeSegmentDFD(int i, int j); // c(i,j)
+    double computeSegmentDFD(int i, int j);
     double costSegmentDFD(int i, int j);
     int pathNumberOfColors(vector<VertexDescriptor> path);
     Coord2 getCenterOfPath(vector< VertexDescriptor> path, UndirectedGraph g);
@@ -90,13 +80,11 @@ public:
     pair<vector<VertexDescriptor>, double> spaceDijgstar(VertexDescriptor vi);
     double getCostMetro() { return _costMetro; }
     double getCostAdd() { return _costAdd; }
-    double getTolerancePartInprovment() { return _tolerancePartInprovment; }
     double getWeightColor() { return _weightColor; }
 
     void setCostMetro(double c) { _costMetro = c; }
     void setCostAdd( double c) { _costAdd = c; }
     void setWeightColor( double w ) { _weightColor = w; }
-    void setTolerancePartInprovment( double t ) { _tolerancePartInprovment = t; }
     void pathFromMetroLine( int l);
 
 

@@ -369,7 +369,7 @@ namespace Ui {
         // ---------------------------------------------------------------------------
         // Matching Doc
         // ---------------------------------------------------------------------------
-        _matchDock = new QDockWidget(tr("Align Key Points"), this);
+        _matchDock = new QDockWidget(tr("Route Matching"), this);
         _matchDock->setAllowedAreas( Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea);
         _match = new QWidget(_matchDock);
         _match->setGeometry( QRect(0,0,ZuKai::Base::Common::getDockWidgetWidth(),
@@ -385,10 +385,6 @@ namespace Ui {
         _wAdd->setValue(_autoMatchPtr->getCostAdd());
         QLabel* labelWAdd = new QLabel(QLatin1String("cost Add Edges"));
 
-        _tolPartInp = new QDoubleSpinBox;
-        _tolPartInp->setValue(_autoMatchPtr->getTolerancePartInprovment());
-        QLabel* labelTolPartInpt = new QLabel(QLatin1String("tolerance Part. improv."));
-
         _wColor = new QDoubleSpinBox;
         _wColor->setValue(_autoMatchPtr->getWeightColor());
         QLabel* labelWColor = new QLabel(QLatin1String("weigth Color"));
@@ -398,8 +394,6 @@ namespace Ui {
         _machtLayout->addWidget(_wMetro, 0, 1);
         _machtLayout->addWidget(labelWAdd, 1, 0);
         _machtLayout->addWidget(_wAdd, 1, 1);
-        _machtLayout->addWidget(labelTolPartInpt, 2, 0);
-        _machtLayout->addWidget(_tolPartInp, 2, 1);
         _machtLayout->addWidget(labelWColor, 3, 0);
         _machtLayout->addWidget(_wColor, 3, 1);
 
@@ -434,12 +428,8 @@ namespace Ui {
         QLabel* labelScale = new QLabel(QLatin1String("Guide Scale"));
         connect(_sliderScale, SIGNAL(valueChanged(int)), this, SLOT(scaleGuide()));
 
-
-        // _boxHighlightMatch = new QCheckBox("",this);
-        // _boxHighlightMatch->setChecked(_mainGV->highlightMatchPath);
         connect(_sliderOpacity, SIGNAL(valueChanged(int)), this, SLOT(reDraw()));
 
-        // TODO
         _buttonKeyPoints = new QRadioButton("Key Points", this);
         _buttonKeyPoints->setChecked((_mainGV->_selectionMode == 0));
         connect(_buttonKeyPoints, SIGNAL(clicked()), this, SLOT(resetInteractionMode()));
@@ -537,7 +527,7 @@ namespace Ui {
         _autoMatchPtr->setCostAdd(_wAdd->value());
         _autoMatchPtr->setCostMetro(_wMetro->value());
         _autoMatchPtr->setWeightColor(_wColor->value());
-        _autoMatchPtr->setTolerancePartInprovment(_tolPartInp->value());
+        // _autoMatchPtr->setTolerancePartInprovment(_tolPartInp->value());
         reDraw();
     }
 

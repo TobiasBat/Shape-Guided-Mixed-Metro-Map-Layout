@@ -7,9 +7,6 @@
 void AutoMatching::init(Metro *__metro, Guide *__guide, double __half_width, double __half_height) {
     _metro = __metro;
     _guide = __guide;
-    _tolerance = M_PI_4 * .5;
-
-    _nVertices = 0;
 
     UndirectedGraph        & gGuide        = _guide->g();
     BGL_FORALL_VERTICES(vertex, gGuide, UndirectedGraph) {
@@ -27,31 +24,24 @@ void AutoMatching::findPath() {
     vector<VertexDescriptor> bestPath;
 
     int index = 0;
-    cerr << "Starting the space djigstars" << endl;
+
     BGL_FORALL_VERTICES(vertex, gMetro, UndirectedGraph) {
-        // if (gMetro[vertex].id == 56) {
-        if (true) {
-            if (out_degree( vertex, gMetro ) > 3 || true ) {
-                auto spaceDjigstar = spaceDijgstar(vertex);
-                auto path = spaceDjigstar.first;
-                auto error = spaceDjigstar.second;
+        auto spaceDjigstar = spaceDijgstar(vertex);
+        auto path = spaceDjigstar.first;
+        auto error = spaceDjigstar.second;
 
-                cout << "\nfound path ";
-                if (path.size() > 1 ) {
-                    for (auto i : path) {
-                        cout << ", " << gMetro[i].id;
-                    }
-                    cout << endl;
-
-                    cout << "   error: " << error << endl;
-                    if (error < minError ){
-                        // if (bestPath.size() < path.size()) {
-                        minError = error;
-                        bestPath = path;
-                    } else {
-                        cout << "    not good enough error: " << error << "/" << minError << endl;
-                    }
-                }
+        cout << "\nfound path ";
+        if (path.size() > 1 ) {
+            for (auto i : path) {
+                cout << ", " << gMetro[i].id;
+            }
+            cout << endl;
+            cout << "   error: " << error << endl;
+            if (error < minError ){
+                minError = error;
+                bestPath = path;
+            } else {
+                cout << "    not good enough error: " << error << "/" << minError << endl;
             }
         }
         index++;
@@ -77,28 +67,6 @@ void AutoMatching::findPath() {
     cout << endl;
 
     _foundMetroPath = bestPath;
-
-#ifdef TESTSIMILARITYFORALLPATHS
-    // TEST Path similiarity messerument
-    cout << "------------------- TEST Path similiarity messerument ------------------" << endl;
-    // guideVD
-    vector<VertexDescriptor> guideVD;
-    BGL_FORALL_VERTICES(vertex, gGuide, UndirectedGraph) {
-        guideVD.push_back(vertex);
-    }
-    vector<VertexDescriptor> metroVD;
-    int indexCount = 0;
-    BGL_FORALL_VERTICES(vertex, gMetro, UndirectedGraph) {
-        if (indexCount == 87 || indexCount == 198 || indexCount == 175 ) metroVD.push_back(vertex);
-        indexCount++;
-    }
-    double cost = computeDFD(metroVD, guideVD);
-    double partCost = computePartDFD(metroVD, guideVD, 0).first;
-    double partLenght = computePartDFD(metroVD, guideVD, 0).second;
-    cout << "       similarity between the two paths: " << cost << endl;
-    cout << "       part Similarity:                  " << partCost << ", " << partLenght << endl;
-    cout << "--------------------------------------------------------------------------\n" << endl;
-#endif
 }
 
 void AutoMatching::translateGuide() {
@@ -146,7 +114,6 @@ void AutoMatching::translateGuide() {
             _metro->translate(centerPath);
         }
     }
-
 
     // align center coordinates
     centerPath = getCenterOfPath(_foundMetroPath, gMetro);
@@ -216,7 +183,7 @@ pair<vector<VertexDescriptor>, double> AutoMatching::spaceDijgstar(VertexDescrip
 
             auto partMatch = computePartDFD(metroPath_v, guideDis, partMatchIndex[selectedVertex.first]);
             double fd_v_part = partMatch.first * costColors;
-            double fd_v_full = computeDFD(metroPath_v, guideDis) * costColors; // M[metroPath_v.size() - 1][guideDis.size() - 1];
+            double fd_v_full = computeDFD(metroPath_v, guideDis) * costColors;
             int matchIndex = partMatch.second;
             if (isnan(fd_v_part)) cerr << "NaN: spaceDjigstar: fd_v_part is " << fd_v_part << endl;
 
@@ -305,8 +272,6 @@ int AutoMatching::pathNumberOfColors(vector<VertexDescriptor> path) {
                 }
                 if (gMetro[currentEdge.first].isMetro) lastLineID = currentLineID;
                 if (!share) numberSegments++;
-            } else {
-                // cerr << "This edge does not exist " << endl;
             }
         }
     } else {

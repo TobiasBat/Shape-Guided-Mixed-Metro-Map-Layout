@@ -124,7 +124,6 @@ namespace Ui {
         // -----------------------------------------------------------------------------
         QDoubleSpinBox                              *_wMetro;
         QDoubleSpinBox                              *_wAdd;
-        QDoubleSpinBox                              *_tolPartInp;
         QDoubleSpinBox                              *_wColor;
 
         // ---------------------------------------------------------------------------
