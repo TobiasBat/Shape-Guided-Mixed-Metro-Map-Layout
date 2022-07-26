@@ -14,7 +14,7 @@ if [ $# -lt 3 ]
     auto=1
 fi
 
-cd Deformationprocess/build/bin
+cd MetroShapes/build/bin
 echo "Metro Network File: $metro"
 echo "Guide Shape File: $guide" 
 echo "Execute Automatic Mode: $auto"
