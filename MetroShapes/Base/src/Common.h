@@ -144,10 +144,8 @@
 #define SECTOR_6	( 112.5)
 #define SECTOR_7	( 157.5)
 
-//#define MIN_DISTANCE    (0.0)
-//#define MIN_DISTANCE    (0.5)
-#define MIN_DISTANCE    (3.0) // was 7, taipei 15 // berlinSU // paris 7
-//#define MIN_DISTANCE    ( 1.0 * cos( M_PI/4.0 ) )
+#define MIN_DISTANCE    (7.0) // default 7.0; For more complex examples like paris-eye: 3.0 is needed
+
 
 #define MAGNIFICATION_RADIUS (100.0)
 //#define MAGNIFICATION_RADIUS (150.0)
