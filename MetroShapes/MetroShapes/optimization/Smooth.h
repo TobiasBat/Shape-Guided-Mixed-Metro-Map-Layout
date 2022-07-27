@@ -36,6 +36,7 @@ using namespace std;
 #define PARALLEL
 #define NORMALPAR
 #define OVERLAPPING
+#define WEIGHT_SHAPEAPPROXIMATION_BYDEGREE
 
 //----------------------------------------------------------------------
 //	Defining macros

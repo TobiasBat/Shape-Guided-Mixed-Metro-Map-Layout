@@ -402,7 +402,9 @@ void Smooth::_initCoefs( void )
 
         double w = _w_alongEdge;
         DegreeSizeType degrees = out_degree( vertex, g );
+        #ifdef WEIGHT_SHAPEAPPROXIMATION_BYDEGREE
         w *= degrees;
+        #endif
         // w *= pow(degrees * 0.5, 2);
         // w *= min(1.0, 1.0 / (minEdgeDistance * _constSmooth));
        if (_pathMode) {
@@ -613,7 +615,9 @@ void Smooth::_initOutputs( void )
         else v_init = cord; 
         double w = _w_alongEdge; 
         DegreeSizeType degrees = out_degree( vertex, g );
+        #ifdef WEIGHT_SHAPEAPPROXIMATION_BYDEGREE
         w *= degrees;
+        #endif
         // w *= pow(degrees * 0.5, 2);
         // w *= min(1.0, 1.0 / (minEdgeDistance * _constSmooth));
         if (_pathMode) {
@@ -735,7 +739,9 @@ void Smooth::_updateCoefs( void )
         BGL_FORALL_VERTICES(vertex, g, UndirectedGraph) {
                 double w = _w_alongEdge;
                 DegreeSizeType degrees = out_degree( vertex, g );
+                #ifdef WEIGHT_SHAPEAPPROXIMATION_BYDEGREE
                 w *= degrees;
+                #endif
                 if (_pathMode) {
                     if (g[vertex].autoPath)// && g[vertex].intersectionsCount == 0)
                         w *= 1;
@@ -995,7 +1001,9 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
 
         double w = _w_alongEdge; 
         DegreeSizeType degrees = out_degree( vertex, g );
+        #ifdef WEIGHT_SHAPEAPPROXIMATION_BYDEGREE
         w *= degrees;
+        #endif
         // w *= min(1.0, 1.0 / (minEdgeDistance * _constSmooth)); // TODO other side of the equation has to be updated as well
         if (_pathMode) {
             if (g[vertex].autoPath)
