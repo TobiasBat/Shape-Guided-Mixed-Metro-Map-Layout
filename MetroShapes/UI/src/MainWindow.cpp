@@ -275,10 +275,10 @@ namespace Ui {
         // _spinGamma->setSingleStep(0.01);
         // QLabel* labelGamma = new QLabel(QLatin1Literal("Gamma"));
 
-        _spinWoverlap = new QDoubleSpinBox;
-        _spinWoverlap->setValue(_smoothPtr->_w_overlapping);
-        _spinWoverlap->setSingleStep(0.01);
-        QLabel* labelWoverlap = new QLabel(QLatin1String("Overlapping weight"));
+        // _spinWoverlap = new QDoubleSpinBox;
+        // _spinWoverlap->setValue(_smoothPtr->_w_overlapping);
+        // _spinWoverlap->setSingleStep(0.01);
+        // QLabel* labelWoverlap = new QLabel(QLatin1String("Overlapping weight"));
 
        _wLayout = new QGridLayout;
        _wLayout->addWidget(labelEdge, 1,0);
@@ -293,15 +293,15 @@ namespace Ui {
        _wLayout->addWidget(_spinWcrossing, 5, 1);
        // _wLayout->addWidget(labelGamma, 6, 0);
        // _wLayout->addWidget(_spinGamma, 6, 1);
-       _wLayout->addWidget(labelWoverlap, 6, 0);
-       _wLayout->addWidget(_spinWoverlap, 6, 1);
+       // _wLayout->addWidget(labelWoverlap, 6, 0);
+       // _wLayout->addWidget(_spinWoverlap, 6, 1);
 
        _setting->setLayout(_wLayout);
 
         // ---------------------------------------------------------------------------
         // Mixedlayout variables / Slider
         // ---------------------------------------------------------------------------
-        _octiDock = new QDockWidget(tr("Octilenar Settings"), this);
+        _octiDock = new QDockWidget(tr("Mixed Settings"), this);
         _octiDock->setAllowedAreas( Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea);
         _octi = new QWidget(_octiDock);
         _octi->setGeometry( QRect(0,0,ZuKai::Base::Common::getDockWidgetWidth(),
@@ -312,48 +312,56 @@ namespace Ui {
         _spinOcti = new QDoubleSpinBox;
         _spinOcti->setValue(_mixedPtr->_w_mixed);
         _spinOcti->setSingleStep(0.2);
-        QLabel* labelOcti = new QLabel(QLatin1String("Mixed weight"));
+        QLabel* labelOcti = new QLabel(QLatin1String("w_o : Octilinear Weight"));
+
+        _spinOctiClose = new QDoubleSpinBox; 
+        _spinOctiClose->setValue(_mixedPtr->_w_position_path); 
+        _spinOctiClose->setSingleStep(0.2);
+        QLabel* labelOctiClose = new QLabel(QLatin1String("w_c : Shape Approximation"));
 
         _spinOctiPos = new QDoubleSpinBox;
         _spinOctiPos->setDecimals(5);
         _spinOctiPos->setValue(_mixedPtr->_w_position);
-        QLabel* labelOctiPos = new QLabel(QLatin1String("position weight"));
+        QLabel* labelOctiPos = new QLabel(QLatin1String("w_p : Position Weight"));
 
         _spinOctiCros = new QDoubleSpinBox;
         _spinOctiCros->setValue(_mixedPtr->_w_crossing);
-        QLabel* labelOctiCros = new QLabel(QLatin1String("crossing weight"));
+        QLabel* labelOctiCros = new QLabel(QLatin1String("Crossing Weight"));
 
-        _spinOctiGama = new QDoubleSpinBox;
-        _spinOctiGama->setValue(_mixedPtr->_gama);
-        QLabel* labelOctiGama = new QLabel(QLatin1String("min Dist nodes"));
+        // _spinOctiGama = new QDoubleSpinBox;
+        // _spinOctiGama->setValue(_mixedPtr->_gama);
+        // QLabel* labelOctiGama = new QLabel(QLatin1String("min Dist nodes"));
 
-        _spinOctiOver = new QDoubleSpinBox;
-        _spinOctiOver->setValue(_mixedPtr->_w_overlap);
-        QLabel* labelOctiOver = new QLabel(QLatin1String("Overlay weight"));
+        // _spinOctiOver = new QDoubleSpinBox;
+        // _spinOctiOver->setValue(_mixedPtr->_w_overlap);
+        // QLabel* labelOctiOver = new QLabel(QLatin1String("Overlay weight"));
 
-        _spinMixedConst = new QDoubleSpinBox;
-        _spinMixedConst->setValue(_mixedPtr->_constMixed);
-        QLabel* labelMixedConst = new QLabel(QLatin1String("C_m"));
+        // _spinMixedConst = new QDoubleSpinBox;
+        // _spinMixedConst->setValue(_mixedPtr->_constMixed);
+        // QLabel* labelMixedConst = new QLabel(QLatin1String("C_m"));
 
-        _spinMixedMinAngle = new QDoubleSpinBox;
-        _spinMixedMinAngle->setValue(_mixedPtr->_minAngle);
-        QLabel* labelMixedAngle = new QLabel(QLatin1String("beta"));
+        // _spinMixedMinAngle = new QDoubleSpinBox;
+        // _spinMixedMinAngle->setValue(_mixedPtr->_minAngle);
+        // QLabel* labelMixedAngle = new QLabel(QLatin1String("beta"));
 
         _mixedLayout = new QGridLayout;
         _mixedLayout->addWidget(labelOcti, 0,0);
         _mixedLayout->addWidget(_spinOcti, 0, 1);
         _mixedLayout->addWidget(labelOctiPos, 1, 0);
         _mixedLayout->addWidget(_spinOctiPos, 1, 1);
-        _mixedLayout->addWidget(labelOctiCros, 2,0);
-        _mixedLayout->addWidget(_spinOctiCros, 2, 1);
-        _mixedLayout->addWidget(labelOctiGama, 3, 0);
-        _mixedLayout->addWidget(_spinOctiGama, 3, 1);
-        _mixedLayout->addWidget(labelOctiOver, 4,0);
-        _mixedLayout->addWidget(_spinOctiOver, 4, 1);
-        _mixedLayout->addWidget(labelMixedConst, 5, 0);
-        _mixedLayout->addWidget(_spinMixedConst, 5, 1);
-        _mixedLayout->addWidget(labelMixedAngle, 6, 0);
-        _mixedLayout->addWidget(_spinMixedMinAngle, 6, 1);
+        _mixedLayout->addWidget(labelOctiClose, 2, 0); 
+        _mixedLayout->addWidget(_spinOctiClose, 2, 1); 
+        _mixedLayout->addWidget(labelOctiCros, 3,0);
+        _mixedLayout->addWidget(_spinOctiCros, 3, 1);
+
+        // _mixedLayout->addWidget(labelOctiGama, 3, 0);
+        // _mixedLayout->addWidget(_spinOctiGama, 3, 1);
+        // _mixedLayout->addWidget(labelOctiOver, 4,0);
+        // _mixedLayout->addWidget(_spinOctiOver, 4, 1);
+        // _mixedLayout->addWidget(labelMixedConst, 5, 0);
+        // _mixedLayout->addWidget(_spinMixedConst, 5, 1);
+        // _mixedLayout->addWidget(labelMixedAngle, 6, 0);
+        // _mixedLayout->addWidget(_spinMixedMinAngle, 6, 1);
         _octi->setLayout(_mixedLayout);
 
         _octiDock->setWidget( _octi );
@@ -516,10 +524,11 @@ namespace Ui {
         _mixedPtr->_w_mixed = _spinOcti->value();  
         _mixedPtr->_w_position = _spinOctiPos->value(); 
         _mixedPtr->_w_crossing = _spinOctiCros->value(); 
-        _mixedPtr->_gama = _spinOctiGama->value(); 
-        _mixedPtr->_w_overlap = _spinOctiOver->value(); 
-        _mixedPtr->_constMixed = _spinMixedConst->value(); 
-        _mixedPtr->_minAngle = _spinMixedMinAngle->value();
+        // _mixedPtr->_gama = _spinOctiGama->value(); 
+        _mixedPtr->_w_position_path = _spinOctiClose->value();
+        // _mixedPtr->_w_overlap = _spinOctiOver->value(); 
+        // _mixedPtr->_constMixed = _spinMixedConst->value(); 
+        // _mixedPtr->_minAngle = _spinMixedMinAngle->value();
 
         // Matching
         _autoMatchPtr->setCostAdd(_wAdd->value());

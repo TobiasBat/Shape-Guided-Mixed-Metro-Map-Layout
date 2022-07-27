@@ -83,15 +83,15 @@ protected:
 
 
 public:
-    double              _w_mixed            = 2.0; // was 5
-    double              _w_position         = .1;
-    double              _w_position_path    = 10.0; // was 20
+    double              _w_mixed            = 2.0; // was 5     // w_o
+    double              _w_position         = .1;   // w_p
+    double              _w_position_path    = 10.0; // was 20 //w_c
     double              _w_boundary         = sqrt( 20.0 );
     double              _w_crossing         = 14.0; //sqrt( 20.0 );
-    double              _w_overlap          = 4.0;
-    double              _gama               = 4.0;
-    double              _constMixed         = 2.0;                    // C_m
-    double              _minAngle           = M_PI_4 *0.5;            // beta
+    double              _w_overlap          = 4.0;  // legacy not Used anymore
+    double              _gama               = 4.0;  // legacy not Used anymore
+    double              _constMixed         = 2.0;                   // C_m // legacy not used anymore
+    double              _minAngle           = M_PI_4 *0.5;            // legacy not used anymore
 
 
 

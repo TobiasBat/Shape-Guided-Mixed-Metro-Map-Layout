@@ -12,7 +12,7 @@ if [ $# -lt 3 ]
     echo "Taking Defaults: "
     metro="taipei-new.txt"
     guide="heart-guide.txt"
-    auto=1
+    auto=0
     testcasename="taipei"
 fi
 

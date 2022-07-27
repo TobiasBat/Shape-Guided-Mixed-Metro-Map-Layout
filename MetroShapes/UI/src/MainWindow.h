@@ -118,6 +118,7 @@ namespace Ui {
         QDoubleSpinBox                              *_spinOctiOver; 
         QDoubleSpinBox                              *_spinMixedConst; 
         QDoubleSpinBox                              *_spinMixedMinAngle;
+        QDoubleSpinBox                              *_spinOctiClose; 
 
         // -----------------------------------------------------------------------------
         //  Matching Weigts

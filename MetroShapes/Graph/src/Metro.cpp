@@ -733,7 +733,7 @@ void Metro::reInsertRemovedStations() {
             graph[ curVD ].octilinearPtr    = new Coord2( x, y );
             graph[ curVD ].namePtr          = new string( "re-inserted station");
             graph[ curVD ].namePtr          = new string(graph[edge].nameStationsOnEdge[0]);
-            
+
             graph[edge].nameStationsOnEdge.erase(graph[edge].nameStationsOnEdge.begin());
             graph[ curVD ].metroShape       = true;
             graph[ curVD ].inflectionPoint  = false;
