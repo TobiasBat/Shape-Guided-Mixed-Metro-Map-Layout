@@ -412,7 +412,8 @@ void Smooth::_initCoefs( void )
                w = 0;
        } else {
            if (g[vertex].smoothPath)
-               w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+               // w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+               w *= 1; 
            else
                w = 0;
        }
@@ -622,7 +623,8 @@ void Smooth::_initOutputs( void )
                 w = 0;
         } else {
             if (g[vertex].smoothPath) // TODO metro shape adden
-                w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                // w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                w *= 1; 
             else
                 w = 0;
         }
@@ -741,7 +743,8 @@ void Smooth::_updateCoefs( void )
                         w = 0;
                 } else {
                     if (g[vertex].smoothPath) // TODO metro shape adden
-                        w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                        // w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                        w *= 1; 
                     else
                         w = 0;
                 }
@@ -1001,7 +1004,8 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
                 w = 0;
         } else {
             if (g[vertex].smoothPath) { // TODO metro shape adden
-                w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                // w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                w *= 1; 
             } else
                 w = 0;
         }
