@@ -8,7 +8,7 @@ For example:
 
 
 
-Default Parameter: 
+**Default Parameter:** 
 
 ```
 // Smooth
@@ -29,8 +29,12 @@ cost Metro: 1,00
 cost Add Edges: 3,00
 weight Color: 0,300
 
-minDistance: 7.0
+MIN_DISTANCE: 7.0
 ```
+
+For the more complex examples `MIN_DISTANCE` has to be adapted. Change `MIN_DISTANCE` to `\#define MIN_DISTANCE (3.0)` in `Base/src/Common.h`. 
+
+
 
 
 
