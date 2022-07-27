@@ -2,7 +2,10 @@
 
 ## Requirements
 
-
++ cmake 3.10+
++ qt 5.13
++ Boost Graph Library 1.71
++ Eigen3 3.3 
 
 
 
@@ -16,10 +19,18 @@
 
 ## Run
 
-__Default Test case__
+Run with the default test case:
 
 ```bash
 ./execute.sh
+```
+
+
+
+Parameters can be added to run the program with other metro networks: 
+
+```bash
+ ./execute.sh <test-case-name> <metronetwork>.txt <guide-name>.txt <compute automatically>
 ```
 
 
@@ -34,7 +45,7 @@ To run the Automatic Testcases with the default parameters:
 
 
 
-To adapt the parameters and reproducte the manual testcases change the fourth parameter from 1 to 0. 
+To adapt the parameters and reproduce the manual testcases change the fourth parameter from 1 to 0. 
 
 ```bash
 ./execute.sh lisabon lisbon_center_manuell_planar.txt lisabon2-guide.txt 0 
@@ -46,20 +57,4 @@ To manually select a path, click on the stations you want to add to the user-def
 
 
 
-
-Additional Test Cases: 
-
-```bash
-// Automatic
-./execute.sh paris-cloud paris-metro-newColor-Planar-2-fixTempl.txt cloud-guide.txt 0
-./execute.sh singapore-compleCircleHeart singapore-MRT-2021-planar-circleExtension.txt heart-guide.txt 0
-./execute.sh berlinS-Bear berlin-sbahn-Planar.txt  bear_head_guide-closed.txt 0
-./execute.sh berlinBear berlin-sbahn+UBahn-Planar-multiroutes.txt bear_head_guide-closed.txt 0
-./execute.sh moscow moscow-simplified2-metro-planrized.txt circle-guide.txt 0
-./execute.sh singapore-compleCircle singapore-MRT-2021-planar-circleExtension.txt circle-guide.txt 0
-
-
-// Manualy 
-./execute.sh paris-circle paris-metro-newColor-Planar-2-fixTempl.txt circle-guide.txt paris-circle 0
-```
 
