@@ -248,22 +248,28 @@ namespace Ui {
         _sliderEdge = new QDoubleSpinBox;
         _sliderEdge->setValue(_smoothPtr->_w_alongEdge);
         _sliderEdge->setSingleStep(0.2);
-        QLabel* labelEdge = new QLabel(QLatin1String("W_Edge"));
+        QLabel* labelEdge = new QLabel(QLatin1String("w_c : Shape Approximation"));
 
-        _spinEdgeDist = new QDoubleSpinBox;
-        _spinEdgeDist->setValue(_smoothPtr->_constSmooth);
-        _spinEdgeDist->setSingleStep(0.01);
-        QLabel* labelEdgeDist = new QLabel(QLatin1String("Edge Dist"));
+        // _spinEdgeDist = new QDoubleSpinBox;
+        // _spinEdgeDist->setValue(_smoothPtr->_constSmooth);
+        // _spinEdgeDist->setSingleStep(0.01);
+        // QLabel* labelEdgeDist = new QLabel(QLatin1String("Edge Dist"));
 
         _spinWangle = new QDoubleSpinBox;
         _spinWangle->setValue(_smoothPtr->_w_angle);
         _spinWangle->setSingleStep(0.01);
-        QLabel* labelangle = new QLabel(QLatin1String("Angle weight"));
+        QLabel* labelangle = new QLabel(QLatin1String("w_a : Max. Angle Weight"));
 
         _spinWposition = new QDoubleSpinBox;
         _spinWposition->setValue(_smoothPtr->_w_position);
         _spinWposition->setSingleStep(0.01);
-        QLabel* labelposition = new QLabel(QLatin1String("Position weight"));
+        QLabel* labelposition = new QLabel(QLatin1String("w_p : Position Weight"));
+
+
+        _spinLength = new QDoubleSpinBox; 
+        _spinLength->setValue(_smoothPtr->_w_contextlength); 
+        QLabel* labellength = new QLabel(QLatin1String("w_l : Uniform Edge Lenght Weight"));
+
 
         _spinWcrossing = new QDoubleSpinBox;
         _spinWcrossing->setValue(_smoothPtr->_w_crossing);
@@ -283,8 +289,10 @@ namespace Ui {
        _wLayout = new QGridLayout;
        _wLayout->addWidget(labelEdge, 1,0);
        _wLayout->addWidget(_sliderEdge,1,1);
-       _wLayout->addWidget(labelEdgeDist, 2, 0);
-       _wLayout->addWidget(_spinEdgeDist, 2, 1);
+       // _wLayout->addWidget(labelEdgeDist, 2, 0);
+       // _wLayout->addWidget(_spinEdgeDist, 2, 1);
+       _wLayout->addWidget(labellength, 2, 0);
+       _wLayout->addWidget(_spinLength, 2, 1); 
        _wLayout->addWidget(labelangle, 3, 0);
        _wLayout->addWidget(_spinWangle, 3,1);
        _wLayout->addWidget(labelposition, 4, 0);
@@ -515,8 +523,9 @@ namespace Ui {
 
         // Setting Varibles
         _smoothPtr->_w_alongEdge = _sliderEdge->value(); 
-        _smoothPtr->_constSmooth = _spinEdgeDist->value();
+        // _smoothPtr->_constSmooth = _spinEdgeDist->value();
         _smoothPtr->_w_angle = _spinWangle->value(); 
+        _smoothPtr->_w_contextlength = _spinLength->value();
         _smoothPtr->_w_position = _spinWposition->value(); 
         _smoothPtr->_w_crossing = _spinWcrossing->value();  
 

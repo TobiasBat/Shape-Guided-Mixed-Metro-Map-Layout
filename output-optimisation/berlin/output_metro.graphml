@@ -1,0 +1,3281 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="x" for="node" attr.name="x_coordinate" attr.type="int"/>
+  <key id="y" for="node" attr.name="y_coordinate" attr.type="int"/>
+  <key id="label" for="node" attr.name="station_name" attr.type="string"/>
+  <key id="line" for="edge" attr.name="line" attr.type="string"/>
+  <key id="smooth" for="edge" attr.name="smooth" attr.type="boolean"/>
+  <key id="turningpoint" for="node" attr.name="turningpoint" attr.type="boolean"/>
+  <key id="smoothNode" for="node" attr.name="smoothNode" attr.type="boolean"/>
+  <key id="l0" for="edge" attr.name="lineU1" attr.type="boolean" color.r="84" color.g="167" color.b="33">
+    <default>FALSE</default>
+  </key>
+  <key id="l1" for="edge" attr.name="lineU2" attr.type="boolean" color.r="255" color.g="55" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l2" for="edge" attr.name="lineU3" attr.type="boolean" color.r="1" color.g="146" color.b="118">
+    <default>FALSE</default>
+  </key>
+  <key id="l3" for="edge" attr.name="lineU4" attr.type="boolean" color.r="255" color.g="217" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l4" for="edge" attr.name="lineU5" attr.type="boolean" color.r="102" color.g="46" color.b="22">
+    <default>FALSE</default>
+  </key>
+  <key id="l5" for="edge" attr.name="lineU6" attr.type="boolean" color.r="110" color.g="77" color.b="155">
+    <default>FALSE</default>
+  </key>
+  <key id="l6" for="edge" attr.name="lineU7" attr.type="boolean" color.r="53" color.g="143" color.b="191">
+    <default>FALSE</default>
+  </key>
+  <key id="l7" for="edge" attr.name="lineU8" attr.type="boolean" color.r="10" color.g="59" color.b="132">
+    <default>FALSE</default>
+  </key>
+  <key id="l8" for="edge" attr.name="lineU9" attr.type="boolean" color.r="255" color.g="114" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l9" for="edge" attr.name="S1" attr.type="boolean" color.r="230" color.g="160" color.b="255">
+    <default>FALSE</default>
+  </key>
+  <key id="l10" for="edge" attr.name="S2" attr.type="boolean" color.r="0" color.g="80" color.b="30">
+    <default>FALSE</default>
+  </key>
+  <key id="l11" for="edge" attr.name="S26" attr.type="boolean" color.r="20" color.g="100" color.b="50">
+    <default>FALSE</default>
+  </key>
+  <key id="l12" for="edge" attr.name="S26" attr.type="boolean" color.r="20" color.g="100" color.b="50">
+    <default>FALSE</default>
+  </key>
+  <key id="l13" for="edge" attr.name="S3" attr.type="boolean" color.r="75" color.g="80" color.b="225">
+    <default>FALSE</default>
+  </key>
+  <key id="l14" for="edge" attr.name="S41/S42" attr.type="boolean" color.r="145" color.g="55" color.b="5">
+    <default>FALSE</default>
+  </key>
+  <key id="l15" for="edge" attr.name="S45" attr.type="boolean" color.r="200" color.g="160" color.b="110">
+    <default>FALSE</default>
+  </key>
+  <key id="l16" for="edge" attr.name="S46" attr.type="boolean" color.r="200" color.g="160" color.b="110">
+    <default>FALSE</default>
+  </key>
+  <key id="l17" for="edge" attr.name="S46" attr.type="boolean" color.r="200" color.g="160" color.b="110">
+    <default>FALSE</default>
+  </key>
+  <key id="l18" for="edge" attr.name="S5" attr.type="boolean" color.r="255" color.g="132" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l19" for="edge" attr.name="S7" attr.type="boolean" color.r="130" color.g="75" color.b="225">
+    <default>FALSE</default>
+  </key>
+  <key id="l20" for="edge" attr.name="S75" attr.type="boolean" color.r="130" color.g="75" color.b="225">
+    <default>FALSE</default>
+  </key>
+  <key id="l21" for="edge" attr.name="S8" attr.type="boolean" color.r="75" color.g="225" color.b="100">
+    <default>FALSE</default>
+  </key>
+  <key id="l22" for="edge" attr.name="S9" attr.type="boolean" color.r="130" color.g="5" color.b="5">
+    <default>FALSE</default>
+  </key>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="x">975</data>
+      <data key="y">725</data>
+      <data key="label">Warschauer_\Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n1">
+      <data key="x">955</data>
+      <data key="y">704</data>
+      <data key="label">Schlesisches_\Tor</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n2">
+      <data key="x">931</data>
+      <data key="y">703</data>
+      <data key="label">Goerlitzer_\Bhf</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n3">
+      <data key="x">913</data>
+      <data key="y">702</data>
+      <data key="label">Kottbusser_\Tor</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n4">
+      <data key="x">894</data>
+      <data key="y">701</data>
+      <data key="label">Prinzenstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n5">
+      <data key="x">875</data>
+      <data key="y">700</data>
+      <data key="label">Hallesches_\Tor</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n6">
+      <data key="x">868</data>
+      <data key="y">689</data>
+      <data key="label">Moeckern-\bruecke</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n7">
+      <data key="x">858</data>
+      <data key="y">699</data>
+      <data key="label">Dummystation-2</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n8">
+      <data key="x">845</data>
+      <data key="y">713</data>
+      <data key="label">Gleis-\dreieck</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n9">
+      <data key="x">829</data>
+      <data key="y">713</data>
+      <data key="label">Kurfuersten-\str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n10">
+      <data key="x">821</data>
+      <data key="y">706</data>
+      <data key="label">Nollen-\dorfplatz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n11">
+      <data key="x">806</data>
+      <data key="y">717</data>
+      <data key="label">Wittenberg-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n12">
+      <data key="x">772</data>
+      <data key="y">718</data>
+      <data key="label">Kurfuersten-\damm</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n13">
+      <data key="x">760</data>
+      <data key="y">718</data>
+      <data key="label">Uhlandstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n14">
+      <data key="x">905</data>
+      <data key="y">875</data>
+      <data key="label">Pankow</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n15">
+      <data key="x">905</data>
+      <data key="y">844</data>
+      <data key="label">Vinetastr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n16">
+      <data key="x">893</data>
+      <data key="y">831</data>
+      <data key="label">Schoenhauser_\Allee</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n17">
+      <data key="x">894</data>
+      <data key="y">815</data>
+      <data key="label">Eberswalder_\Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n18">
+      <data key="x">933</data>
+      <data key="y">777</data>
+      <data key="label">Rosa-\Luxemburg-Pl</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n19">
+      <data key="x">935</data>
+      <data key="y">758</data>
+      <data key="label">Alexander-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n20">
+      <data key="x">935</data>
+      <data key="y">746</data>
+      <data key="label">Maerkisches_\Museum</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n21">
+      <data key="x">910</data>
+      <data key="y">722</data>
+      <data key="label">Spittel-\markt</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n22">
+      <data key="x">893</data>
+      <data key="y">722</data>
+      <data key="label">Hausvogtei-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n23">
+      <data key="x">884</data>
+      <data key="y">721</data>
+      <data key="label">Stadtmitte</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n24">
+      <data key="x">870</data>
+      <data key="y">721</data>
+      <data key="label">Mohrenstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n25">
+      <data key="x">866</data>
+      <data key="y">721</data>
+      <data key="label">Potsdamer_\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n26">
+      <data key="x">853</data>
+      <data key="y">721</data>
+      <data key="label">Mendelssohn-\Bartholdy-Park</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n27">
+      <data key="x">846</data>
+      <data key="y">685</data>
+      <data key="label">Yorckstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n28">
+      <data key="x">785</data>
+      <data key="y">733</data>
+      <data key="label">Zoologischer_\Garten</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n29">
+      <data key="x">767</data>
+      <data key="y">753</data>
+      <data key="label">Ernst-Reuter-\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n30">
+      <data key="x">758</data>
+      <data key="y">754</data>
+      <data key="label">Deutsche_\Oper</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n31">
+      <data key="x">740</data>
+      <data key="y">756</data>
+      <data key="label">Bismarckstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n32">
+      <data key="x">720</data>
+      <data key="y">758</data>
+      <data key="label">Sophie-\Charlotte-Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n33">
+      <data key="x">696</data>
+      <data key="y">760</data>
+      <data key="label">Kaiserdamm</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n34">
+      <data key="x">589</data>
+      <data key="y">760</data>
+      <data key="label">Ruhleben</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n35">
+      <data key="x">786</data>
+      <data key="y">697</data>
+      <data key="label">Augsburger_Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n36">
+      <data key="x">773</data>
+      <data key="y">697</data>
+      <data key="label">Spichernstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n37">
+      <data key="x">768</data>
+      <data key="y">697</data>
+      <data key="label">Hohenzollern-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n38">
+      <data key="x">751</data>
+      <data key="y">680</data>
+      <data key="label">Fehrbelliner_\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n39">
+      <data key="x">751</data>
+      <data key="y">661</data>
+      <data key="label">Heidelberger_\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n40">
+      <data key="x">681</data>
+      <data key="y">591</data>
+      <data key="label">Dahlem-Dorf</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n41">
+      <data key="x">677</data>
+      <data key="y">591</data>
+      <data key="label">Thielplatz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n42">
+      <data key="x">640</data>
+      <data key="y">628</data>
+      <data key="label">Krumme_Lanke</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n43">
+      <data key="x">794</data>
+      <data key="y">679</data>
+      <data key="label">Bayerischer_\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n44">
+      <data key="x">794</data>
+      <data key="y">654</data>
+      <data key="label">Innsbrucker_\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n45">
+      <data key="x">942</data>
+      <data key="y">767</data>
+      <data key="label">Schillingstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n46">
+      <data key="x">962</data>
+      <data key="y">767</data>
+      <data key="label">Weberwiese</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n47">
+      <data key="x">970</data>
+      <data key="y">759</data>
+      <data key="label">Frankfurter_\Tor</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n48">
+      <data key="x">1013</data>
+      <data key="y">759</data>
+      <data key="label">Frankfurter_\Allee</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n49">
+      <data key="x">1034</data>
+      <data key="y">760</data>
+      <data key="label">Magdalenenstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n50">
+      <data key="x">1042</data>
+      <data key="y">754</data>
+      <data key="label">Lichtenberg</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n51">
+      <data key="x">1082</data>
+      <data key="y">712</data>
+      <data key="label">Tierpark</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n52">
+      <data key="x">1115</data>
+      <data key="y">713</data>
+      <data key="label">Biesdorf-\Sued</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n53">
+      <data key="x">1154</data>
+      <data key="y">752</data>
+      <data key="label">Wuhletal</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n54">
+      <data key="x">1212</data>
+      <data key="y">810</data>
+      <data key="label">Cottbusser_\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n55">
+      <data key="x">1293</data>
+      <data key="y">810</data>
+      <data key="label">Hoenow</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n56">
+      <data key="x">708</data>
+      <data key="y">910</data>
+      <data key="label">Alt-Tegel</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n57">
+      <data key="x">708</data>
+      <data key="y">873</data>
+      <data key="label">Holzhauser_Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n58">
+      <data key="x">715</data>
+      <data key="y">866</data>
+      <data key="label">Otisstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n59">
+      <data key="x">816</data>
+      <data key="y">866</data>
+      <data key="label">Seestr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n60">
+      <data key="x">831</data>
+      <data key="y">851</data>
+      <data key="label">Leopoldplatz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n61">
+      <data key="x">831</data>
+      <data key="y">831</data>
+      <data key="label">Wedding</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n62">
+      <data key="x">831</data>
+      <data key="y">793</data>
+      <data key="label">Schwartz-\kopffstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n63">
+      <data key="x">866</data>
+      <data key="y">758</data>
+      <data key="label">Fried-richstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n64">
+      <data key="x">884</data>
+      <data key="y">741</data>
+      <data key="label">Franzoesische_\Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n65">
+      <data key="x">875</data>
+      <data key="y">713</data>
+      <data key="label">Kochstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n66">
+      <data key="x">874</data>
+      <data key="y">685</data>
+      <data key="label">Mehringdamm</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n67">
+      <data key="x">874</data>
+      <data key="y">679</data>
+      <data key="label">Platz_der_\Luftbruecke</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n68">
+      <data key="x">884</data>
+      <data key="y">669</data>
+      <data key="label">Paradestr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n69">
+      <data key="x">884</data>
+      <data key="y">654</data>
+      <data key="label">Tempelhof</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n70">
+      <data key="x">884</data>
+      <data key="y">559</data>
+      <data key="label">Alt-Mariendorf</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n71">
+      <data key="x">560</data>
+      <data key="y">764</data>
+      <data key="label">Rathaus_\Spandau</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n72">
+      <data key="x">560</data>
+      <data key="y">797</data>
+      <data key="label">Altstadt_\Spandau</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n73">
+      <data key="x">596</data>
+      <data key="y">833</data>
+      <data key="label">Haselhorst</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n74">
+      <data key="x">714</data>
+      <data key="y">833</data>
+      <data key="label">Jakob-Kaiser-\Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n75">
+      <data key="x">732</data>
+      <data key="y">815</data>
+      <data key="label">Jungfernheide</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n76">
+      <data key="x">740</data>
+      <data key="y">806</data>
+      <data key="label">Mierendorff-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n77">
+      <data key="x">739</data>
+      <data key="y">732</data>
+      <data key="label">Wilmers-\dorfer_Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n78">
+      <data key="x">738</data>
+      <data key="y">693</data>
+      <data key="label">Adenauer-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n79">
+      <data key="x">773</data>
+      <data key="y">680</data>
+      <data key="label">Berliner_\Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n80">
+      <data key="x">807</data>
+      <data key="y">679</data>
+      <data key="label">Eisenacher_\Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n81">
+      <data key="x">814</data>
+      <data key="y">685</data>
+      <data key="label">Kleistpark</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n82">
+      <data key="x">916</data>
+      <data key="y">685</data>
+      <data key="label">Hermann-\platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n83">
+      <data key="x">937</data>
+      <data key="y">686</data>
+      <data key="label">Rathaus_\Neukoelln</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n84">
+      <data key="x">949</data>
+      <data key="y">675</data>
+      <data key="label">Karl-\Marx-Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n85">
+      <data key="x">949</data>
+      <data key="y">657</data>
+      <data key="label">Neukoelln</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n86">
+      <data key="x">949</data>
+      <data key="y">582</data>
+      <data key="label">Parchimer_\Allee</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n87">
+      <data key="x">981</data>
+      <data key="y">550</data>
+      <data key="label">Johannisthaler_\Chaussee</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n88">
+      <data key="x">1073</data>
+      <data key="y">550</data>
+      <data key="label">Rudow</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n89">
+      <data key="x">802</data>
+      <data key="y">943</data>
+      <data key="label">Wittenau</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n90">
+      <data key="x">768</data>
+      <data key="y">910</data>
+      <data key="label">Karl-Bonhoeffer-Nervenklinik</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n91">
+      <data key="x">769</data>
+      <data key="y">890</data>
+      <data key="label">Lindauer_\Allee</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n92">
+      <data key="x">788</data>
+      <data key="y">871</data>
+      <data key="label">Paracelsus-\Bad</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n93">
+      <data key="x">823</data>
+      <data key="y">871</data>
+      <data key="label">Franz-\Neumann-Pl</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n94">
+      <data key="x">837</data>
+      <data key="y">857</data>
+      <data key="label">Osloer_Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n95">
+      <data key="x">863</data>
+      <data key="y">832</data>
+      <data key="label">Gesundbrunnen</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n96">
+      <data key="x">947</data>
+      <data key="y">746</data>
+      <data key="label">Jannowitz-bruecke</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n97">
+      <data key="x">913</data>
+      <data key="y">713</data>
+      <data key="label">Moritzplatz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n98">
+      <data key="x">912</data>
+      <data key="y">691</data>
+      <data key="label">Schoenleinstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n99">
+      <data key="x">916</data>
+      <data key="y">654</data>
+      <data key="label">Hermannstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n100">
+      <data key="x">802</data>
+      <data key="y">851</data>
+      <data key="label">Amrumer_Str</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n101">
+      <data key="x">801</data>
+      <data key="y">831</data>
+      <data key="label">Westhafen</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n102">
+      <data key="x">802</data>
+      <data key="y">758</data>
+      <data key="label">Dummystation-1</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n103">
+      <data key="x">774</data>
+      <data key="y">655</data>
+      <data key="label">Bundesplatz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n104">
+      <data key="x">774</data>
+      <data key="y">638</data>
+      <data key="label">Friedrich-Wilhelm-Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n105">
+      <data key="x">760</data>
+      <data key="y">623</data>
+      <data key="label">Walther-Schreiber-Platz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n106">
+      <data key="x">760</data>
+      <data key="y">607</data>
+      <data key="label">Schlossstr</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n107">
+      <data key="x">774</data>
+      <data key="y">593</data>
+      <data key="label">Rathaus_\Steglitz</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n108">
+      <data key="x">802</data>
+      <data key="y">1004</data>
+      <data key="label">S_Frohnau_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n109">
+      <data key="x">817</data>
+      <data key="y">928</data>
+      <data key="label">S_Wilhelmsruh_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n110">
+      <data key="x">817</data>
+      <data key="y">910</data>
+      <data key="label">S_Schönholz_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n111">
+      <data key="x">878</data>
+      <data key="y">848</data>
+      <data key="label">S_Bornholmer_Str_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n112">
+      <data key="x">863</data>
+      <data key="y">783</data>
+      <data key="label">S_Nordbahnhof_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n113">
+      <data key="x">866</data>
+      <data key="y">780</data>
+      <data key="label">S_Oranienburger_Str_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n114">
+      <data key="x">866</data>
+      <data key="y">708</data>
+      <data key="label">S_Anhalter_Bahnhof_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n115">
+      <data key="x">816</data>
+      <data key="y">654</data>
+      <data key="label">S_Schöneberg_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n116">
+      <data key="x">816</data>
+      <data key="y">634</data>
+      <data key="label">S_Friedenau_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n117">
+      <data key="x">752</data>
+      <data key="y">571</data>
+      <data key="label">S_Botanischer_Garten_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n118">
+      <data key="x">659</data>
+      <data key="y">571</data>
+      <data key="label">S_Sundgauer_Str_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n119">
+      <data key="x">635</data>
+      <data key="y">595</data>
+      <data key="label">S_Mexikoplatz_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n120">
+      <data key="x">635</data>
+      <data key="y">664</data>
+      <data key="label">S_Nikolassee_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n121">
+      <data key="x">629</data>
+      <data key="y">664</data>
+      <data key="label">S_Wannsee_Bhf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n122">
+      <data key="x">964</data>
+      <data key="y">934</data>
+      <data key="label">S_Karow_Bhf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n123">
+      <data key="x">847</data>
+      <data key="y">654</data>
+      <data key="label">S_Südkreuz_Bhf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n124">
+      <data key="x">847</data>
+      <data key="y">618</data>
+      <data key="label">S_Priesterweg_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n125">
+      <data key="x">869</data>
+      <data key="y">597</data>
+      <data key="label">S_Attilastr_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n126">
+      <data key="x">869</data>
+      <data key="y">476</data>
+      <data key="label">S_Lichtenrade_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n127">
+      <data key="x">634</data>
+      <data key="y">984</data>
+      <data key="label">S_Hennigsdorf_Bhf</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n128">
+      <data key="x">814</data>
+      <data key="y">618</data>
+      <data key="label">S_Südende_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n129">
+      <data key="x">729</data>
+      <data key="y">533</data>
+      <data key="label">S_Lichterfelde_Süd_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n130">
+      <data key="x">598</data>
+      <data key="y">726</data>
+      <data key="label">S_Pichelsberg_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n131">
+      <data key="x">696</data>
+      <data key="y">726</data>
+      <data key="label">S_Westkreuz_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n132">
+      <data key="x">785</data>
+      <data key="y">758</data>
+      <data key="label">S_Tiergarten_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n133">
+      <data key="x">955</data>
+      <data key="y">746</data>
+      <data key="label">S_Ostbahnhof_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n134">
+      <data key="x">1014</data>
+      <data key="y">727</data>
+      <data key="label">S_Ostkreuz_Bhf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n135">
+      <data key="x">1076</data>
+      <data key="y">670</data>
+      <data key="label">S_Betriebsbahnhof_Rummelsburg_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n136">
+      <data key="x">1125</data>
+      <data key="y">670</data>
+      <data key="label">Erkner</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n137">
+      <data key="x">922</data>
+      <data key="y">831</data>
+      <data key="label">S_Prenzlauer_Allee_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n138">
+      <data key="x">954</data>
+      <data key="y">826</data>
+      <data key="label">S_Greifswalder_Str_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n139">
+      <data key="x">983</data>
+      <data key="y">811</data>
+      <data key="label">S_Landsberger_Allee_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n140">
+      <data key="x">1003</data>
+      <data key="y">787</data>
+      <data key="label">S_Storkower_Str_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n141">
+      <data key="x">1001</data>
+      <data key="y">696</data>
+      <data key="label">S_Treptower_Park_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n142">
+      <data key="x">979</data>
+      <data key="y">672</data>
+      <data key="label">S_Sonnenallee_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n143">
+      <data key="x">730</data>
+      <data key="y">672</data>
+      <data key="label">S_Hohenzollerndamm_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n144">
+      <data key="x">710</data>
+      <data key="y">693</data>
+      <data key="label">S_Halensee_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n145">
+      <data key="x">709</data>
+      <data key="y">791</data>
+      <data key="label">S_Westend_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n146">
+      <data key="x">766</data>
+      <data key="y">829</data>
+      <data key="label">S_Beusselstr_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n147">
+      <data key="x">1097</data>
+      <data key="y">506</data>
+      <data key="label">S_Grünbergallee_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n148">
+      <data key="x">1097</data>
+      <data key="y">577</data>
+      <data key="label">S_Adlershof_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n149">
+      <data key="x">1057</data>
+      <data key="y">618</data>
+      <data key="label">S_Schöneweide_Bhf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n150">
+      <data key="x">1019</data>
+      <data key="y">657</data>
+      <data key="label">S_Baumschulenweg_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n151">
+      <data key="x">1088</data>
+      <data key="y">650</data>
+      <data key="label">S_Spindlersfeld_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n152">
+      <data key="x">1082</data>
+      <data key="y">789</data>
+      <data key="label">S_Friedrichsfelde_Ost_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n153">
+      <data key="x">1121</data>
+      <data key="y">787</data>
+      <data key="label">S_Biesdorf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n154">
+      <data key="x">1194</data>
+      <data key="y">713</data>
+      <data key="label">S_Mahlsdorf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n155">
+      <data key="x">1084</data>
+      <data key="y">805</data>
+      <data key="label">S_Springpfuhl_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n156">
+      <data key="x">1172</data>
+      <data key="y">893</data>
+      <data key="label">S_Ahrensfelde_Bhf_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n157">
+      <data key="x">1031</data>
+      <data key="y">858</data>
+      <data key="label">S_Wartenberg_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n158">
+      <data key="x">1019</data>
+      <data key="y">679</data>
+      <data key="label">S_Plänterwald_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n159">
+      <data key="x">1129</data>
+      <data key="y">578</data>
+      <data key="label">S_Grünau_(Berlin)</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n160">
+      <data key="x">914</data>
+      <data key="y">796</data>
+      <data key="label">Senefelder-\platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n161">
+      <data key="x">935</data>
+      <data key="y">752</data>
+      <data key="label">Klosterstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n162">
+      <data key="x">669</data>
+      <data key="y">760</data>
+      <data key="label">Theodor-\Heuss-Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n163">
+      <data key="x">643</data>
+      <data key="y">760</data>
+      <data key="label">Neu-Westend</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n164">
+      <data key="x">616</data>
+      <data key="y">760</data>
+      <data key="label">Olympia-\Stadion</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n165">
+      <data key="x">733</data>
+      <data key="y">643</data>
+      <data key="label">Ruedesheimer_Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n166">
+      <data key="x">716</data>
+      <data key="y">626</data>
+      <data key="label">Breitenbach-platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n167">
+      <data key="x">698</data>
+      <data key="y">608</data>
+      <data key="label">Podbielskiallee</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n168">
+      <data key="x">665</data>
+      <data key="y">604</data>
+      <data key="label">Oskar-Helene-Heim</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n169">
+      <data key="x">652</data>
+      <data key="y">616</data>
+      <data key="label">Onkel_Toms_Huette</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n170">
+      <data key="x">808</data>
+      <data key="y">693</data>
+      <data key="label">Viktoria-Luise-\Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n171">
+      <data key="x">794</data>
+      <data key="y">667</data>
+      <data key="label">Rathaus_Schoeneberg</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n172">
+      <data key="x">952</data>
+      <data key="y">767</data>
+      <data key="label">Strausberger_Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n173">
+      <data key="x">991</data>
+      <data key="y">759</data>
+      <data key="label">Samariterstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n174">
+      <data key="x">1062</data>
+      <data key="y">733</data>
+      <data key="label">Friedrichsfelde</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n175">
+      <data key="x">1135</data>
+      <data key="y">732</data>
+      <data key="label">Elsterwerdaer_\Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n176">
+      <data key="x">1174</data>
+      <data key="y">771</data>
+      <data key="label">Kaulsdorf-\Nord</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n177">
+      <data key="x">1193</data>
+      <data key="y">791</data>
+      <data key="label">Neue_Grottkauer_\Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n178">
+      <data key="x">1239</data>
+      <data key="y">810</data>
+      <data key="label">Hellersdorf</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n179">
+      <data key="x">1266</data>
+      <data key="y">810</data>
+      <data key="label">Louis-Lewin-Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n180">
+      <data key="x">708</data>
+      <data key="y">891</data>
+      <data key="label">Borsigwerke</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n181">
+      <data key="x">735</data>
+      <data key="y">866</data>
+      <data key="label">Scharnweberstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n182">
+      <data key="x">755</data>
+      <data key="y">866</data>
+      <data key="label">Kurt-Schumacher-\Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n183">
+      <data key="x">776</data>
+      <data key="y">866</data>
+      <data key="label">Afrikanische_Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n184">
+      <data key="x">796</data>
+      <data key="y">866</data>
+      <data key="label">Rehberge</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n185">
+      <data key="x">831</data>
+      <data key="y">812</data>
+      <data key="label">Reinicken-\dorfer_Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n186">
+      <data key="x">843</data>
+      <data key="y">781</data>
+      <data key="label">Naturkunde-\museum</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n187">
+      <data key="x">855</data>
+      <data key="y">769</data>
+      <data key="label">Oranien-\burger_Tor</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n188">
+      <data key="x">884</data>
+      <data key="y">635</data>
+      <data key="label">Alt-Tempelhof</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n189">
+      <data key="x">884</data>
+      <data key="y">616</data>
+      <data key="label">Kaiserin-\Augusta-Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n190">
+      <data key="x">884</data>
+      <data key="y">597</data>
+      <data key="label">Ullsteinstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n191">
+      <data key="x">884</data>
+      <data key="y">578</data>
+      <data key="label">Westphalweg</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n192">
+      <data key="x">578</data>
+      <data key="y">815</data>
+      <data key="label">Zitadelle</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n193">
+      <data key="x">620</data>
+      <data key="y">833</data>
+      <data key="label">Paulsternstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n194">
+      <data key="x">643</data>
+      <data key="y">833</data>
+      <data key="label">Rohrdamm</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n195">
+      <data key="x">667</data>
+      <data key="y">833</data>
+      <data key="label">Siemens-\damm</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n196">
+      <data key="x">690</data>
+      <data key="y">833</data>
+      <data key="label">Halemweg</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n197">
+      <data key="x">740</data>
+      <data key="y">781</data>
+      <data key="label">Richard-Wagner-\Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n198">
+      <data key="x">745</data>
+      <data key="y">687</data>
+      <data key="label">Konstanzer_\Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n199">
+      <data key="x">762</data>
+      <data key="y">680</data>
+      <data key="label">Blissestr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n200">
+      <data key="x">888</data>
+      <data key="y">685</data>
+      <data key="label">Gneisenaustr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n201">
+      <data key="x">902</data>
+      <data key="y">685</data>
+      <data key="label">Suedstern</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n202">
+      <data key="x">949</data>
+      <data key="y">632</data>
+      <data key="label">Grenzallee</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n203">
+      <data key="x">949</data>
+      <data key="y">607</data>
+      <data key="label">Blaschkoallee</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n204">
+      <data key="x">965</data>
+      <data key="y">566</data>
+      <data key="label">Britz-Sued</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n205">
+      <data key="x">1004</data>
+      <data key="y">550</data>
+      <data key="label">Lipschitzallee</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n206">
+      <data key="x">1027</data>
+      <data key="y">550</data>
+      <data key="label">Wutzkyallee</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n207">
+      <data key="x">1050</data>
+      <data key="y">550</data>
+      <data key="label">Zwickauer_\Damm</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n208">
+      <data key="x">785</data>
+      <data key="y">927</data>
+      <data key="label">Rathaus_\Reinickendorf</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n209">
+      <data key="x">806</data>
+      <data key="y">871</data>
+      <data key="label">Residenzstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n210">
+      <data key="x">850</data>
+      <data key="y">844</data>
+      <data key="label">Pankstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n211">
+      <data key="x">920</data>
+      <data key="y">773</data>
+      <data key="label">Voltastr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n212">
+      <data key="x">906</data>
+      <data key="y">788</data>
+      <data key="label">Bernauer_Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n213">
+      <data key="x">891</data>
+      <data key="y">802</data>
+      <data key="label">Rosenthaler_\Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n214">
+      <data key="x">877</data>
+      <data key="y">817</data>
+      <data key="label">Weinmeisterstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n215">
+      <data key="x">930</data>
+      <data key="y">729</data>
+      <data key="label">Heinrich-\Heine-Str</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n216">
+      <data key="x">916</data>
+      <data key="y">675</data>
+      <data key="label">Boddinstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n217">
+      <data key="x">916</data>
+      <data key="y">665</data>
+      <data key="label">Leinestr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n218">
+      <data key="x">834</data>
+      <data key="y">854</data>
+      <data key="label">Nauener_Platz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n219">
+      <data key="x">802</data>
+      <data key="y">813</data>
+      <data key="label">Birkenstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n220">
+      <data key="x">802</data>
+      <data key="y">794</data>
+      <data key="label">Turmstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n221">
+      <data key="x">802</data>
+      <data key="y">776</data>
+      <data key="label">Hansaplatz</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n222">
+      <data key="x">773</data>
+      <data key="y">688</data>
+      <data key="label">Guentzelstr</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n223">
+      <data key="x">802</data>
+      <data key="y">974</data>
+      <data key="label">S_Waidmannslust_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n224">
+      <data key="x">848</data>
+      <data key="y">879</data>
+      <data key="label">S_Wollankstr_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n225">
+      <data key="x">863</data>
+      <data key="y">807</data>
+      <data key="label">S_Humboldthain_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n226">
+      <data key="x">866</data>
+      <data key="y">740</data>
+      <data key="label">Brandenburger_\Tor</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n227">
+      <data key="x">831</data>
+      <data key="y">670</data>
+      <data key="label">S_Julius-Leber-Brücke_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n228">
+      <data key="x">795</data>
+      <data key="y">614</data>
+      <data key="label">S_Feuerbachstr_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n229">
+      <data key="x">705</data>
+      <data key="y">571</data>
+      <data key="label">S_Lichterfelde_West_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n230">
+      <data key="x">647</data>
+      <data key="y">583</data>
+      <data key="label">S_Zehlendorf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n231">
+      <data key="x">635</data>
+      <data key="y">629</data>
+      <data key="label">S_Schlachtensee_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n232">
+      <data key="x">925</data>
+      <data key="y">894</data>
+      <data key="label">S_Blankenburg_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n233">
+      <data key="x">945</data>
+      <data key="y">914</data>
+      <data key="label">S_Pankow-Heinersdorf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n234">
+      <data key="x">869</data>
+      <data key="y">566</data>
+      <data key="label">S_Marienfelde_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n235">
+      <data key="x">869</data>
+      <data key="y">536</data>
+      <data key="label">S_Buckower_Chaussee_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n236">
+      <data key="x">869</data>
+      <data key="y">506</data>
+      <data key="label">S_Schichauweg_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n237">
+      <data key="x">683</data>
+      <data key="y">935</data>
+      <data key="label">S_Heiligensee_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n238">
+      <data key="x">659</data>
+      <data key="y">959</data>
+      <data key="label">S_Schulzendorf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n239">
+      <data key="x">738</data>
+      <data key="y">910</data>
+      <data key="label">S_Eichborndamm_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n240">
+      <data key="x">793</data>
+      <data key="y">910</data>
+      <data key="label">S_Alt-Reinickendorf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n241">
+      <data key="x">792</data>
+      <data key="y">597</data>
+      <data key="label">S_Lankwitz_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n242">
+      <data key="x">771</data>
+      <data key="y">576</data>
+      <data key="label">S_Lichterfelde_Ost_Bhf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n243">
+      <data key="x">750</data>
+      <data key="y">554</data>
+      <data key="label">S_Osdorfer_Str_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n244">
+      <data key="x">579</data>
+      <data key="y">745</data>
+      <data key="label">S_Stresow_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n245">
+      <data key="x">623</data>
+      <data key="y">726</data>
+      <data key="label">S_Olympiastadion_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n246">
+      <data key="x">647</data>
+      <data key="y">726</data>
+      <data key="label">S_Heerstr_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n247">
+      <data key="x">672</data>
+      <data key="y">726</data>
+      <data key="label">S_Messe_Süd_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n248">
+      <data key="x">762</data>
+      <data key="y">732</data>
+      <data key="label">S_Savignyplatz_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n249">
+      <data key="x">845</data>
+      <data key="y">758</data>
+      <data key="label">S_Bellevue_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n250">
+      <data key="x">823</data>
+      <data key="y">758</data>
+      <data key="label">Hauptbahnhof</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n251">
+      <data key="x">900</data>
+      <data key="y">758</data>
+      <data key="label">S_Hackescher_Markt_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n252">
+      <data key="x">1045</data>
+      <data key="y">699</data>
+      <data key="label">S_Rummelsburg_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n253">
+      <data key="x">1083</data>
+      <data key="y">670</data>
+      <data key="label">Karlshorst</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n254">
+      <data key="x">1090</data>
+      <data key="y">670</data>
+      <data key="label">Köpenick</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n255">
+      <data key="x">1097</data>
+      <data key="y">670</data>
+      <data key="label">Hirschgarten</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n256">
+      <data key="x">1104</data>
+      <data key="y">670</data>
+      <data key="label">Friedrichshagen</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n257">
+      <data key="x">1111</data>
+      <data key="y">670</data>
+      <data key="label">Rahnsdorf</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n258">
+      <data key="x">1118</data>
+      <data key="y">670</data>
+      <data key="label">Wilhelmshagen</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n259">
+      <data key="x">1097</data>
+      <data key="y">542</data>
+      <data key="label">S_Altglienicke_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n260">
+      <data key="x">1077</data>
+      <data key="y">597</data>
+      <data key="label">Johannisthaler</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n261">
+      <data key="x">984</data>
+      <data key="y">657</data>
+      <data key="label">S_Köllnische_Heide_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n262">
+      <data key="x">1072</data>
+      <data key="y">634</data>
+      <data key="label">S_Oberspree_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n263">
+      <data key="x">1028</data>
+      <data key="y">741</data>
+      <data key="label">S_Nöldnerplatz_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n264">
+      <data key="x">1174</data>
+      <data key="y">732</data>
+      <data key="label">S_Kaulsdorf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n265">
+      <data key="x">665</data>
+      <data key="y">695</data>
+      <data key="label">S_Grunewald_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n266">
+      <data key="x">1102</data>
+      <data key="y">823</data>
+      <data key="label">S_Poelchaustr_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n267">
+      <data key="x">1119</data>
+      <data key="y">840</data>
+      <data key="label">S_Marzahn_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n268">
+      <data key="x">1137</data>
+      <data key="y">858</data>
+      <data key="label">S_Raoul-Wallenberg-Str_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n269">
+      <data key="x">1155</data>
+      <data key="y">876</data>
+      <data key="label">S_Mehrower_Allee_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n270">
+      <data key="x">1066</data>
+      <data key="y">823</data>
+      <data key="label">S_Gehrenseestr_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n271">
+      <data key="x">1049</data>
+      <data key="y">840</data>
+      <data key="label">S_Hohenschönhausen_Bhf_(Berlin)</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+
+    <edge id="e0" source="n0" target="n1">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e3" source="n3" target="n4">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e4" source="n4" target="n5">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e5" source="n5" target="n6">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e6" source="n6" target="n7">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e7" source="n7" target="n8">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e8" source="n8" target="n9">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e9" source="n9" target="n10">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e10" source="n10" target="n11">
+      <data key="line">l0,l1,l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e11" source="n11" target="n12">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e12" source="n12" target="n13">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e13" source="n14" target="n15">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e14" source="n15" target="n16">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e15" source="n16" target="n17">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e16" source="n18" target="n19">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e17" source="n20" target="n21">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e18" source="n21" target="n22">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e19" source="n22" target="n23">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e20" source="n23" target="n24">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e21" source="n24" target="n25">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e22" source="n25" target="n26">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e23" source="n26" target="n8">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e24" source="n8" target="n27">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e25" source="n27" target="n10">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e26" source="n11" target="n28">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e27" source="n28" target="n29">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e28" source="n29" target="n30">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e29" source="n30" target="n31">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e30" source="n31" target="n32">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e31" source="n32" target="n33">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e32" source="n11" target="n35">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e33" source="n35" target="n36">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e34" source="n36" target="n37">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e35" source="n37" target="n38">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e36" source="n38" target="n39">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e37" source="n40" target="n41">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e38" source="n19" target="n45">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e39" source="n46" target="n47">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e40" source="n48" target="n49">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e41" source="n49" target="n50">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e42" source="n51" target="n52">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e43" source="n57" target="n58">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e44" source="n59" target="n60">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e45" source="n60" target="n61">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e46" source="n63" target="n64">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e47" source="n64" target="n23">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e48" source="n23" target="n65">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e49" source="n65" target="n5">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e50" source="n5" target="n66">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e51" source="n66" target="n67">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e52" source="n67" target="n68">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e53" source="n68" target="n69">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e54" source="n71" target="n72">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e55" source="n74" target="n75">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e56" source="n75" target="n76">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e57" source="n31" target="n77">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e58" source="n77" target="n78">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e59" source="n79" target="n43">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e60" source="n43" target="n80">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e61" source="n80" target="n81">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e62" source="n81" target="n27">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e63" source="n27" target="n6">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e64" source="n6" target="n66">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e65" source="n82" target="n83">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e66" source="n83" target="n84">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e67" source="n84" target="n85">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e68" source="n90" target="n91">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e69" source="n91" target="n92">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e70" source="n93" target="n94">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e71" source="n19" target="n96">
+      <data key="line">l7,l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e72" source="n97" target="n3">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e73" source="n3" target="n98">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e74" source="n98" target="n82">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e75" source="n60" target="n100">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e76" source="n100" target="n101">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e77" source="n102" target="n28">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e78" source="n28" target="n12">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e79" source="n12" target="n36">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e80" source="n79" target="n103">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e81" source="n103" target="n104">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e82" source="n104" target="n105">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e83" source="n105" target="n106">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e84" source="n106" target="n107">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e85" source="n89" target="n109">
+      <data key="line">l9,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e86" source="n109" target="n110">
+      <data key="line">l9,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e87" source="n111" target="n95">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e88" source="n112" target="n113">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e89" source="n113" target="n63">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e90" source="n25" target="n114">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e91" source="n114" target="n7">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e92" source="n7" target="n27">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e93" source="n115" target="n116">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e94" source="n107" target="n117">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e95" source="n120" target="n121">
+      <data key="line">l9,l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e96" source="n14" target="n111">
+      <data key="line">l10,l21</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e97" source="n27" target="n123">
+      <data key="line">l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e98" source="n123" target="n124">
+      <data key="line">l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e99" source="n124" target="n125">
+      <data key="line">l10</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e100" source="n124" target="n128">
+      <data key="line">l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e101" source="n131" target="n77">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e102" source="n28" target="n132">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e103" source="n132" target="n102">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e104" source="n96" target="n133">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e105" source="n133" target="n0">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e106" source="n0" target="n134">
+      <data key="line">l13,l18,l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e107" source="n95" target="n16">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e108" source="n16" target="n137">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e109" source="n137" target="n138">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e110" source="n138" target="n139">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e111" source="n139" target="n140">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e112" source="n140" target="n48">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e113" source="n48" target="n134">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e114" source="n134" target="n141">
+      <data key="line">l14,l21</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e115" source="n141" target="n142">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e116" source="n142" target="n85">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e117" source="n85" target="n99">
+      <data key="line">l14,l15</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e118" source="n99" target="n69">
+      <data key="line">l14,l15</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e119" source="n69" target="n123">
+      <data key="line">l14,l15</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e120" source="n123" target="n115">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e121" source="n115" target="n44">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e122" source="n44" target="n103">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e123" source="n103" target="n39">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e124" source="n39" target="n143">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e125" source="n143" target="n144">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e126" source="n144" target="n131">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e127" source="n131" target="n33">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e128" source="n33" target="n145">
+      <data key="line">l14,l16</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e129" source="n145" target="n75">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e130" source="n75" target="n146">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e131" source="n146" target="n101">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e132" source="n101" target="n61">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e133" source="n61" target="n95">
+      <data key="line">l14</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e134" source="n149" target="n150">
+      <data key="line">l15,l21,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e135" source="n50" target="n152">
+      <data key="line">l18,l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e136" source="n152" target="n153">
+      <data key="line">l18</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e137" source="n153" target="n53">
+      <data key="line">l18</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e138" source="n152" target="n155">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e139" source="n111" target="n16">
+      <data key="line">l21</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e140" source="n141" target="n158">
+      <data key="line">l21,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e141" source="n158" target="n150">
+      <data key="line">l21,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e142" source="n148" target="n159">
+      <data key="line">l21</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e143" source="n0" target="n141">
+      <data key="line">l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e144" source="n160" target="n17">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e145" source="n18" target="n160">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e146" source="n161" target="n19">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e147" source="n20" target="n161">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e148" source="n162" target="n33">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e149" source="n163" target="n162">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e150" source="n164" target="n163">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e151" source="n34" target="n164">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e152" source="n165" target="n39">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e153" source="n166" target="n165">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e154" source="n167" target="n166">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e155" source="n40" target="n167">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e156" source="n168" target="n41">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e157" source="n169" target="n168">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e158" source="n42" target="n169">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e159" source="n170" target="n10">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e160" source="n43" target="n170">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e161" source="n171" target="n43">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e162" source="n44" target="n171">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e163" source="n172" target="n45">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e164" source="n46" target="n172">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e165" source="n173" target="n47">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e166" source="n48" target="n173">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e167" source="n174" target="n50">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e168" source="n51" target="n174">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e169" source="n175" target="n52">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e170" source="n53" target="n175">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e171" source="n176" target="n53">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e172" source="n177" target="n176">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e173" source="n54" target="n177">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e174" source="n178" target="n54">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e175" source="n179" target="n178">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e176" source="n55" target="n179">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e177" source="n180" target="n56">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e178" source="n57" target="n180">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e179" source="n181" target="n58">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e180" source="n182" target="n181">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e181" source="n183" target="n182">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e182" source="n184" target="n183">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e183" source="n59" target="n184">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e184" source="n185" target="n61">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e185" source="n62" target="n185">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e186" source="n186" target="n62">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e187" source="n187" target="n186">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e188" source="n63" target="n187">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e189" source="n188" target="n69">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e190" source="n189" target="n188">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e191" source="n190" target="n189">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e192" source="n191" target="n190">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e193" source="n70" target="n191">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e194" source="n192" target="n72">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e195" source="n73" target="n192">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e196" source="n193" target="n73">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e197" source="n194" target="n193">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e198" source="n195" target="n194">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e199" source="n196" target="n195">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e200" source="n74" target="n196">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e201" source="n197" target="n31">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e202" source="n76" target="n197">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e203" source="n198" target="n38">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e204" source="n78" target="n198">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e205" source="n199" target="n38">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e206" source="n79" target="n199">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e207" source="n200" target="n66">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e208" source="n201" target="n200">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e209" source="n82" target="n201">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e210" source="n202" target="n85">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e211" source="n203" target="n202">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e212" source="n86" target="n203">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e213" source="n204" target="n86">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e214" source="n87" target="n204">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e215" source="n205" target="n87">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e216" source="n206" target="n205">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e217" source="n207" target="n206">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e218" source="n88" target="n207">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e219" source="n208" target="n89">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e220" source="n90" target="n208">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e221" source="n209" target="n92">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e222" source="n93" target="n209">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e223" source="n210" target="n94">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e224" source="n95" target="n210">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e225" source="n211" target="n19">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e226" source="n212" target="n211">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e227" source="n213" target="n212">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e228" source="n214" target="n213">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e229" source="n95" target="n214">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e230" source="n215" target="n96">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e231" source="n97" target="n215">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e232" source="n216" target="n82">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e233" source="n217" target="n216">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e234" source="n99" target="n217">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e235" source="n218" target="n60">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e236" source="n94" target="n218">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e237" source="n219" target="n101">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e238" source="n220" target="n219">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e239" source="n221" target="n220">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e240" source="n102" target="n221">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e241" source="n222" target="n36">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e242" source="n79" target="n222">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e243" source="n223" target="n89">
+      <data key="line">l9,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e244" source="n108" target="n223">
+      <data key="line">l9,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e245" source="n224" target="n110">
+      <data key="line">l9,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e246" source="n111" target="n224">
+      <data key="line">l9,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e247" source="n225" target="n95">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e248" source="n112" target="n225">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e249" source="n226" target="n25">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e250" source="n63" target="n226">
+      <data key="line">l9,l10,l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e251" source="n227" target="n27">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e252" source="n115" target="n227">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e253" source="n228" target="n107">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e254" source="n116" target="n228">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e255" source="n229" target="n117">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e256" source="n118" target="n229">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e257" source="n230" target="n118">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e258" source="n119" target="n230">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e259" source="n231" target="n119">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e260" source="n120" target="n231">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e261" source="n232" target="n14">
+      <data key="line">l10,l21</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e262" source="n233" target="n232">
+      <data key="line">l10,l21</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e263" source="n122" target="n233">
+      <data key="line">l10,l21</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e264" source="n234" target="n125">
+      <data key="line">l10</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e265" source="n235" target="n234">
+      <data key="line">l10</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e266" source="n236" target="n235">
+      <data key="line">l10</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e267" source="n126" target="n236">
+      <data key="line">l10</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e268" source="n237" target="n56">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e269" source="n238" target="n237">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e270" source="n127" target="n238">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e271" source="n239" target="n56">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e272" source="n90" target="n239">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e273" source="n240" target="n90">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e274" source="n110" target="n240">
+      <data key="line">l11</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e275" source="n241" target="n128">
+      <data key="line">l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e276" source="n242" target="n241">
+      <data key="line">l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e277" source="n243" target="n242">
+      <data key="line">l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e278" source="n129" target="n243">
+      <data key="line">l12</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e279" source="n244" target="n71">
+      <data key="line">l13,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e280" source="n130" target="n244">
+      <data key="line">l13,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e281" source="n245" target="n130">
+      <data key="line">l13,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e282" source="n246" target="n245">
+      <data key="line">l13,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e283" source="n247" target="n246">
+      <data key="line">l13,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e284" source="n131" target="n247">
+      <data key="line">l13,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e285" source="n248" target="n28">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e286" source="n77" target="n248">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e287" source="n249" target="n63">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e288" source="n250" target="n249">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e289" source="n102" target="n250">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e290" source="n251" target="n19">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e291" source="n63" target="n251">
+      <data key="line">l13,l18,l19,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e292" source="n252" target="n134">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e293" source="n135" target="n252">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e294" source="n253" target="n135">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e295" source="n254" target="n253">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e296" source="n255" target="n254">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e297" source="n256" target="n255">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e298" source="n257" target="n256">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e299" source="n258" target="n257">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e300" source="n136" target="n258">
+      <data key="line">l13</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e301" source="n259" target="n147">
+      <data key="line">l15,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e302" source="n148" target="n259">
+      <data key="line">l15,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e303" source="n260" target="n148">
+      <data key="line">l15,l21,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e304" source="n149" target="n260">
+      <data key="line">l15,l21,l22</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e305" source="n261" target="n85">
+      <data key="line">l15</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e306" source="n150" target="n261">
+      <data key="line">l15</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e307" source="n262" target="n149">
+      <data key="line">l17</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e308" source="n151" target="n262">
+      <data key="line">l17</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e309" source="n263" target="n50">
+      <data key="line">l18,l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e310" source="n134" target="n263">
+      <data key="line">l18,l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e311" source="n264" target="n53">
+      <data key="line">l18</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e312" source="n154" target="n264">
+      <data key="line">l18</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e313" source="n265" target="n120">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e314" source="n131" target="n265">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e315" source="n266" target="n155">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e316" source="n267" target="n266">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e317" source="n268" target="n267">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e318" source="n269" target="n268">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e319" source="n156" target="n269">
+      <data key="line">l19</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e320" source="n270" target="n155">
+      <data key="line">l20</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e321" source="n271" target="n270">
+      <data key="line">l20</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e322" source="n157" target="n271">
+      <data key="line">l20</data>
+      <data key="smooth">false</data>
+    </edge>
+  </graph>
+</graphml>
