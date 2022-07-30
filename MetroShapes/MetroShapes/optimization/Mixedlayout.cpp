@@ -378,9 +378,6 @@ void Mixedlayout::_setTargetAngle2() {
 
                         // move best Edge left or right
                         if (minCost == 10e10) {
-                            // cout << "    conflict but all set with id: " << g[vdVec[i][j]].id << endl;
-                            // try to shift
-                            // or split it and run it again
                             for (auto subEdge : assignments[k]) {
                                 if (!count(edgesToSubdivide.begin(), edgesToSubdivide.end(), subEdge))
                                     edgesToSubdivide.push_back(subEdge);
@@ -395,7 +392,6 @@ void Mixedlayout::_setTargetAngle2() {
                             if (newIndex < 0) newIndex = 7;
                             if (newIndex > 7 ) newIndex = 0;
                             assignments[newIndex].push_back(edge);
-                            // cout << "assigned it from sector " << k << " to sector " << newIndex << endl;
                         }
                     }
 
@@ -576,8 +572,6 @@ void Mixedlayout::_setTargetAngle( void )
 
             vector<EdgeDescriptor> circMVector;
 
-            // for ( map< double, EdgeDescriptor >::iterator it = circM.begin();
-            // it != circM.end(); it++ ) {
             for (auto it : circM) {
                 EdgeDescriptor ed = it.second;
                 circMVector.push_back(ed);
@@ -588,9 +582,6 @@ void Mixedlayout::_setTargetAngle( void )
             bool firstIndexSet = false;
             bool validAssignment = false;
             int rotations = 0;
-            // for ( map< double, EdgeDescriptor >::iterator it = circM.begin();
-            //      it != circM.end(); it++ ) {
-            //    EdgeDescriptor ed = it->second;
 
             vector<double> assignments;
             double minCosts = 10e10;
@@ -615,24 +606,7 @@ void Mixedlayout::_setTargetAngle( void )
                         double target = 0, minDist = M_PI * 4.0;
 
 
-                        /**
-                         * index should always be below 9 as long as degree of the vertex is larger than 8
-                         * which never happens in one of the test example
-                         */
                         if (index < 9 + firstIndex) {
-                            /**
-                             * loop will not run when index is larger than 8.
-                             * Than the target angle of the edge will be the default as defined above. –> double target = 0
-                             * So independet of the angle of the edge.
-                             *
-                             * Maybe such an scenario is the problem:
-                             *      the first angle is close (lets say index 0)
-                             *      but we try all other sections as well.
-                             *      And because of some error, the last possible segment (index 8)
-                             *      is just a bit closer.
-                             *      And therefore all the next edges whit a greater angle
-                             *      have no "free segement" left
-                             */
                             for ( int k = index; k < 9 + firstIndex; k++ ) {
                                 double dist = fabs( sector[ k % 9 ] - angle );
                                 if( minDist > dist) {
@@ -643,16 +617,6 @@ void Mixedlayout::_setTargetAngle( void )
                             }
                         } else {
                             validAssignment = false;
-                            /**
-                             * this section of the code should never be executed in our case.
-                             * Because we sorted the edges first.
-                             *
-                             * Quick fix I have added: in case the index > 9 –> so according to the programm
-                             * there is no "free angle availabe anymore" we just take the
-                             * direction of the 9 possible that is the closest to the current angle.
-                             * Has the problem that we can assign the same direction to incident edges.
-                             */
-                            cout << "!!!!!!!!!! index >= 9 " << angle << ", " << index << " first index: " << firstIndex << endl;
                             double minDelta = 10e10;
                             for (auto sec : sector) {
                                 double delta = abs(angle - sec);
@@ -741,7 +705,6 @@ void Mixedlayout::_setTargetAngle( void )
                     }
                 }
 
-                // Todo calc cost of assignment
                 // rotate vector to try another sequence
                 int counter_i = 0;
                 double sumCosts = 0;
@@ -836,13 +799,6 @@ void Mixedlayout::_initOutputs( void )
         double theta = g[ edge ].target - angle;
 
         double cosTheta = cos( theta ), sinTheta = sin( theta );
-       // double beta = _targetLength;
-       // if (!g[ vdS ].isStation or !g[vdT].isStation) {
-       //     beta *= 0.5; // TODO
-       // }
-       // beta *= ( g[edge].stationsOnEdge + 1.0 );
-
-       // double s = beta * g[ edge ].weight / vji.norm();
         double s = 1.0;
         auto w = _w_mixed * g[edge].weight;
         if (g[vdS].smoothPath and g[vdT].smoothPath)
@@ -1154,8 +1110,6 @@ void Mixedlayout::_updateOutputs( void )
 #ifdef  OCTILINEAR_CONFLICT
     // copy conflict coefficient
     unsigned int countVE = 0;
-    // for ( VEMap::iterator it = _metro->VEconflict().begin();
-    //       it != _metro->VEconflict().end(); ++it ) {
     for (auto it : _metro->VEconflict()) {
         VertexDescriptor vdV = it.second.first;
         g[vdV].collision = true;
@@ -1163,10 +1117,9 @@ void Mixedlayout::_updateOutputs( void )
         VertexDescriptor vdS = source( ed, g );
         VertexDescriptor vdT = target( ed, g );
         double r = ratioR[ countVE ];
-        // r = ratioGeo[ countVE ];
 
-        Coord2 v = *g[ vdV ].coordPtr; // why is geoPtr here
-        Coord2 p = r * *g[ vdS ].coordPtr + ( 1.0-r ) * *g[ vdT ].coordPtr; // why is geo ptr here
+        Coord2 v = *g[ vdV ].coordPtr; 
+        Coord2 p = r * *g[ vdS ].coordPtr + ( 1.0-r ) * *g[ vdT ].coordPtr;
         double minD = _d_Beta/2.0;
         if (!g[vdS].isStation or !g[vdT].isStation)
             minD *= 0.5;
@@ -1174,7 +1127,6 @@ void Mixedlayout::_updateOutputs( void )
         if ( ( v - p ).norm() > 0.00001 ) {
             delta = minD / ( v - p ).norm();
         } else {
-            // cerr << "lies directly on edge " << endl;
             delta = minD;
             Coord2 v1 = *g[vdS].coordPtr - *g[vdT].coordPtr;
             Coord2 normal = Coord2(0,0);
@@ -1182,11 +1134,7 @@ void Mixedlayout::_updateOutputs( void )
             normal.setX(v1.x() * cos(angle) - v1.y() * sin(angle));
             normal.setY(v1.x() * sin(angle) + v1.y() * cos(angle));
             normal = normal.normalize();
-            // cerr << "normal: " << normal << endl;
             v = v + normal;
-            // move in direction of edge
-            // v = v + (*g[vdV].smoothPtr - v).normalize(); // looks like this is the issue – normalize when both equal is devide by zero
-
         }
 
 
@@ -1248,8 +1196,7 @@ double Mixedlayout::LeastSquare( unsigned int iter )
 */
 double Mixedlayout::ConjugateGradient( unsigned int iter )
 {
-    // initialization, prepare the square matrix
-    // initialization, prepare the square matrix
+
     Eigen::MatrixXd A;
     Eigen::VectorXd b, Ap;
     A = _coef.transpose() * _coef;
@@ -1401,7 +1348,6 @@ void Mixedlayout::complexPostProcessing() {
                 double k = count / (uDescriptorInbetween.size() + 2.0);
                 Coord2 distFirst = *g[first].coordPtr - g[first].closestPointOnEdge;
                 Coord2 distLast = *g[last].coordPtr - g[last].closestPointOnEdge;
-                // cout << "delta " << distFirst << " , " << distLast << endl;
                 double offX = (1.0 - k) * distFirst.x() + k * distLast.x();
                 double offY = (1.0 - k) * distFirst.y() + k * distLast.y();
                 g[vij].coordPtr->setX(x + offX);
@@ -1490,7 +1436,6 @@ void Mixedlayout::preparePostProcessing() {
         if (g[e_i].isSmoothPath) {
             BGL_FORALL_EDGES(e_j, g, UndirectedGraph ) {
                 if (g[e_i].id < g[e_j].id && g[e_j].isSmoothPath && g[e_i].isSmoothPath) {
-                // if ( g[e_j].isSmoothPath && g[e_i].isSmoothPath && g[e_i].id != g[e_j].id) {
                     auto e_iBetween = betweenGVert[e_i];
                     auto e_jBetween = betweenGVert[e_j];
                     // share element
@@ -1603,8 +1548,6 @@ void Mixedlayout::postProcessing() {
                 double k;
                 if (betweenVertex.size() != 0) k = count / betweenVertex.size();
                 else k = 0;
-                // x -= ( 1. - k ) * vi_dist.x() + ( k ) * vj_dist.x();
-                // y -= ( 1. - k ) * vi_dist.y() + ( k ) * vj_dist.y();
 
                 g[vij].coordPtr = new Coord2(x, y);
                 g[vij].smoothPtr = new Coord2(x, y);
@@ -1674,33 +1617,6 @@ void Mixedlayout::retrieve( void )
 
 
     unsigned int nRows = 0;
-    /*
-    // update coordinates
-    BGL_FORALL_VERTICES( vertex, g, UndirectedGraph ){
-        bool doClose = false;
-        for( unsigned int i = 0; i < (int) vdVec.size(); i++ ){
-            if( vertex == vdVec[i] ) doClose = true;
-        }
-        // if (doClose ) g[vertex].collision = true;
-        if( doClose){
-        // if( _metro->VEconflict().size() > 0 ){
-            // Coord2 downscale;
-            // downscale.x() = ( _var( nRows, 0 ) - g[ vertex ].coordPtr->x() )/2.0 + g[ vertex ].coordPtr->x();
-            // downscale.y() = ( _var( nRows, 0 ) - g[ vertex ].coordPtr->x() )/2.0 + g[ vertex ].coordPtr->x();;
-            // g[ vertex ].coordPtr->x() = downscale.x();
-            // g[ vertex ].coordPtr->y() = downscale.y();
-
-            g[ vertex ].coordPtr->x() = _var( nRows, 0 );
-            g[ vertex ].coordPtr->y() = _var( nRows + nVertices, 0 );
-            g[vertex].collision = true;
-        }
-        else{
-            g[ vertex ].coordPtr->x() = _var( nRows, 0 );
-            g[ vertex ].coordPtr->y() = _var( nRows + nVertices, 0 );
-            g[vertex].collision = false;
-        }
-        nRows++;
-    } */
 
     // check if two vertex are to close
     nRows = 0;
@@ -1749,189 +1665,11 @@ void Mixedlayout::retrieve( void )
     _metro->checkVEConflicts();
 }
 
-void Mixedlayout::_checkSameAnge() {
-    /*
-    cout << "checking if some vertex twice the angle " << endl;
-    UndirectedGraph & g = _metro->g();
-    // Check if for a vertex there is a outgoing edge that has the same target angle
-    BGL_FORALL_VERTICES( vertex, g, UndirectedGraph) {
-        DegreeSizeType degrees = out_degree( vertex, g );
-        vector<double> targetAngles;
-        bool conflict = false;
-        if (degrees > 1 && !g[vertex].smoothPath ) {
-            OutEdgeIterator e, e_end;
-            for ( tie( e, e_end ) = out_edges( vertex, g ); e != e_end; ++e ) {
-                EdgeDescriptor ed = *e;
-                double ta = g[ed].target;
-
-                VertexDescriptor vj = target(ed, g);
-                if (g[vj].id == g[vertex].id)
-                    vj = source(ed,g);
-
-                if (g[vertex].id > g[vj].id) {
-                    ta += M_PI;
-
-                    if (ta > M_PI)
-                        ta = - 2.0 * M_PI + ta; // Bring to a negative sector
-
-                }
-
-
-                if (find(targetAngles.begin(), targetAngles.end(), ta) != targetAngles.end()) { // not sure if optimal
-                    conflict = true;
-                }
-                targetAngles.push_back(ta);
-            }
-        }
-
-        // Do something In case there is a conflict
-        if (conflict && false) {
-            cout << "   There is a conflict around vertex: " << g[vertex].id << ", " << *g[vertex].namePtr << endl;
-            vector<EdgeDescriptor> edges;
-            vector<VertexDescriptor> neighbors;
-            vector<double> curAngles;
-
-            Coord2 vi_cor = *g[vertex].coordPtr;
-
-            OutEdgeIterator e, e_end;
-            for ( tie( e, e_end ) = out_edges( vertex, g ); e != e_end; ++e ) {
-                EdgeDescriptor edge = *e;
-                edges.push_back(edge);
-                VertexDescriptor neighbor = source(edge, g);
-                if ( neighbor == vertex )
-                    neighbor = target(edge, g);
-                neighbors.push_back(neighbor);
-
-                Coord2 vj_cor = *g[neighbor].coordPtr;
-                Coord2 vij_cor = Coord2(vj_cor.x() - vi_cor.x(),
-                                        vj_cor.y() - vi_cor.y());
-                double angle = atan2(vij_cor.y(), vij_cor.x());
-               curAngles.push_back(angle);
-               // curAngles.push_back(g[edge].curAngle);
-            }
-
-            // Solve Issue:
-            auto edgesSectors = _solveTargetAnglesConflict(edges, curAngles);
-            cout << "    sectors around" << *g[vertex].namePtr << endl;
-            for (auto p : edgesSectors) {
-
-                EdgeDescriptor ed = p.first;
-                auto sector = p.second;
-
-                VertexDescriptor vj = target(ed, g);
-                if (g[vj].id == g[vertex].id)
-                    vj = source(ed,g);
-
-                if (g[vertex].id > g[vj].id) {
-                    sector -= M_PI;
-
-                    if (sector > M_PI) {
-                        sector = - 2.0 * M_PI + sector; // Bring to a negative sector
-                    }
-                    if (sector < -M_PI)
-                        sector = 2.0 * M_PI + sector;
-
-                }
-
-                // if (g[vertex].id > g[vj].id)
-                //  sector -= M_PI;
-
-                // if (sector >= M_PI)
-                //     sector = 2.0 * M_PI - sector;
-                // if (sector <= -M_PI)
-                //     sector = 2.0 * M_PI + sector;
-
-                cout << "      " << *g[vj].namePtr << ": " <<  sector << endl;
-
-                g[ed].target = sector;
-            }
-        }
-    }
-     */
-}
+void Mixedlayout::_checkSameAnge() {}
 
 
 vector<pair<EdgeDescriptor, double>> Mixedlayout::_solveTargetAnglesConflict(vector<EdgeDescriptor> edges, vector<double> curAngles) {
     vector<pair<EdgeDescriptor, double>> result;
-    /*
-    vector<double> sectors { // -M_PI,
-        -3.0*M_PI/4.0, -M_PI/2.0, -M_PI/4.0, 0.0,
-        M_PI/4.0, M_PI/2.0, 3.0*M_PI/4.0, M_PI
-    };
-
-    UndirectedGraph & g = _metro->g();
-    cout << "solve asignment for angles: " << endl;
-    for (auto a : curAngles)
-        cout << "   " << a << endl;
-    // create all Permuations
-    vector<vector<pair<EdgeDescriptor, double>>> permutations;
-    vector<vector<double>> permut_costs;
-    for (int i = 0; i < edges.size(); i++ ) {
-        auto ed = edges[i];
-        auto edge_angle = curAngles[i];
-        // if (edge_angle < 0.0)
-        //     edge_angle += 2.0 * M_PI;
-
-        vector<pair<EdgeDescriptor, double>> allForEd;
-        vector<double> costs;
-
-        for (auto a : sectors) {
-            double sector_angle = a;
-
-            double sec_a = a;
-            double edg_a = edge_angle;
-
-            double cost = min(abs(sec_a - edg_a),
-                              abs((M_PI - sec_a) - (M_PI - edg_a)));
-            // cost *= degrees_source * degrees_target;
-            allForEd.push_back(pair<EdgeDescriptor, double>(ed, a));
-            costs.push_back(cost);
-        }
-        permutations.push_back(allForEd);
-        permut_costs.push_back(costs);
-    }
-
-    // Select all valid rotations from Permutations
-    vector<vector<pair<EdgeDescriptor, double>>> rotations;
-    vector<vector<double>> rotations_costs;
-    for (int ja = 0; ja < sectors.size(); ja++ ) {
-
-        vector<pair<EdgeDescriptor, double>> rot;
-        vector<double> costs;
-
-        for (int i = 0; i < edges.size(); i++ ) {
-            int index = ( i + ja ) % sectors.size();
-            rot.push_back(pair<EdgeDescriptor, double>(permutations[i][index]));
-            costs.push_back(permut_costs[i][index]);
-        }
-        rotations.push_back(rot);
-        rotations_costs.push_back(costs);
-    }
-
-    // Select the best rotation
-    double minCosts = 1000000.0;
-    for (int i = 0; i < rotations.size(); i++) {
-        auto rotation = rotations[i];
-        auto costs = rotations_costs[i];
-        double sumCosts = 0.0;
-        cout << "rotation: \n" << "   ";
-        for (int j = 0; j < rotation.size(); j++) {
-            sumCosts += costs[j];
-            cout << rotation[j].second << "/" << costs[j] << ", ";
-        }
-        cout << "; with costs " << sumCosts << endl;
-
-        if (minCosts > sumCosts) {
-            cout << "new min costs " << sumCosts << endl;
-            minCosts = sumCosts;
-            result = rotation;
-        }
-    }
-    cout << "    changed to: " << endl;
-    for (auto r : result)
-        cout << "      " << r.second << endl;
-    cout << "    with costs: " << minCosts << endl;
-    */
      return result;
 
 }

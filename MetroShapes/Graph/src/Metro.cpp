@@ -1074,7 +1074,6 @@ bool Metro::checkVEConflicts( void )
 
         double pointSPointT = pointS.x() - pointT.x();
         if (fabs(pointSPointT) < 0.0000001){
-            cerr << "Devide by zero" << endl;
             if (pointSPointT < 0.0) {
                 pointSPointT -= 0.001;
             } else {
@@ -1108,7 +1107,6 @@ bool Metro::checkVEConflicts( void )
         Coord2 pointT_ = *graph[vdT].geoPtr;
         double poitS_PointT = ( pointS_.x() - pointT_.x() );
         if (fabs(poitS_PointT) < 0.0000001) {
-            cerr << "Devide by zero" << endl;
             if (poitS_PointT < 0) {
                 poitS_PointT -= 0.0001;
             } else {

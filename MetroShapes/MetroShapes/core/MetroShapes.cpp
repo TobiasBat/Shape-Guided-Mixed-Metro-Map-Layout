@@ -286,11 +286,9 @@ void MetroShapes::scaleNonUniformlyBasedOnManuelPath() {
 void MetroShapes::output( void ) 
 {
     cout << "out the files" << endl;
-    // string outputname_metro_txt = _outputname + "_metro" + ".txt";
     string outputname_metro_graphml = _outputname + "_metro" + ".graphml";
     string outputname_guide_graphml = _outputname + "_guide" + ".graphml";
     if( !_outputname.empty() ){
-        // _metro.exportData( outputname_metro_txt );
         _metro.exportGraphML( outputname_metro_graphml );
         _guide.exportGraphML(outputname_guide_graphml );
     }

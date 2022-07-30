@@ -548,8 +548,6 @@ void Smooth::_initOutputs( void )
         double cosTheta = 1.0, sinTheta = 0.0;
 
         double wL = _w_contextlength;
-        // if (!g[ vdS ].isStation or !g[vdT].isStation)
-        //     wL *= 0.5;
         // x
         _output( nRows, 0 ) = wL * s * ( cosTheta * vji.x() - sinTheta * vji.y() );
         nRows++;
@@ -743,13 +741,12 @@ void Smooth::_updateCoefs( void )
                 w *= degrees;
                 #endif
                 if (_pathMode) {
-                    if (g[vertex].autoPath)// && g[vertex].intersectionsCount == 0)
+                    if (g[vertex].autoPath)
                         w *= 1;
                     else
                         w = 0;
                 } else {
-                    if (g[vertex].smoothPath) // TODO metro shape adden
-                        // w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+                    if (g[vertex].smoothPath)
                         w *= 1; 
                     else
                         w = 0;
@@ -905,7 +902,6 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
         Coord2 pi = *g[ vdS ].smoothPtr;
         Coord2 pj = *g[ vdT ].smoothPtr;
         Coord2 pji = pi - pj;
-        // double vjiNorm = vji.norm();
         double targetLength = _targetLength;
         if (!g[vdS].isStation or !g[vdT].isStation)
             targetLength *= 0.5;
@@ -969,7 +965,6 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
     BGL_FORALL_VERTICES(vertex, g, UndirectedGraph) {
         Coord2 cord = *g[vertex].geoPtr;
         Coord2 scord = *g[vertex].smoothPtr; 
-        // EdgeDescriptor closestEdge = EdgeDescriptor();
         double minEdgeDistance;
 
         EdgeDescriptor closestEdge = _guide->closestEdge(scord);
@@ -1004,15 +999,13 @@ void Smooth::_updateOutputs( void ) // TODO Check all divide zeros
         #ifdef WEIGHT_SHAPEAPPROXIMATION_BYDEGREE
         w *= degrees;
         #endif
-        // w *= min(1.0, 1.0 / (minEdgeDistance * _constSmooth)); // TODO other side of the equation has to be updated as well
         if (_pathMode) {
             if (g[vertex].autoPath)
                 w *= 1;
             else
                 w = 0;
         } else {
-            if (g[vertex].smoothPath) { // TODO metro shape adden
-                // w *= min(1.0, 1.0 / (g[vertex].initDistance * _constSmooth));
+            if (g[vertex].smoothPath) { 
                 w *= 1; 
             } else
                 w = 0;

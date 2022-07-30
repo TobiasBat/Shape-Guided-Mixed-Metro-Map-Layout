@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="x" for="node" attr.name="x_coordinate" attr.type="int"/>
+  <key id="y" for="node" attr.name="y_coordinate" attr.type="int"/>
+  <key id="label" for="node" attr.name="station_name" attr.type="string"/>
+  <key id="line" for="edge" attr.name="line" attr.type="string"/>
+  <key id="smooth" for="edge" attr.name="smooth" attr.type="boolean"/>
+  <key id="turningpoint" for="node" attr.name="turningpoint" attr.type="boolean"/>
+  <key id="smoothNode" for="node" attr.name="smoothNode" attr.type="boolean"/>
+  <key id="l0" for="edge" attr.name="Green" attr.type="boolean" color.r="0" color.g="165" color.b="79">
+    <default>FALSE</default>
+  </key>
+  <key id="l1" for="edge" attr.name="Orange" attr.type="boolean" color.r="244" color.g="113" color.b="21">
+    <default>FALSE</default>
+  </key>
+  <key id="l2" for="edge" attr.name="Yellow" attr.type="boolean" color.r="252" color.g="210" color.b="5">
+    <default>FALSE</default>
+  </key>
+  <key id="l3" for="edge" attr.name="Blue" attr.type="boolean" color.r="16" color.g="129" color.b="206">
+    <default>FALSE</default>
+  </key>
+  <key id="l4" for="edge" attr.name="7rY	" attr.type="boolean" color.r="5.60871e-312" color.g="5.60898e-312" color.b="1.77266e-307">
+    <default>FALSE</default>
+  </key>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="x">1083</data>
+      <data key="y">392</data>
+      <data key="label">Angrignon</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n1">
+      <data key="x">1133</data>
+      <data key="y">416</data>
+      <data key="label">Monk</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n2">
+      <data key="x">1186</data>
+      <data key="y">442</data>
+      <data key="label">Jolicoeur</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n3">
+      <data key="x">1235</data>
+      <data key="y">456</data>
+      <data key="label">Verdun</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n4">
+      <data key="x">1256</data>
+      <data key="y">469</data>
+      <data key="label">De_L'Eglise</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n5">
+      <data key="x">1258</data>
+      <data key="y">511</data>
+      <data key="label">LaSalle</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n6">
+      <data key="x">1245</data>
+      <data key="y">547</data>
+      <data key="label">Charlevoix</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n7">
+      <data key="x">1198</data>
+      <data key="y">568</data>
+      <data key="label">Lionel-\Groulx</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n8">
+      <data key="x">1167</data>
+      <data key="y">600</data>
+      <data key="label">Atwater</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n9">
+      <data key="x">1194</data>
+      <data key="y">625</data>
+      <data key="label">Guy-\Concordia</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n10">
+      <data key="x">1221</data>
+      <data key="y">652</data>
+      <data key="label">Peel</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n11">
+      <data key="x">1234</data>
+      <data key="y">665</data>
+      <data key="label">McGill</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n12">
+      <data key="x">1251</data>
+      <data key="y">686</data>
+      <data key="label">Place-\des-Arts</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n13">
+      <data key="x">1269</data>
+      <data key="y">702</data>
+      <data key="label">Saint-\Laurent</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n14">
+      <data key="x">1290</data>
+      <data key="y">718</data>
+      <data key="label">Berri-UQAM</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n15">
+      <data key="x">1302</data>
+      <data key="y">740</data>
+      <data key="label">Beaudry</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n16">
+      <data key="x">1326</data>
+      <data key="y">764</data>
+      <data key="label">Papineau</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n17">
+      <data key="x">1326</data>
+      <data key="y">807</data>
+      <data key="label">Frontenac</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n18">
+      <data key="x">1315</data>
+      <data key="y">846</data>
+      <data key="label">Prefontaine</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n19">
+      <data key="x">1332</data>
+      <data key="y">871</data>
+      <data key="label">Joliette</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n20">
+      <data key="x">1326</data>
+      <data key="y">905</data>
+      <data key="label">Pie-IX</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n21">
+      <data key="x">1351</data>
+      <data key="y">938</data>
+      <data key="label">Viau</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n22">
+      <data key="x">1352</data>
+      <data key="y">976</data>
+      <data key="label">Assomption</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n23">
+      <data key="x">1352</data>
+      <data key="y">1013</data>
+      <data key="label">Cadillac</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n24">
+      <data key="x">1370</data>
+      <data key="y">1041</data>
+      <data key="label">Langelier</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n25">
+      <data key="x">1388</data>
+      <data key="y">1070</data>
+      <data key="label">Radisson</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n26">
+      <data key="x">1405</data>
+      <data key="y">1107</data>
+      <data key="label">Honore-\Beaugrand</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n27">
+      <data key="x">704</data>
+      <data key="y">716</data>
+      <data key="label">Cote-Vertu</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n28">
+      <data key="x">746</data>
+      <data key="y">692</data>
+      <data key="label">Du_College</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n29">
+      <data key="x">816</data>
+      <data key="y">645</data>
+      <data key="label">De_La_\Savane</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n30">
+      <data key="x">850</data>
+      <data key="y">623</data>
+      <data key="label">Namur</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n31">
+      <data key="x">910</data>
+      <data key="y">628</data>
+      <data key="label">Plamondon</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n32">
+      <data key="x">943</data>
+      <data key="y">610</data>
+      <data key="label">Cote-Sainte-\Catherine</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n33">
+      <data key="x">969</data>
+      <data key="y">580</data>
+      <data key="label">Snowdon</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n34">
+      <data key="x">1007</data>
+      <data key="y">551</data>
+      <data key="label">Villa-Maria</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n35">
+      <data key="x">1082</data>
+      <data key="y">525</data>
+      <data key="label">Vendome</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n36">
+      <data key="x">1163</data>
+      <data key="y">540</data>
+      <data key="label">Place-\Saint-Henri</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n37">
+      <data key="x">1211</data>
+      <data key="y">596</data>
+      <data key="label">Georges-\Vanier</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n38">
+      <data key="x">1237</data>
+      <data key="y">624</data>
+      <data key="label">Lucien-\L'Allier</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n39">
+      <data key="x">1256</data>
+      <data key="y">639</data>
+      <data key="label">Bonaventure</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n40">
+      <data key="x">1280</data>
+      <data key="y">655</data>
+      <data key="label">Square-\Victoria</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n41">
+      <data key="x">1292</data>
+      <data key="y">678</data>
+      <data key="label">Place-\d'Armes</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n42">
+      <data key="x">1307</data>
+      <data key="y">696</data>
+      <data key="label">Champ-\de-Mars</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n43">
+      <data key="x">1249</data>
+      <data key="y">736</data>
+      <data key="label">Sherbrooke</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n44">
+      <data key="x">1186</data>
+      <data key="y">765</data>
+      <data key="label">Mont-Royal</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n45">
+      <data key="x">1153</data>
+      <data key="y">781</data>
+      <data key="label">Laurier</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n46">
+      <data key="x">1109</data>
+      <data key="y">797</data>
+      <data key="label">Rosemont</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n47">
+      <data key="x">1082</data>
+      <data key="y">813</data>
+      <data key="label">Beaubien</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n48">
+      <data key="x">1030</data>
+      <data key="y">833</data>
+      <data key="label">Jean-Talon</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n49">
+      <data key="x">964</data>
+      <data key="y">854</data>
+      <data key="label">Jarry</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n50">
+      <data key="x">918</data>
+      <data key="y">867</data>
+      <data key="label">Cremazie</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n51">
+      <data key="x">835</data>
+      <data key="y">890</data>
+      <data key="label">Sauve</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n52">
+      <data key="x">776</data>
+      <data key="y">911</data>
+      <data key="label">Henri-\Bourassa</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n53">
+      <data key="x">711</data>
+      <data key="y">934</data>
+      <data key="label">Cartier</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n54">
+      <data key="x">580</data>
+      <data key="y">937</data>
+      <data key="label">De_La_\Concorde</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n55">
+      <data key="x">531</data>
+      <data key="y">925</data>
+      <data key="label">Montmorency</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n56">
+      <data key="x">1418</data>
+      <data key="y">707</data>
+      <data key="label">Jean-\Drapeau</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n57">
+      <data key="x">1468</data>
+      <data key="y">769</data>
+      <data key="label">Longueuil-\Universite-\de-Sherbrooke</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n58">
+      <data key="x">989</data>
+      <data key="y">631</data>
+      <data key="label">Cote-des-\Neiges</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n59">
+      <data key="x">1017</data>
+      <data key="y">662</data>
+      <data key="label">Universite-\de-Montreal</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n60">
+      <data key="x">1041</data>
+      <data key="y">696</data>
+      <data key="label">Edouard-\Montpetit</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n61">
+      <data key="x">1029</data>
+      <data key="y">744</data>
+      <data key="label">Outremont</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n62">
+      <data key="x">987</data>
+      <data key="y">760</data>
+      <data key="label">Acadie</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n63">
+      <data key="x">986</data>
+      <data key="y">795</data>
+      <data key="label">Parc</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n64">
+      <data key="x">1008</data>
+      <data key="y">816</data>
+      <data key="label">De_Castelnau</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n65">
+      <data key="x">1063</data>
+      <data key="y">873</data>
+      <data key="label">Fabre</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n66">
+      <data key="x">1088</data>
+      <data key="y">902</data>
+      <data key="label">D'Iberville</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n67">
+      <data key="x">1101</data>
+      <data key="y">931</data>
+      <data key="label">Saint-\Michel</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+
+    <edge id="e0" source="n0" target="n1">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e3" source="n3" target="n4">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e4" source="n4" target="n5">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e5" source="n5" target="n6">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e6" source="n6" target="n7">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e7" source="n7" target="n8">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e8" source="n8" target="n9">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e9" source="n9" target="n10">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e10" source="n10" target="n11">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e11" source="n11" target="n12">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e12" source="n12" target="n13">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e13" source="n13" target="n14">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e14" source="n14" target="n15">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e15" source="n15" target="n16">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e16" source="n16" target="n17">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e17" source="n17" target="n18">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e18" source="n18" target="n19">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e19" source="n19" target="n20">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e20" source="n20" target="n21">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e21" source="n21" target="n22">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e22" source="n22" target="n23">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e23" source="n23" target="n24">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e24" source="n24" target="n25">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e25" source="n25" target="n26">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e26" source="n27" target="n28">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e27" source="n28" target="n29">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e28" source="n29" target="n30">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e29" source="n30" target="n31">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e30" source="n31" target="n32">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e31" source="n32" target="n33">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e32" source="n33" target="n34">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e33" source="n34" target="n35">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e34" source="n35" target="n36">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e35" source="n36" target="n7">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e36" source="n7" target="n37">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e37" source="n37" target="n38">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e38" source="n38" target="n39">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e39" source="n39" target="n40">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e40" source="n40" target="n41">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e41" source="n41" target="n42">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e42" source="n42" target="n14">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e43" source="n14" target="n43">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e44" source="n43" target="n44">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e45" source="n44" target="n45">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e46" source="n45" target="n46">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e47" source="n46" target="n47">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e48" source="n47" target="n48">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e49" source="n48" target="n49">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e50" source="n49" target="n50">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e51" source="n50" target="n51">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e52" source="n51" target="n52">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e53" source="n52" target="n53">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e54" source="n53" target="n54">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e55" source="n54" target="n55">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e56" source="n14" target="n56">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e57" source="n56" target="n57">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e58" source="n33" target="n58">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e59" source="n58" target="n59">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e60" source="n59" target="n60">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e61" source="n60" target="n61">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e62" source="n61" target="n62">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e63" source="n62" target="n63">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e64" source="n63" target="n64">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e65" source="n64" target="n48">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e66" source="n48" target="n65">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e67" source="n65" target="n66">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e68" source="n66" target="n67">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="x" for="node" attr.name="x_coordinate" attr.type="int"/>
+  <key id="y" for="node" attr.name="y_coordinate" attr.type="int"/>
+  <key id="label" for="node" attr.name="station_name" attr.type="string"/>
+  <key id="line" for="edge" attr.name="line" attr.type="string"/>
+  <key id="smooth" for="edge" attr.name="smooth" attr.type="boolean"/>
+  <key id="turningpoint" for="node" attr.name="turningpoint" attr.type="boolean"/>
+  <key id="smoothNode" for="node" attr.name="smoothNode" attr.type="boolean"/>
+  <key id="l0" for="edge" attr.name="Wenhu" attr.type="boolean" color.r="167" color.g="76" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l1" for="edge" attr.name="Danshui" attr.type="boolean" color.r="255" color.g="0" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l2" for="edge" attr.name="Xinbeitou-Branch" attr.type="boolean" color.r="244" color.g="139" color.b="154">
+    <default>FALSE</default>
+  </key>
+  <key id="l3" for="edge" attr.name="Xindian" attr.type="boolean" color.r="0" color.g="128" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l4" for="edge" attr.name="Xiaobitan-Branch" attr.type="boolean" color.r="181" color.g="217" color.b="49">
+    <default>FALSE</default>
+  </key>
+  <key id="l5" for="edge" attr.name="Zhonghe" attr.type="boolean" color.r="255" color.g="165" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l6" for="edge" attr.name="Bannan" attr.type="boolean" color.r="0" color.g="24" color.b="255">
+    <default>FALSE</default>
+  </key>
+  <key id="l7" for="edge" attr.name="Luzhou" attr.type="boolean" color.r="255" color.g="165" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l8" for="edge" attr.name="Luzhou" attr.type="boolean" color.r="255" color.g="165" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l9" for="edge" attr.name="Xiaonanmen" attr.type="boolean" color.r="209" color.g="226" color.b="52">
+    <default>FALSE</default>
+  </key>
+  <key id="l10" for="edge" attr.name="" attr.type="boolean" color.r="5.94138e-312" color.g="1.77266e-307" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="x">1282</data>
+      <data key="y">733</data>
+      <data key="label">Taipei_Nangang_\Exhibition_\Center</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n1">
+      <data key="x">1302</data>
+      <data key="y">763</data>
+      <data key="label">Nangang_\Software_Park</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n2">
+      <data key="x">1311</data>
+      <data key="y">794</data>
+      <data key="label">Donghu</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n3">
+      <data key="x">1306</data>
+      <data key="y">822</data>
+      <data key="label">Huzhou</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n4">
+      <data key="x">1287</data>
+      <data key="y">846</data>
+      <data key="label">Dahu_Park</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n5">
+      <data key="x">1255</data>
+      <data key="y">858</data>
+      <data key="label">Neihu</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n6">
+      <data key="x">1214</data>
+      <data key="y">849</data>
+      <data key="label">Wende</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n7">
+      <data key="x">1168</data>
+      <data key="y">849</data>
+      <data key="label">Gangqian</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n8">
+      <data key="x">1128</data>
+      <data key="y">858</data>
+      <data key="label">Xihu</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n9">
+      <data key="x">1095</data>
+      <data key="y">846</data>
+      <data key="label">Jiannan_Rd.</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n10">
+      <data key="x">1076</data>
+      <data key="y">820</data>
+      <data key="label">Dazhi</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n11">
+      <data key="x">1073</data>
+      <data key="y">785</data>
+      <data key="label">Songshan_\Airport</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n12">
+      <data key="x">1084</data>
+      <data key="y">758</data>
+      <data key="label">Zhongshan_\Junior_\High_School</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n13">
+      <data key="x">1096</data>
+      <data key="y">739</data>
+      <data key="label">Nanjing_\E._Rd.</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n14">
+      <data key="x">1106</data>
+      <data key="y">727</data>
+      <data key="label">Zhongxiao_\Fuxing</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n15">
+      <data key="x">1106</data>
+      <data key="y">590</data>
+      <data key="label">Linguang</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n16">
+      <data key="x">1209</data>
+      <data key="y">488</data>
+      <data key="label">Taipei_Zoo</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n17">
+      <data key="x">672</data>
+      <data key="y">1108</data>
+      <data key="label">Danshui</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n18">
+      <data key="x">784</data>
+      <data key="y">995</data>
+      <data key="label">Guandu</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n19">
+      <data key="x">902</data>
+      <data key="y">995</data>
+      <data key="label">Beitou</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n20">
+      <data key="x">978</data>
+      <data key="y">920</data>
+      <data key="label">Mingde</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n21">
+      <data key="x">978</data>
+      <data key="y">771</data>
+      <data key="label">Minquan_\W._Rd.</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n22">
+      <data key="x">978</data>
+      <data key="y">724</data>
+      <data key="label">Shuanglian</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n23">
+      <data key="x">1023</data>
+      <data key="y">679</data>
+      <data key="label">Taipei_\Main_\Station</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n24">
+      <data key="x">1032</data>
+      <data key="y">670</data>
+      <data key="label">NTU_\Hospital</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n25">
+      <data key="x">1032</data>
+      <data key="y">623</data>
+      <data key="label">Chiang_\Kai-Shek_\Memorial_Hall</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n26">
+      <data key="x">939</data>
+      <data key="y">1032</data>
+      <data key="label">Xinbeitou</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n27">
+      <data key="x">1099</data>
+      <data key="y">395</data>
+      <data key="label">Xindian</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n28">
+      <data key="x">1056</data>
+      <data key="y">438</data>
+      <data key="label">Qizhang</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n29">
+      <data key="x">1056</data>
+      <data key="y">573</data>
+      <data key="label">Gongguan</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n30">
+      <data key="x">1032</data>
+      <data key="y">597</data>
+      <data key="label">Guting</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n31">
+      <data key="x">998</data>
+      <data key="y">438</data>
+      <data key="label">Xiaobitan</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n32">
+      <data key="x">892</data>
+      <data key="y">457</data>
+      <data key="label">Nanshijiao</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n33">
+      <data key="x">1258</data>
+      <data key="y">705</data>
+      <data key="label">Nangang</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n34">
+      <data key="x">1232</data>
+      <data key="y">679</data>
+      <data key="label">Kunyang</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n35">
+      <data key="x">1208</data>
+      <data key="y">655</data>
+      <data key="label">Houshanpi</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n36">
+      <data key="x">1177</data>
+      <data key="y">654</data>
+      <data key="label">Yongchun</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n37">
+      <data key="x">1156</data>
+      <data key="y">674</data>
+      <data key="label">Taipei_\City_Hall</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n38">
+      <data key="x">1137</data>
+      <data key="y">693</data>
+      <data key="label">Sun_Yat-Sen_\Memorial_Hall</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n39">
+      <data key="x">1118</data>
+      <data key="y">713</data>
+      <data key="label">Zhongxiao_\Dunhua</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">true</data>
+    </node>
+    <node id="n40">
+      <data key="x">1072</data>
+      <data key="y">727</data>
+      <data key="label">Zhongxiao_\Xinsheng</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n41">
+      <data key="x">1000</data>
+      <data key="y">655</data>
+      <data key="label">Ximen</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n42">
+      <data key="x">910</data>
+      <data key="y">655</data>
+      <data key="label">Jiangzicui</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n43">
+      <data key="x">664</data>
+      <data key="y">410</data>
+      <data key="label">Yongning</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n44">
+      <data key="x">680</data>
+      <data key="y">652</data>
+      <data key="label">Fu_Jen_\University</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n45">
+      <data key="x">818</data>
+      <data key="y">652</data>
+      <data key="label">Xianse_\Temple</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n46">
+      <data key="x">937</data>
+      <data key="y">771</data>
+      <data key="label">Daqiaotou</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n47">
+      <data key="x">760</data>
+      <data key="y">860</data>
+      <data key="label">Luzhou</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n48">
+      <data key="x">848</data>
+      <data key="y">860</data>
+      <data key="label">St._Ignatius_\High_School</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n49">
+      <data key="x">1028</data>
+      <data key="y">771</data>
+      <data key="label">Xingtian_\Temple</data>
+      <data key="turningpoint">true</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n50">
+      <data key="x">1106</data>
+      <data key="y">693</data>
+      <data key="label">Daan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n51">
+      <data key="x">1106</data>
+      <data key="y">659</data>
+      <data key="label">Technology_\Building</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n52">
+      <data key="x">1106</data>
+      <data key="y">624</data>
+      <data key="label">Liuzhangli</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n53">
+      <data key="x">1126</data>
+      <data key="y">570</data>
+      <data key="label">Xinhai</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n54">
+      <data key="x">1147</data>
+      <data key="y">549</data>
+      <data key="label">Wanfang_\Hospital</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n55">
+      <data key="x">1167</data>
+      <data key="y">529</data>
+      <data key="label">Wanfang_\Community</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n56">
+      <data key="x">1188</data>
+      <data key="y">508</data>
+      <data key="label">Muzha</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n57">
+      <data key="x">709</data>
+      <data key="y">1071</data>
+      <data key="label">Hongshulin</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n58">
+      <data key="x">747</data>
+      <data key="y">1033</data>
+      <data key="label">Zhuwei</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n59">
+      <data key="x">823</data>
+      <data key="y">995</data>
+      <data key="label">Zhongyi</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n60">
+      <data key="x">863</data>
+      <data key="y">995</data>
+      <data key="label">Fuxinggang</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n61">
+      <data key="x">921</data>
+      <data key="y">977</data>
+      <data key="label">Qiyan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n62">
+      <data key="x">940</data>
+      <data key="y">958</data>
+      <data key="label">Qilian</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n63">
+      <data key="x">959</data>
+      <data key="y">939</data>
+      <data key="label">Shipai</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n64">
+      <data key="x">978</data>
+      <data key="y">890</data>
+      <data key="label">Zhishan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n65">
+      <data key="x">978</data>
+      <data key="y">860</data>
+      <data key="label">Shilin</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n66">
+      <data key="x">978</data>
+      <data key="y">831</data>
+      <data key="label">Jiantan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n67">
+      <data key="x">978</data>
+      <data key="y">801</data>
+      <data key="label">Yuanshan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n68">
+      <data key="x">1000</data>
+      <data key="y">702</data>
+      <data key="label">Zhongshan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n69">
+      <data key="x">1078</data>
+      <data key="y">417</data>
+      <data key="label">Xindian_\City_\Office</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n70">
+      <data key="x">1056</data>
+      <data key="y">472</data>
+      <data key="label">Dapinglin</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n71">
+      <data key="x">1056</data>
+      <data key="y">506</data>
+      <data key="label">Jingmei</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n72">
+      <data key="x">1056</data>
+      <data key="y">539</data>
+      <data key="label">Wanlong</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n73">
+      <data key="x">1044</data>
+      <data key="y">585</data>
+      <data key="label">Taipower_\Building</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n74">
+      <data key="x">997</data>
+      <data key="y">562</data>
+      <data key="label">Jingan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n75">
+      <data key="x">962</data>
+      <data key="y">527</data>
+      <data key="label">Yongan_\Market</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n76">
+      <data key="x">927</data>
+      <data key="y">492</data>
+      <data key="label">Dingxi</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n77">
+      <data key="x">1047</data>
+      <data key="y">703</data>
+      <data key="label">Shandao_\Temple</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n78">
+      <data key="x">955</data>
+      <data key="y">655</data>
+      <data key="label">Longshan_\Temple</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n79">
+      <data key="x">875</data>
+      <data key="y">620</data>
+      <data key="label">Xinpu</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n80">
+      <data key="x">839</data>
+      <data key="y">585</data>
+      <data key="label">Banqiao</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n81">
+      <data key="x">804</data>
+      <data key="y">550</data>
+      <data key="label">Fuzhong</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n82">
+      <data key="x">769</data>
+      <data key="y">515</data>
+      <data key="label">Far_Eastern_\Hospital</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n83">
+      <data key="x">734</data>
+      <data key="y">480</data>
+      <data key="label">Haishan</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n84">
+      <data key="x">699</data>
+      <data key="y">445</data>
+      <data key="label">Tucheng</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n85">
+      <data key="x">726</data>
+      <data key="y">652</data>
+      <data key="label">Xinzhuang</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n86">
+      <data key="x">772</data>
+      <data key="y">652</data>
+      <data key="label">Touqianzhuang</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n87">
+      <data key="x">847</data>
+      <data key="y">682</data>
+      <data key="label">Sanchong</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n88">
+      <data key="x">877</data>
+      <data key="y">712</data>
+      <data key="label">Cailiao</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n89">
+      <data key="x">907</data>
+      <data key="y">741</data>
+      <data key="label">Taipei_\Bridge</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n90">
+      <data key="x">804</data>
+      <data key="y">860</data>
+      <data key="label">Sanmin_Senior_\High_School</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n91">
+      <data key="x">907</data>
+      <data key="y">801</data>
+      <data key="label">Sanhe_Junior_\High_School</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n92">
+      <data key="x">877</data>
+      <data key="y">831</data>
+      <data key="label">Sanchong_\Elementary_School</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n93">
+      <data key="x">1003</data>
+      <data key="y">771</data>
+      <data key="label">Zhongshan_\Elementary_School</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n94">
+      <data key="x">1050</data>
+      <data key="y">749</data>
+      <data key="label">Songjiang_\Nanjing</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+    <node id="n95">
+      <data key="x">1016</data>
+      <data key="y">639</data>
+      <data key="label">Xiaonanmen</data>
+      <data key="turningpoint">false</data>
+      <data key="smoothNode">false</data>
+    </node>
+
+    <edge id="e0" source="n0" target="n1">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e3" source="n3" target="n4">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e4" source="n4" target="n5">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e5" source="n5" target="n6">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e6" source="n6" target="n7">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e7" source="n7" target="n8">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e8" source="n8" target="n9">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e9" source="n9" target="n10">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e10" source="n10" target="n11">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e11" source="n11" target="n12">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e12" source="n12" target="n13">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e13" source="n13" target="n14">
+      <data key="line">l0</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e14" source="n21" target="n22">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e15" source="n23" target="n24">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e16" source="n24" target="n25">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e17" source="n26" target="n19">
+      <data key="line">l2</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e18" source="n30" target="n25">
+      <data key="line">l3,l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e19" source="n31" target="n28">
+      <data key="line">l4</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e20" source="n0" target="n33">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e21" source="n33" target="n34">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e22" source="n34" target="n35">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e23" source="n35" target="n36">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e24" source="n36" target="n37">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e25" source="n37" target="n38">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e26" source="n38" target="n39">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e27" source="n39" target="n14">
+      <data key="line">l6</data>
+      <data key="smooth">true</data>
+    </edge>
+    <edge id="e28" source="n14" target="n40">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e29" source="n23" target="n41">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e30" source="n46" target="n21">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e31" source="n50" target="n14">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e32" source="n51" target="n50">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e33" source="n52" target="n51">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e34" source="n15" target="n52">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e35" source="n53" target="n15">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e36" source="n54" target="n53">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e37" source="n55" target="n54">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e38" source="n56" target="n55">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e39" source="n16" target="n56">
+      <data key="line">l0</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e40" source="n57" target="n17">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e41" source="n58" target="n57">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e42" source="n18" target="n58">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e43" source="n59" target="n18">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e44" source="n60" target="n59">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e45" source="n19" target="n60">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e46" source="n61" target="n19">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e47" source="n62" target="n61">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e48" source="n63" target="n62">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e49" source="n20" target="n63">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e50" source="n64" target="n20">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e51" source="n65" target="n64">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e52" source="n66" target="n65">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e53" source="n67" target="n66">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e54" source="n21" target="n67">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e55" source="n68" target="n22">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e56" source="n23" target="n68">
+      <data key="line">l1</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e57" source="n69" target="n27">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e58" source="n28" target="n69">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e59" source="n70" target="n28">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e60" source="n71" target="n70">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e61" source="n72" target="n71">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e62" source="n29" target="n72">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e63" source="n73" target="n29">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e64" source="n30" target="n73">
+      <data key="line">l3</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e65" source="n74" target="n30">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e66" source="n75" target="n74">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e67" source="n76" target="n75">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e68" source="n32" target="n76">
+      <data key="line">l5</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e69" source="n77" target="n23">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e70" source="n40" target="n77">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e71" source="n78" target="n41">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e72" source="n42" target="n78">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e73" source="n79" target="n42">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e74" source="n80" target="n79">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e75" source="n81" target="n80">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e76" source="n82" target="n81">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e77" source="n83" target="n82">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e78" source="n84" target="n83">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e79" source="n43" target="n84">
+      <data key="line">l6</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e80" source="n85" target="n44">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e81" source="n86" target="n85">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e82" source="n45" target="n86">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e83" source="n87" target="n45">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e84" source="n88" target="n87">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e85" source="n89" target="n88">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e86" source="n46" target="n89">
+      <data key="line">l7</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e87" source="n90" target="n47">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e88" source="n48" target="n90">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e89" source="n91" target="n46">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e90" source="n92" target="n91">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e91" source="n48" target="n92">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e92" source="n93" target="n21">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e93" source="n49" target="n93">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e94" source="n94" target="n40">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e95" source="n49" target="n94">
+      <data key="line">l8</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e96" source="n95" target="n25">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+    <edge id="e97" source="n41" target="n95">
+      <data key="line">l9</data>
+      <data key="smooth">false</data>
+    </edge>
+  </graph>
+</graphml>
