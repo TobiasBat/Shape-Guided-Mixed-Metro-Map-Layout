@@ -1,5 +1,3 @@
-#First Pipeline
-
 ## Requirements
 
 + cmake 3.10+
