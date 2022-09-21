@@ -55,7 +55,7 @@ using namespace std;
 // #define BLACKWHITE
 
 // #define HIGHLIGHTSMOOTHPATH //final style remove for debug
-#define HIGHLIGHTMATCHPATH
+// #define HIGHLIGHTMATCHPATH
 
 //------------------------------------------------------------------------------
 //	Defining Macros

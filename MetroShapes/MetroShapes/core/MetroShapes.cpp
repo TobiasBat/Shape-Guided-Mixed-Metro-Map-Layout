@@ -55,6 +55,21 @@ void MetroShapes::init( int argc, char **argv )
         else
             _automaticCase = false;
     }
+    else if (argc == 6 ) {
+        cout << "Export Frames" << endl;
+        _inputname = "../data/metro/";
+        _inputname += + argv[1];
+        _guidename = "../data/guide/";
+        _guidename += argv[2];
+        _outputname += argv[3];
+        string argv_4 = argv[4];
+        if (argv_4.compare("1") == 0)
+            _automaticCase = true;
+        else
+            _automaticCase = false;
+        _exportFrames = true;
+        _stepsSmooth = stoi(argv[5]);
+    }
 
     _outputname += "/output";
     _metro.load( _inputname );
@@ -93,10 +108,16 @@ void MetroShapes::init( int argc, char **argv )
 
     if (_automaticCase) {
         _smooth._exclusivlyPathMode = false;
-        run();
+        if (_exportFrames) {
+            exportSteps();
+        } else {
+            run();
+        }
     } else {
         _smooth._exclusivlyPathMode = true;
     }
+
+
 
 }
 
